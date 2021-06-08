@@ -292,7 +292,7 @@ tutor:
 
 currentprogram:
     title: "在研课题"
-    text: "勤奋、严谨、求实、创新"
+    text: 
     program:
       - time: "2020.05 - 2021.05"
         name: "程序语义漏洞检测"
