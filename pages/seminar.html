@@ -1,0 +1,33 @@
+---
+layout: page
+title: "学术报告"
+background: grey
+---
+<style type="text/css">
+  .seminartitle {
+    color: rgb(95, 158, 160);
+    font-size: x-large;
+    font-weight: 550;
+  }
+
+  .seminardigest {
+    color:gray;
+    font-size:large;
+  }
+</style>
+
+<section class="page-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.seminar.title | default: "Seminar" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.seminar.text | default: "" }}</h3>
+      </div>
+    </div>
+
+    {% for post in site.categories.seminar %}
+    <a class="seminartitle" href="{{site.baseurl}}{{post.url}}">{{post.subtitle}}【{{post.host}}】</a>
+    <p class="seminardigest">{{post.digest}}<br>——{{post.date| date: "%Y.%m.%-d "}}</p>
+    {% endfor%}
+  </div>
+</section>

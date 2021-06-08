@@ -1,0 +1,1188 @@
+header:
+    title: "北京大学软件安全研究小组"
+    text: "北京大学软件安全研究小组隶属于北京大学软件与微电子学院、北京大学网络与软件安全保障重点实验室和北京大学信科学院软件所信息安全实验室。成员主要来自北京大学软件与微电子学院和信息科学技术学院的研究生，小组指导老师由北京大学软件与微电子学院、中国科学院软件研究所及北京邮电大学的专家和老师组成。主要研究方向包括逆向工程、软件安全漏洞挖掘、软件安全漏洞分析、恶意代码及软件安全评估。"
+    button: About Us
+    buttonlink: "#portfolio"
+
+
+portfolio:
+    title: "指导教师"
+    text: "Click on the picture for more detail"
+    section: portfolio
+    closebutton: "Close"
+    
+middlecolumn:
+    titleleft: 学术报告
+    urlleft: pages/seminar.html
+    titlemiddle: 通知公告
+    urlmiddle: pages/notice.html
+    titlereadmore: 更多…
+    titleright: 站点访问统计
+    
+
+timeline:
+    title: "历届组长" 
+    text: "十年树木，百年树人"
+    section: timeline
+    events:
+      - title: "陈夏润 - 2019级"
+        post: "研究生在读"
+        desc: "研究方向为静态漏洞挖掘、浏览器安全与Web渗透测试。发表多篇学术论文，并获得CCF B类会议DSN 2020 Best Paper Award。多次参加Geekpwn等国际知名极客赛事，并取得优异成绩。Web渗透与漏洞挖掘经验丰富，先后挖掘Baidu、Lark、Cloudflare等知名互联网厂商漏洞，拥有十余个漏洞编号。"
+        image: ../assets/img/timeline/chen.png
+        alt:
+        blog: "https://www.xiaozzz.xyz/"
+      
+      - title: "李经纬 - 2017级"
+        post: "现于中国科学院信息工程研究所攻读博士学位"
+        desc: "研究方向为移动安全、物联网安全、人工智能安全。"
+        image: ../assets/img/timeline/ljw.jpg
+        alt: 
+
+      - title: "谢锐华 - 2016级"
+        post: "中国信息安全测评中心"
+        desc: "现在主要工作为对企业系统做全面纵深式安全测评，同时也负责安全事件的应急响应工作。"
+        image: ../assets/img/timeline/1.png
+        alt: 
+
+      - title: "张汉 - 2015级"
+        post: "十月科技"
+        desc: "信息安全和即时通讯领域创业中。"
+        image: ../assets/img/timeline/zh.jpg
+        alt: 
+      
+      - title: "张弛 - 2013级"
+        post: "悬镜安全"
+        desc: "2016-2020 360核心安全，2020-至今 悬镜安全。"
+        image: ../assets/img/timeline/zc.jpg
+        alt:
+      
+      - title: "子芽 - 2012级"
+        post: "悬镜安全创始人兼CEO"
+        desc: "DevSecOps安全专家。北京市优秀毕业生，北京大学优秀毕业生，北京大学国奖、优秀科研奖和光华奖学金奖获得者，2017年度北京大学年度人物，2018年中国软件和信息服务业新锐人物，2019年度全国大学生优秀创业代表，DevSecOps自适应威胁管理技术体系开拓者。2014年创立DevSecOps敏捷安全领导者悬镜安全团队。2020年6接收红杉中国PreA轮独家领投，2021年3月，完成A轮近亿元战略融资，腾讯产业生态投资领投，红杉中国继续加持。"
+        image: ../assets/img/timeline/zy.jpg
+        alt: 
+        blog: "https://www.xmirror.cn/"
+
+      - title: "梅瑞 - 2011级"
+        post: "现于中国科学院大学网络空间安全专业攻读博士学位"
+        desc: "曾工作于政府数据管理部门和互联网上市公司，曾作为主要完成者参与多项国家级信息安全科研课题，成果包括二进制漏洞发现、粒数据安全体系等；作为主要负责人在科大讯飞集团实施企业信息安全管理体系建设和持续优化，特别是对于研发安全体系、数据安全体系有着深入的研究和丰富的实践经验；作为高级安全专家向铁路12306、唐山银行等多个行业客户提供信息科技风险咨询；曾受邀在中国互联网安全大会ISC 2013、中国网络安全大会NSC 2013等分享安全观点，参与编写信息安全专著1部，当前的研究兴趣和项目实践包括定向攻击溯源、恶意代码监测、云应用安全等。"
+        image: ../assets/img/timeline/mr.png
+        alt:
+
+      - title: "周虎生 - 2008级"
+        post: "Vmware软件工程师"
+        desc: "于美国德克萨斯大学达拉斯分校并取得博士学位，在实时操作系统，高性能计算，软件工程和软件安全领域顶级会议发表论文十余篇，并获得RTAS 2018最佳论文。曾在IBM Thomas J. Watson研究中心实习, 毕业后在VMware担任软件工程师，现工作方向为GPU虚拟化，分布式异构内存管理。"
+        image: ../assets/img/timeline/zhs.jpg
+        alt:
+      
+      - title: "徐有福 - 2008级"
+        post: "珍岛集团CTO"
+        desc: "多年SaaS系统、PaaS平台建设和管理经验，在大数据分析、AI智能推荐方向具有丰富建设和管理经验。目前负责全球领先的SaaS智能营销云平台和智能销售云平台研发、技术攻关和管理工作，在智能内容生成、内容精准分发、企业知识图谱构建等领域取得一定成果，持续巩固平台的行业领先地位。"
+        image: ../assets/img/timeline/xyf.png
+
+      - title: "张亚航 - 2007级"
+        post: "航天501部空间机器人总体室副主任"
+        desc: "从事空间信息系统设计，航天器总体设计，曾经担任501部电信事业部软件工程室班组长，副主任，主任，目前担任空间机器人总体室副主任。"
+        image: ../assets/img/timeline/zyh.jpg
+        alt:
+
+      - title: "胡晓廷 - 2006级"
+        post: "天津市河东区发改委副主任、党组成员"
+        desc: "先后在天津市河东区委机要局，河东区委组织部工作，目前任中共河东区发改委副主任、党组成员。"
+        image: ../assets/img/timeline/hxt.jpg
+        alt: 
+
+    end: "未来 <br> 期待 <br> 你的篇章!"
+
+graduate:
+    title: "往届学生"
+    text: "桃李满天下"
+    graduatestudents:
+      - title: "胡晓廷 - 2009届校友"
+        post: "天津市河东区发改委副主任、党组成员"
+        desc: "先后在天津市河东区委机要局，河东区委组织部工作，目前任中共河东区发改委副主任、党组成员。"
+        image: ../assets/img/timeline/hxt.jpg
+        alt: 
+
+      - title: "傅永财 - 2009届校友"
+        post: "应急通信咨询专家"
+        desc: 
+        image: ../assets/img/timeline/fyc.png
+        alt:
+      
+      - title: "陈旭明 - 2010届校友"
+        post: "八分量联合创始人"
+        desc: 
+        image: ../assets/img/timeline/cxm.jpg
+        alt: 
+
+      - title: "张亚航 - 2010届校友"
+        post: "航天501部空间机器人总体室副主任"
+        desc: "从事空间信息系统设计，航天器总体设计，曾经担任501部电信事业部软件工程室班组长，副主任，主任，目前担任空间机器人总体室副主任。"
+        image: ../assets/img/timeline/zyh.jpg
+        alt: 
+
+      - title: "周虎生 - 2011届校友"
+        post: "Vmware软件工程师"
+        desc: "于美国德克萨斯大学达拉斯分校并取得博士学位，在实时操作系统，高性能计算，软件工程和软件安全领域顶级会议发表论文十余篇，并获得RTAS 2018最佳论文。曾在IBM Thomas J. Watson研究中心实习, 毕业后在VMware担任软件工程师，现工作方向为GPU虚拟化，分布式异构内存管理。"
+        image: ../assets/img/timeline/zhs.jpg
+        alt:
+
+      - title: "徐有福 - 2011届校友"
+        post: "珍岛集团CTO"
+        desc: "多年SaaS系统、PaaS平台建设和管理经验，在大数据分析、AI智能推荐方向具有丰富建设和管理经验。目前负责全球领先的SaaS智能营销云平台和智能销售云平台研发、技术攻关和管理工作，在智能内容生成、内容精准分发、企业知识图谱构建等领域取得一定成果，持续巩固平台的行业领先地位。"
+        image: ../assets/img/timeline/xyf.png
+
+      - title: "刘恒 - 2011届校友"
+        post: "民生科技有限责任公司"
+        desc: "目前专注于大数据架构与安全、人工智能技术在金融科技领域落地应用等领域，获发明专利9项、软件著作权4项，先后获得民生科技公司2019科技荣耀-神秘扫地僧、民生银行SMART大赛优秀创意奖等奖项。"
+        image: ../assets/img/timeline/lh.jpg
+        alt: 
+
+      - title: "徐俊扬 - 2011届校友"
+        post: "北京一览科技有限公司"
+        desc: "2011年毕业后入职北京风行在线技术有限公司，从事p2p研发相关工作；2015年入职上海百视通网络电视技术发展有限公司，从事网络传输和VR相关工作；2017年入职北京一览科技有限公司，负责短视频大数据和推荐相关工作。"
+        image: ../assets/img/timeline/xjy.jpg
+        alt: 
+
+      - title: "吴兴丽 - 2011届校友"
+        post: "贝壳"
+        desc:
+        image: ../assets/img/timeline/wxl.jpg
+        alt: 
+
+      - title: "卢康杰 - 2012届校友"
+        post: "明尼苏达大学教授"
+        desc: "研究兴趣包括安全性和隐私，程序分析和操作系统。硕士期间曾赴新加坡管理大学任研究助理，于美国佐治亚理工学院攻读计算机科学博士，曾作为访问学者前往德国马克斯普朗克研究所。"
+        image: ../assets/img/timeline/lkj.png
+        alt: 
+        blog: "https://www-users.cs.umn.edu/~kjlu"
+
+      - title: "刘影慧 - 2012届校友"
+        post: "微梦创科网络科技（中国）有限公司"
+        desc: 软件测试与质量保证
+        image: ../assets/img/timeline/lhy.png
+        alt: 
+
+      - title: "梅瑞 - 2014届校友"
+        post: "现于中国科学院大学网络空间安全专业攻读博士学位"
+        desc: "曾工作于政府数据管理部门和互联网上市公司，曾作为主要完成者参与多项国家级信息安全科研课题，成果包括二进制漏洞发现、粒数据安全体系等；作为主要负责人在科大讯飞集团实施企业信息安全管理体系建设和持续优化，特别是对于研发安全体系、数据安全体系有着深入的研究和丰富的实践经验；作为高级安全专家向铁路12306、唐山银行等多个行业客户提供信息科技风险咨询；曾受邀在中国互联网安全大会ISC 2013、中国网络安全大会NSC 2013等分享安全观点，参与编写信息安全专著1部，当前的研究兴趣和项目实践包括定向攻击溯源、恶意代码监测、云应用安全等。"
+        image: ../assets/img/timeline/mr.png
+        alt:
+
+      - title: "宁戈 - 2014届校友"
+        post: "悬镜安全技术负责人"
+        desc: "目前在长期从事漏洞方面的研究工作，目前悬镜安全负责技术与研发工作。"
+        image: ../assets/img/timeline/ng.png
+        alt: 
+
+      - title: "子芽 - 2015届校友"
+        post: "悬镜安全创始人兼CEO"
+        desc: "DevSecOps安全专家。北京市优秀毕业生，北京大学优秀毕业生，北京大学国奖、优秀科研奖和光华奖学金奖获得者，2017年度北京大学年度人物，2018年中国软件和信息服务业新锐人物，2019年度全国大学生优秀创业代表，DevSecOps自适应威胁管理技术体系开拓者。2014年创立DevSecOps敏捷安全领导者悬镜安全团队。2020年6接收红杉中国PreA轮独家领投，2021年3月，完成A轮近亿元战略融资，腾讯产业生态投资领投，红杉中国继续加持。"
+        image: ../assets/img/timeline/zy.jpg
+        alt: 
+        blog: "https://www.xmirror.cn/"
+
+      - title: "马洋洋 - 2015届校友"
+        post: "中国信息安全测评中心"
+        desc: "专业领域：工控物联网安全、网络安全等级保护等。"
+        image: ../assets/img/timeline/myy.jpg
+        alt: 
+
+      - title: "张弛 - 2016届校友"
+        post: "悬镜安全"
+        desc: "2016-2020 360核心安全，2020-至今 悬镜安全。"
+        image: ../assets/img/timeline/zc.jpg
+        alt:
+
+      - title: "谭鲁湘 - 2016届校友"
+        post: "江苏省人社厅"
+        desc: "于2016年入职于江苏省人社厅。"
+        image: ../assets/img/timeline/tlx.jpg
+        alt: 
+
+      - title: "秦策 - 2016届校友"
+        post: "华为"
+        desc: "华为公司安全研究员，kcon2015，asiasecwest2018， defcon27，hwsv2020 演讲者。"
+        image: ../assets/img/timeline/1.png
+        alt: 
+        blog: "http://mohamoha.club/"
+
+      - title: "何永强 - 2017届校友兼2020级博士研究生"
+        post: "奇安信保密事业部三部总经理"
+        desc: "于2004年开始接触网络安全，2005年开始从事网络安全研究，主要从事软件漏洞挖掘，2010年创业于兴华永恒，所幸有一群小伙伴们一起创业，一起品味创业的艰辛和快乐，所幸2011年相识文老师，并于2014年拜师于文老师门下，在老师的带领下，同学们的相互帮助下，积极探索网络攻防产学研的各种难题，收获很多。为了更好更系统的学习网络安全，于2020年重回燕园，还是在文老师门下，主要研究方向是基于人工智能的渗透自动化。"
+        image: ../assets/img/timeline/hyq.jpg
+        alt: 
+
+      - title: "张汉 - 2017届校友"
+        post: "十月科技"
+        desc: "信息安全和即时通讯领域创业中。"
+        image: ../assets/img/timeline/zh.jpg
+        alt: 
+
+      - title: "贾世琳 - 2018届校友"
+        post: "国家互联网应急中心"
+        desc: "于2018年入职于国家互联网应急中心。"
+        image: ../assets/img/timeline/1.png
+        alt:
+
+      - title: "王喆 - 2018届校友"
+        post: "北京银保监局"
+        desc: "曾就职于核工业计算机应用研究所，于2020年就职于北京市银保监局。"
+        image: ../assets/img/timeline/wz.jpg
+        alt: 
+
+      - title: "李海林 - 2018届校友"
+        post: "小米"
+        desc: "曾就职于百度。"
+        image: ../assets/img/timeline/lhl.png
+        alt: 
+        blog: "https://blog.csdn.net/linhai1028?t=1"
+
+      - title: "谢锐华 - 2019届校友"
+        post: "中国信息安全测评中心"
+        desc: "现在主要工作为对企业系统做全面纵深式安全测评，同时也负责安全事件的应急响应工作。"
+        image: ../assets/img/timeline/1.png
+        alt: 
+
+      - title: "杨芳芳 - 2019届校友"
+        post: "核工业计算机应用研究所"
+        desc: ""
+        image: ../assets/img/timeline/1.png
+        alt:
+
+      - title: "李经纬 - 2020届校友"
+        post: "现于中国科学院信息工程研究所攻读博士学位"
+        desc: "研究方向为移动安全、物联网安全、人工智能安全。"
+        image: ../assets/img/timeline/ljw.jpg
+        alt: 
+
+      - title: "吴勃志 - 2020届校友"
+        post: "现于南洋理工大学攻读博士学位"
+        desc: "热爱篮球，喜欢吃鸡的科研老菜鸡。曾发表多篇国内外论文和专利，完成过与企业、政府合作的多个项目，专注于AI for security领域。"
+        image: ../assets/img/timeline/wbz.jpg
+        alt:
+
+      - title: "彭珺洁 - 2020届校友"
+        post: "广东省公安厅"
+        desc: "有过联想控股、腾讯实习及项目经历。"
+        image: ../assets/img/timeline/pjj.jpg
+        alt: 
+
+      - title: "高文俊 - 2020届校友"
+        post: "中国光大银行总行信息科技部"
+        desc: 
+        image: ../assets/img/timeline/gwj.png
+        alt: 
+
+      - title: "崔辽梅 - 2020届校友"
+        post: "青鸟消防股份有限公司"
+        desc: 
+        image: ../assets/img/timeline/clm.png
+        alt: 
+      
+
+tutor:
+    title: "课题导师"
+    text: "侠之小者，除暴安良；侠之大者，为国为民"
+    name: "文伟平"
+    content: "中国科学院软件研究所信息安全方向博士，北京大学教授，博士生导师，主要研究领域为：系统与网络安全、大数据与云安全及智能计算安全研究等。作为课题负责人完成了多项国家级或部级信息安全类科研项目，包括国家242信息安全计划3项、中国信息安全测评中心合作项目2项、国家保密局国家保密科研项目2项、公安部信息网络安全重点实验室预研项目1项、军队合作项目3项。参与科技部重点研发计划2项，国家自然科学基金2项，军口863课题1项，973项目1项。作为课题负责人完成的横向课题有华为技术有限公司10项、微软2项和Safe Net公司资助课题1项。在国内一级/核心学术期刊和国际期刊上发表了70多篇学术论文，其中SCI/EI收录30多篇，编写专著1本，译著1本，教材2本，在信息安全领域申请专利近40项，其中已授权专利10项。第29届奥运会网络安全指挥部北京大学技术保障团队负责人，第45届世界技能大赛中国赛区网络安全技术专家。目前为全国网络信息安全工程师高级职业教育项目组核心成员，北京大学软件安全研究小组主要负责人，信息网络安全期刊编委，北京计算机学会网络安全与法务专委会主任，公安部第一研究所和中国航天科工集团软件测评中心专家组专家。  "
+    image: ../assets/img/teachers/wwp_mini.png
+    alt: tutor image
+
+currentprogram:
+    title: "在研课题"
+    text: "勤奋、严谨、求实、创新"
+    program:
+      - time: "2020.05 - 2021.05"
+        name: "程序语义漏洞检测"
+        client: "华为（横向）"
+        task: "课题负责人"
+      - time: "2020.06 - 2021.06"
+        name: "主机入侵检测"
+        client: "华为（横向）"
+        task: "课题负责人"
+      - time: "2019.07 - 2022.06"
+        name: "云计算和大数据专项 —— 区块链脆弱性分析及利用技术研究"
+        client: "科技部国家重点研发计划"
+        task: "子课题负责人"
+      - time: "2019.01 - 2022.12"
+        name: "基于卡诺格覆盖的布尔表达式测试及缺陷诊断理论与方法研究"
+        client: "国家自然科学基金面上项目"
+        task: "课题副组长"
+
+
+team:
+    title: "课题代表"
+    text: "三人行，必有我师焉"
+    section: team
+    people:
+      - name: "陈夏润"
+        role: "静态分析课题负责人"
+        image: ../assets/img/team/chen.png
+        social:
+          - url: https://www.xiaozzz.xyz/
+            icon: fab fa-gratipay
+          - url: https://github.com/xiaoZ-hc
+            icon: fab fa-github
+
+      - name: "谢成淋"
+        role: "沙箱课题负责人"
+        image: ../assets/img/team/xiechenglin.png
+        social:
+          - url: https://blog.csdn.net/Cony_14
+            icon: fab fa-gratipay
+          
+      - name: "黄天波"
+        role: "混淆课题负责人"
+        image: ../assets/img/team/huang.jpg
+        social:
+          - url: https://www.cnblogs.com/agenthtb/
+            icon: fab fa-gratipay
+      
+      - name: "胡叶舟"
+        role: "智能合约漏洞挖掘课题负责人"
+        image: ../assets/img/team/huyezhou.jpg
+        social:
+          - url: https://blog.csdn.net/weixin_44437496
+            icon: fab fa-gratipay
+
+
+currentstudent:
+    title: "课题组成员"
+    text: "虚争空言，不如试之易效"
+    person: "2018级<br>兰阳，赵国梁，叶何，刘洪毅，魏柳，杜笑宇，张逸然，方宇彤，蒋时雨，王林飞   <br><br>
+             2019级<br>陈夏润，谢成淋，黄天波，李成扬，杨洲，郭雨洁，时绍森，刘永志, 李涛，李德才，王升，杨政，黄泽华， <br><br>
+             2020级<br>何永强，胡叶舟，王雅仪，刘琛，刘宇航，刘成杰，刘军杰，肖遥，方莹 <br><br>
+             本科生<br>曾红绅，杨睿，田大江，郑博，盛禹，邓一哲，李浩，蒋隽"
+
+research:
+    title: "科研项目"
+    text: 
+    item:
+      - title: "特定软件12"
+        source: "国家242信息安全计划 课题负责人"
+        period: "2012年4月-2013年4月 项目完成情况:优秀"
+
+      - title: "特定软件13"
+        source: "国家242信息安全计划 课题负责人"
+        period: "2013年4月-2014年4月 项目完成情况:优秀"
+
+      - title: "漏洞利用13"
+        source: "国家242信息安全计划 课题负责人"
+        period: "2013年4月-2014年4月 项目完成情况:良好"
+      
+      - title: "风险评估13"
+        source: "前总装预研课题 课题负责人"
+        period: "2013年8月-2014年8月 项目完成情况:良好"
+      
+      - title: "Linux核查13"
+        source: "国家保密局保密科研 课题负责人"
+        period: "2013年9月-2014年9月 项目完成情况:良好"
+
+      - title: "文档类代码14"
+        source: "国家保密局保密科研 课题负责人"
+        period: "2014年9月-2015年9月 项目完成情况:良好"
+
+      - title: "关键漏洞12"
+        source: "安全部746单位预研 课题负责人"
+        period: "2011年11月-2012年11月 项目完成情况:良好"
+
+      - title: "Win8安全13"
+        source: "安全部746单位预研 课题负责人"
+        period: "2013年5月-2014年5月 项目完成情况:良好"
+      
+      - title: "Win8安全机制"
+        source: "公安部重点实验室预研 课题负责人"
+        period: "2014年7月-2015年12月 项目完成情况:良好"
+
+      - title: "安全合规性审计"
+        source: "华为（横向） 课题负责人"
+        period: "2008年9月-2009年9月 项目完成情况:结题"
+
+      - title: "无解自由门通信机理分析"
+        source: "华为（横向） 课题负责人"
+        period: "2012年7月-2012年12月 项目完成情况:结题"
+
+      - title: "漏洞POC开发I期"
+        source: "华为（横向） 课题负责人"
+        period: "2012年9月-2013年6月 项目完成情况:结题"
+      
+      - title: "典型文档类CVE漏洞检测研发"
+        source: "某公司（横向） 课题负责人"
+        period: "2013年7月-2013年12月 项目完成情况:结题"
+
+      - title: "漏洞POC开发II期"
+        source: "华为（横向） 课题负责人"
+        period: "2013年10月-2014年10月 项目完成情况:结题"
+      
+      - title: "LUA语言加扰技"
+        source: "华为（横向） 课题负责人"
+        period: "2013年10月-2014年12月 项目完成情况:结题"
+
+      - title: "Windows 7操作系统安全性分析"
+        source: "微软（横向） 课题负责人"
+        period: "2010年3月-2011年3月 项目完成情况:结题"
+
+      - title: "IE9浏览器软件安全性评估研究"
+        source: "微软（横向） 课题负责人"
+        period: "2011年3月-2012年3月 项目完成情况:结题"
+
+      - title: "软件安全漏洞挖掘技术研究"
+        source: "SAFENET（横向） 课题负责人"
+        period: "2009年5月-2011年5月 项目完成情况:结题"
+
+      - title: "基于SOM神经网络模型的网络入侵检测方法研究"
+        source: "国家自然科学基金面上项目 课题负责人"
+        period: "2010年3月-2011年1月 项目完成情况:结题"
+
+      - title: "PSIRT漏洞管理"
+        source: "华为（横向） 课题负责人"
+        period: "2014年9月-2015年3月 项目完成情况:结题"
+
+      - title: "未公开接口发现"
+        source: "华为（横向） 课题负责人"
+        period: "2018年9月-2019年9月 项目完成情况:结题"
+
+textbook:
+    title: "发行教材与著作"
+    text: 
+    item:
+      - title: "文伟平编著,《网络攻防原理及应用》"
+        name: "北京大学软件与微电子学院课程《网络攻击与防范》配套教材"
+        source: "清华大学出版社. ISBN：9787302466925. 2017.3"
+        url: "https://github.com/xxycfhb/img_website/blob/main/seminar/%E7%BD%91%E7%BB%9C%E6%94%BB%E9%98%B2%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8-%E7%94%B5%E5%AD%90%E7%89%88%E6%95%99%E6%9D%90.pdf"
+
+      - title: "蒋建春，文伟平，杨凡，郑生琳编著,《计算机网络信息安全理论与实践教程》"
+        name: "该书获2009年中国电子教育学会优秀教材二等奖，工信部教育与考试中心 “网络信息安全工程师高级职业教育”专用教材，被引用58次"
+        source: "北京邮电大学出版社. ISBN：9787563515899, 2008.5."
+        url: "https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5%E6%95%99%E7%A8%8B/6414249?fr=aladdin"
+      
+      - title: "王昭，文伟平，王永刚等译,《计算机安全——原理与实践》"
+        name: "全书共24章，约99万1千字，文伟平教授译其中6-16章的内容，并负责全书的初审和统稿"
+        source: "电子工业出版社. ISBN：9787121246166，2015.10."
+        url: "https://item.jd.com/11798729.html"
+
+      - title: "蒋建春，文伟平，焦健等,《信息安全工程师教程（第2版）》"
+        name: "全国计算机技术与软件专业技术资格（水平）考试 指定教材"
+        source: "清华大学出版社. ISBN：9787302559344, 2020.8."
+        url: "https://20wwww.bookask.com/book/3217983.html"
+
+paper:
+    title: "发表论文"
+    text: 
+    item:
+      - title: "An AOTC-based Bytecode-Hiding Scheme for Packing the Android Applications"
+        name: "Judong Bao, Yongqiang He, Weiping Wen"
+        source: "2018 17th IEEE International Conference On Trust, Security And Privacy In Computing And Communications(TrustCom 2018)/ 12th IEEE International Conference On Big Data Science And Engineering, July 31th - August 3rd, 2018, New York, USA"
+        url: "/files/paper1.pdf"
+        download: "paper1.pdf"
+
+      - title: "PDF文件漏洞检测"
+        name: "文伟平, 王永剑, 孟正"
+        source: "清华大学学报(自然科学版); 2017(1):33-38.(EI: 20171403532043)"
+        url: "/files/paper2.pdf"
+        download: "paper2.pdf"
+
+      - title: "网络蠕虫研究与进展"
+        name: "文伟平, 卿斯汉, 蒋建春等"
+        source: "软件学报; 2004; 15(8):1208-1219. (EI: 2004488687433)"
+        url: "/files/paper3.pdf"
+        download: "paper3.pdf"
+
+      - title: "一个基于多策略的安全监视框架"
+        name: "温红子, 卿斯汉, 文伟平等"
+        source: "通信学报; 2005; 26(3):86-91"
+        url: "/files/paper4.pdf"
+        download: "paper4.pdf"
+
+      - title: "参考安全补丁比对的软件安全漏洞挖掘方法"
+        name: "文伟平, 张普含, 徐有福等"
+        source: "清华大学学报(自然科学版); 2011(10):1264-1268(EI: 20114514493933)"
+        url: "/files/paper5.pdf"
+        download: "paper5.pdf"
+
+      - title: "Android恶意软件检测技术分析和应用研究"
+        name: "文伟平, 梅瑞, 宁戈等"
+        source: "通信学报; 2014, 35(8):78-85(EI: 20143900075496)"
+        url: "/files/paper6.pdf"
+        download: "paper6.pdf"
+
+      - title: "removing return-oriented programming from malware"
+        name: "Lu Kangjie, Zou Dabi, Wen Weiping"
+        source: "ACSAC 2011, Orlando, Fl, Usa, 5-9 December, DBLP; 2011:363-372.(EI: 20120314681108)"
+        url: "/files/paper7.pdf"
+        download: "paper7.pdf"
+
+      - title: "一种基于网状关联分析的网络蠕虫预警新方法"
+        name: "卿斯汉, 文伟平, 蒋建春等"
+        source: "通信学报; 2004; 25(7):62-70"
+        url: "/files/paper8.pdf"
+        download: "paper8.pdf"
+
+      - title: "入侵检测技术研究综述"
+        name: "卿斯汉, 蒋建春, 马恒太, 文伟平等"
+        source: "通信学报; 2004; 25(7):19-29"
+        url: "/files/paper9.pdf"
+        download: "paper9.pdf"
+
+      - title: "Android Malware Detection Method Based on Frequent Pattern and Weighted Naive Bayes"
+        name: "Jingwei Li, Bozhi Wu, Weiping Wen"
+        source: "China Cyber Security Annual Conference. Springer, Singapore, 2018: 36-51"
+        url: "/files/paper10.pdf"
+        download: "paper10.pdf"
+
+      - title: "Packed, Printable, and Polymorphic Return-Oriented Programming"
+        name: "Lu Kangjie, Zou Dabi, Wen Weiping, et al"
+        source: "Recent Advances in Intrusion Detection; Springer Berlin Heidelberg; 2011:101-120.(EI: 20120914804850)"
+        url: "/files/paper11.pdf"
+        download: "paper11.pdf"
+
+      - title: "Applying Attack Graphs to Network Security Metric"
+        name: "Xie Anming, Wen Weiping, Zhang Li, Hu Jianbin, Chen Zhong"
+        source: "IEEE; 2009.(EI: 20101012761371)"
+        url: "/files/paper12.pdf"
+        download: "paper12.pdf"
+
+      - title: "An Efficient Algorithm for Encoding and Decoding of Raptor Codes over the Binary Erasure Channel"
+        name: "Zhang YaHang, Cheng BoWen, Zou GuangNan, Wen WeiPing"
+        source: "Proc Spie; 2009( 7651):107. (EI: 20102413009376)"
+        url: "/files/paper13.pdf"
+        download: "paper13.pdf"
+
+      - title: "Mechanism and Defense on Malicious Code"
+        name: "Wen Weiping, Qing Sihan"
+        source: "WUHAN University Journal of Natural Sciences,Vol. 10, No. 1, 2005, pp.83～88.(EI: 2005098866320)"
+        url: "/files/paper14.pdf"
+        download: "paper14.pdf"
+
+      - title: "ML-IKE: A Multilayer IKE Protocol for TCP Performance Enhancement in Wireless Networks"
+        name: "Zhang YaHang, Cheng BoWen, Qing SiHan, Wen WeiPing"
+        source: "international conference on space information technology 2009; 2009:765102-765102-9.(EI: 20102413009271)"
+        url: "/files/paper15.pdf"
+        download: "paper15.pdf"
+
+      - title: "A survey and trends on Internet worms"
+        name: "Qing Sihan，Wen Weiping"
+        source: "Computers & Security，Vol. 24, No. 2, 2005, pp. 334～346. (SCI: 000230160900021,EI: 2005249154007)"
+        url: "/files/paper16.pdf"
+        download: "paper16.pdf"
+
+      - title: "一种语义感知的安全检查检测方法"
+        name: "方宇彤,刘洪毅,李经纬,文伟平"
+        source: "信息安全学报,2020,5(05):17-29.[CCF B]"
+        url: "/files/paper17.pdf"
+        download: "paper17.pdf"
+
+      - title: "基于字节码搜索的 Java 反序列化漏洞调用链挖掘方法"
+        name: "杜笑宇, 叶何, 文伟平"
+        source: "信息网络安全, 2020 (7): 19-29."
+        url: "/files/paper18.pdf"
+        download: "paper18.pdf"
+
+      - title: "基于Rootkit隐藏行为特征的Linux恶意代码取证方法"
+        name: "文伟平,陈夏润,杨法偿"
+        source: "信息网络安全,2020 (11)"
+        url: "/files/paper19.pdf"
+        download: "paper19.pdf"
+
+      - title: "An Android malware detection method based on data flow features"
+        name: "X R Chen, W P Wen, et al."
+        source: "International Conference on Information System and Network Security. 2020.[EI]"
+        url: "/files/paper20.pdf"
+        download: "paper20.pdf"
+    
+      - title: "Detecting Vulnerabilities in Smart Contracts Based on Multidimensional Analysis Model"
+        name: "Jingwei Li, Zhanghan, Weiping Wen"
+        source: "Conference on Vulnerability Analysis and Risk Assessment.2019."
+        url: "/files/paper21.pdf"
+        download: "paper21.pdf"
+       
+      - title: "CorneaReflect：Face Liveness Detection Based on Corneal Reflection"
+        name: "Bozhi Wu, Jingwei Li, Weiping Wen"
+        source: "Conference on Vulnerability Analysis and Risk Assessment. 2019."
+        url: "/files/paper22.pdf"
+        download: "paper22.pdf"
+       
+      - title: "Why an Android app is classified as malware? Towards malware classification interpretation"
+        name: "Bozhi Wu, Sen Chen, Cuiyun Gao, Lingling Fan, Yang Liu, Weiping Wen, and Michael R. Lyu"
+        source: "1, 1 (September 2020), 29 pages. [CCF B]"
+        url: "/files/paper23.pdf"
+        download: "paper23.pdf"
+      
+      - title: "一个基于多策略的安全监视框架"
+        name: "温红子, 卿斯汉, 文伟平等"
+        source: "通信学报; 2005; 26(3):86-91."
+        url: "/files/paper24.pdf"
+        download: "paper24.pdf"
+
+      - title: "基于卡方检验的Android恶意应用检测方法"
+        name: "刘亚姝, 王志海, 李经纬, 赵炫，文伟平"
+        source: "北京理工大学学报, 2019(3)：290-294."
+        url: "/files/paper25.pdf"
+        download: "paper25.pdf"
+
+      - title: "针对NIDS的分布式攻击评估技术研究"
+        name: "马恒太, 蒋建春, 黄菁,文伟平等"
+        source: "武汉大学学报:理学版; 2004(A01):79-82."
+        url: "/files/paper26.pdf"
+        download: "paper26.pdf"
+
+      - title: "分布式拒绝服务攻击研究进展"
+        name: "文伟平, 卿斯汉, 王业君"
+        source: "全国计算机科学与技术应用; 2004"
+        url: "/files/paper27.pdf"
+        download: "paper27.pdf"
+
+      - title: "基于实时监测WIN32函数调用防范网络蠕虫攻击的新方法"
+        name: "文伟平, 卿斯汉"
+        source: "全国网络与信息安全技术研讨会2004论文集; 2004"
+        url: "/files/paper28.pdf"
+        download: "paper28.pdf"
+
+      - title: "网络蠕虫传播方法及仿真研究"
+        name: "蒋建春, 文伟平, 王业君等"
+        source: "全国网络与信息安全技术研讨会2004论文集; 2004"
+        url: "/files/paper29.pdf"
+        download: "paper29.pdf"
+
+      - title: "一种基于随机探测算法和信息聚合的漏洞检测方法"
+        name: "文伟平，李经纬，焦英楠等"
+        source: "信息网络安全，2019 (1)：1-7"
+        url: "/files/paper30.pdf"
+        download: "paper30.pdf"
+
+      - title: "基于机器学习的恶意文档识别工具设计与实现"
+        name: "文伟平, 吴勃志, 焦英楠, 何永强"
+        source: "信息网络安全; 2018 Vol. 18 (8) :1-7"
+        url: "/files/paper31.pdf"
+        download: "paper31.pdf"
+
+      - title: "一种基于Android内核的APP敏感行为检测方法及实现"
+        name: "文伟平, 汤炀, 谌力"
+        source: "信息网络安全; 2016(8):18-23"
+        url: "/files/paper32.pdf"
+        download: "paper32.pdf"
+
+      - title: "基于Android可执行文件重组的混淆方案的设计与实现"
+        name: "文伟平, 张汉, 曹向磊"
+        source: "信息网络安全; 2016(5):71-77"
+        url: "/files/paper33.pdf"
+        download: "paper33.pdf"
+
+      - title: "信息安全风险评估关键技术研究与实现"
+        name: "文伟平, 郭荣华, 孟正等"
+        source: "信息网络安全; 2015(2):7-14"
+        url: "/files/paper34.pdf"
+        download: "paper34.pdf"
+
+      - title: "北大信息安全方向硕士研究生教学模式探索"
+        name: "文伟平"
+        source: "信息安全与通信保密; 2014(5):45-47"
+        url: "/files/paper35.pdf"
+        download: "paper35.pdf"
+
+      - title: "软件安全漏洞挖掘的研究思路及发展趋势"
+        name: "文伟平, 吴兴丽, 蒋建春"
+        source: "信息网络安全; 2009(10):78-80"
+        url: "/files/paper36.pdf"
+        download: "paper36.pdf"
+
+      - title: "基于累加方法的防肩窥图形密码系统的设计与实现"
+        name: "文伟平, 尹燕彬"
+        source: "信息网络安全; 2009(3):7-10"
+        url: "/files/paper37.pdf"
+        download: "paper37.pdf"
+
+      - title: "网络蠕虫的工作原理及预警技术研究"
+        name: "文伟平, 蒋建春"
+        source: "信息网络安全; 2007(9):22-26"
+        url: "/files/paper38.pdf"
+        download: "paper38.pdf"
+
+      - title: "一种对Android应用资源索引表混淆方案的实现"
+        name: "刘洋, 文伟平"
+        source: "电信科学; 2016, 32(10):22-26"
+        url: "/files/paper39.pdf"
+        download: "paper39.pdf"
+
+      - title: "一种Android平台下提权攻击检测系统的设计与实现"
+        name: "张涛, 裴蓓, 文伟平等"
+        source: "信息网络安全; 2016(2):15-21"
+        url: "/files/paper40.pdf"
+        download: "paper40.pdf"
+
+      - title: "基于特征分析和行为监控的未知木马检测系统研究与实现"
+        name: "郝增帅, 郭荣华, 文伟平等"
+        source: "信息网络安全; 2015(2):57-65"
+        url: "/files/paper41.pdf"
+        download: "paper41.pdf"
+
+      - title: "基于结构比对的软件同源综合检测工具的设计与实现"
+        name: "刘楠, 文伟平"
+        source: "信息网络安全; 2014(6):31-38"
+        url: "/files/paper42.pdf"
+        download: "paper42.pdf"
+
+      - title: "电力信息安全实验室攻防演练平台的设计与应用"
+        name: "么利中, 文伟平, YAOLi-zhong等"
+        source: "信息网络安全; 2014(6):78-83"
+        url: "/files/paper43.pdf"
+        download: "paper43.pdf"
+
+      - title: "一种基于Windows内核驱动的可疑样本采集系统的设计与实现"
+        name: "张涛, 焦英楠, 禄立杰,文伟平等"
+        source: "信息网络安全; 2014(2):41-47"
+        url: "/files/paper44.pdf"
+        download: "paper44.pdf"
+
+      - title: "典型Adobe Flash Player漏洞简介与原理分析"
+        name: "孟正, 曾天宁, 马洋洋, 文伟平等"
+        source: "信息网络安全; 2014(10):31-37"
+        url: "/files/paper45.pdf"
+        download: "paper45.pdf"
+
+      - title: "Linux下基于SVM分类器的WebShell检测方法研究"
+        name: "孟正, 梅瑞, 张涛, 文伟平等"
+        source: "信息网络安全; 2014(5):5-9"
+        url: "/files/paper46.pdf"
+        download: "paper46.pdf"
+
+      - title: "基于Windows的软件安全典型漏洞利用策略探索与实践"
+        name: "关通, 任馥荔, 文伟平"
+        source: "信息网络安全; 2014(11)"
+        url: "/files/paper47.pdf"
+        download: "paper47.pdf"
+
+      - title: "一种非堆喷射的IE浏览器漏洞利用技术研究"
+        name: "宁戈, 张涛, 文伟平等"
+        source: "信息网络安全; 2014(6):39-42"
+        url: "/files/paper48.pdf"
+        download: "paper48.pdf"
+
+      - title: "基于P2P的远程控制系统设计与实现"
+        name: "姚洪波, 孟正, 李希,文伟平等"
+        source: "信息网络安全; 2014(3):32-38"
+        url: "/files/paper49.pdf"
+        download: "paper49.pdf"
+
+      - title: "基于Windows的CSRSS进程漏洞分析与利用"
+        name: "李孟哲, 武学礼, 张涛, 文伟平等"
+        source: "信息网络安全; 2014(7):20-29"
+        url: "/files/paper50.pdf"
+        download: "paper50.pdf"
+
+      - title: "基于模糊测试的网络协议自动化漏洞挖掘工具设计与实现"
+        name: "孙哲, 刘大光, 武学礼, 文伟平等"
+        source: "信息网络安全; 2014(6):23-30"
+        url: "/files/paper51.pdf"
+        download: "paper51.pdf"
+
+      - title: "基于Linux的Web服务器安全审计系统研究与实现"
+        name: "何建波, 刘国乐, 孟正,文伟平等"
+        source: "密科学技术; 2014(9):36-43"
+        url: "/files/paper52.pdf"
+        download: "paper52.pdf"
+
+      - title: "基于内存的漏洞缓解关键技术研究"
+        name: "贺滢睿, 史记, 张涛, 文伟平"
+        source: "信息网络安全; 2014(12):76-82"
+        url: "/files/paper53.pdf"
+        download: "paper53.pdf"
+
+      - title: "LT Code在基于DVB-S2文件多播系统中的安全应用"
+        name: "张亚航, 程博文, 文伟平等"
+        source: "信息网络安全; 2013(5):5-7"
+        url: "/files/paper54.pdf"
+        download: "paper54.pdf"
+
+      - title: "一种Android恶意程序检测工具的实现"
+        name: "张文, 严寒冰, 文伟平等"
+        source: "信息网络安全; 2013(1):27-32"
+        url: "/files/paper55.pdf"
+        download: "paper55.pdf"
+
+      - title: "基于Android平台的代码保护技术研究"
+        name: "梅瑞, 武学礼, 文伟平等"
+        source: "信息网络安全; 2013(7):10-15"
+        url: "/files/paper56.pdf"
+        download: "paper56.pdf"
+
+      - title: "一种Flash运行时注入查找工具的设计"
+        name: "卢阳, 叶超, 严寒冰, 文伟平等"
+        source: "信息网络安全; 2012(10):77-82"
+        url: "/files/paper57.pdf"
+        download: "paper57.pdf"
+
+      - title: "Android平台上基于WebKit引擎的安全浏览器的设计与实现"
+        name: "吴昊, 文伟平, 严寒冰"
+        source: "信息网络安全; 2012(12):25-28"
+        url: "/files/paper58.pdf"
+        download: "paper58.pdf"
+
+      - title: "基于FUZZING测试技术的Windows内核安全漏洞挖掘方法研究及应用"
+        name: "姚洪波, 尹亮, 文伟平"
+        source: "信息网络安全; 2011(12):9-16"
+        url: "/files/paper59.pdf"
+        download: "paper59.pdf"
+
+      - title: "一个典型的Web安全评测工具的分析与改进"
+        name: "宋海龄, 文伟平"
+        source: "信息网络安全; 2011(8):65-68"
+        url: "/files/paper60.pdf"
+        download: "paper60.pdf"
+
+      - title: "IE浏览器防攻击关键技术分析"
+        name: "毛宁祥, 文伟平, 傅军等"
+        source: "信息网络安全; 2011(7):26-29"
+        url: "/files/paper61.pdf"
+        download: "paper61.pdf"
+
+      - title: "Windows7 SP1下DKOM防攻击技术研究"
+        name: "尹亮, 文伟平, YINLiang等"
+        source: "信息网络安全; 2011(7):23-25"
+        url: "/files/paper62.pdf"
+        download: "paper62.pdf"
+
+      - title: "Windows7操作系统关键内存防攻击研究"
+        name: "周虎生, 文伟平, 尹亮等"
+        source: "信息网络安全; 2011(7):38-41"
+        url: "/files/paper63.pdf"
+        download: "paper63.pdf"
+
+      - title: "基于补丁引发新漏洞的防攻击方法研究"
+        name: "徐有福, 文伟平, 尹亮"
+        source: "信息网络安全; 2011(7):45-48"
+        url: "/files/paper64.pdf"
+        download: "paper64.pdf"
+
+      - title: "基于行为分析的黑客攻击软件自动化分析工具的设计与实现"
+        name: "刘恒, 文伟平, 万正苏"
+        source: "信息网络安全; 2011(7):10-12"
+        url: "/files/paper65.pdf"
+        download: "paper65.pdf"
+
+      - title: "基于漏洞模型检测的安全漏洞挖掘方法研究"
+        name: "徐有福, 文伟平, 万正苏"
+        source: "信息网络安全; 2011(8):72-75"
+        url: "/files/paper66.pdf"
+        download: "paper66.pdf"
+
+      - title: "“云”计算环境的信息安全问题"
+        name: "蒋建春, 文伟平"
+        source: "信息网络安全; 2010(2):61-63"
+        url: "/files/paper67.pdf"
+        download: "paper67.pdf"
+
+      - title: "一种新型软件加密流程的设计"
+        name: "周利华, 周虎生, 文伟平"
+        source: "信息网络安全; 2010(5):25-28"
+        url: "/files/paper68.pdf"
+        download: "paper68.pdf"
+
+      - title: "基于漏洞特征和Fuzz技术的Windows漏洞挖掘模型研究"
+        name: "徐俊扬, 文伟平"
+        source: "信息网络安全; 2009(5):41-43"
+        url: "/files/paper69.pdf"
+        download: "paper69.pdf"
+
+      - title: "Windows环境木马进程隐藏技术研究"
+        name: "卢立蕾, 文伟平"
+        source: "信息网络安全; 2009(5):35-37"
+        url: "/files/paper70.pdf"
+        download: "paper70.pdf"
+
+      - title: "计算机数据安全删除和隐私保护"
+        name: "尹燕彬, 文伟平"
+        source: "信息网络安全; 2009(5):55-58"
+        url: "/files/paper71.pdf"
+        download: "paper71.pdf"
+
+      - title: "ML-IKE:一种改进的卫星链路分层密钥分配协议"
+        name: "张亚航, 程博文, 文伟平"
+        source: "信息网络安全; 2009(3):40-43"
+        url: "/files/paper72.pdf"
+        download: "paper72.pdf"
+
+      - title: "ClearBug; 一种改进的自动化漏洞分析工具"
+        name: "刘波, 文伟平, 孙惠平等"
+        source: "信息网络安全; 2009(5):28-31"
+        url: "/files/paper73.pdf"
+        download: "paper73.pdf"
+
+      - title: "一种基于Winsock2 SPI架构的网络监控程序自我保护方案设计与实现"
+        name: "张亚航, 文伟平"
+        source: "信息网络安全; 2009(5):44-46"
+        url: "/files/paper74.pdf"
+        download: "paper74.pdf"
+
+      - title: "基于Windows平台的RPC缓冲区溢出漏洞研究"
+        name: "周虎生, 文伟平"
+        source: "信息网络安全; 2009(5):38-40"
+        url: "/files/paper75.pdf"
+        download: "paper75.pdf"
+
+      - title: "Windows安全之SEH安全机制分析"
+        name: "徐有福, 张晋含, 文伟平等"
+        source: "信息网络安全; 2009(5):47-50"
+        url: "/files/paper76.pdf"
+        download: "paper76.pdf"
+
+      - title: "EFI及其安全性分析"
+        name: "刘冬, 文伟平"
+        source: "信息网络安全; 2009(5):32-34"
+        url: "/files/paper77.pdf"
+        download: "paper77.pdf"
+
+      - title: "网络敌手模型研究"
+        name: "蒋建春, 文伟平"
+        source: "信息网络安全; 2008(9):15-18"
+        url: "/files/paper78.pdf"
+        download: "paper78.pdf"
+
+      - title: "分布式端口扫描检测系统的设计与实现"
+        name: "梁锦华, 蒋建春, 文伟平等"
+        source: "计算机系统应用; 2002; 11(9):22-25"
+        url: "/files/paper79.pdf"
+        download: "paper79.pdf"
+
+      - title: "网络端口扫描及其防御技术研究"
+        name: "唐小明, 梁锦华, 蒋建春, 文伟平等"
+        source: "计算机工程与设计; 2002, 23(9):15-17"
+        url: "/files/paper80.pdf"
+        download: "paper80.pdf"
+
+      - title: "基于融合技术的恶意程序检测方法的研究"
+        name: "叶何, 赵国梁, 胡浩然, 文伟平等"
+        source: "Conference on Vulnerability Analysis and Risk Assessment. 2019."
+        url: "/files/paper81.pdf"
+        download: "paper81.pdf"
+
+patent:
+    title: "专利成果"
+    text: 
+    item:
+      - title: "文伟平，一种Android系统的应用程序的加固方法"
+        source: "国家知识产权局发明专利"
+        number: "专利授权号：CN201610034627.8，2016年1月19日，已授权"
+      - title: "文伟平，一种基于Android可执行文件重组的加固方法"
+        source: "国家知识产权局发明专利"
+        number: "专利授权号：CN201610032328.0 ，2016年1月19日，已授权"
+      - title: "文伟平，一种基于APK加壳软件动态行为的查壳方法"
+        source: "国家知识产权局发明专利"
+        number: "专利授权号：CN201510740551.6，2015年11月4日，已授权"
+      - title: "文伟平，一种面向Lua语言的加扰混淆方法和解密方法"
+        source: "国家知识产权局发明专利"
+        number: "专利授权号：CN201510740424.6，2015年11月4日，已授权"
+      - title: "文伟平、叶晓亮、张汉、张涛，基于图相似度分析的webshell检测方法及系统"
+        source: "国家知识产权局发明专利"
+        number: "专利授权号：CN201810527915.6，2018年5月29日，已授权"
+      - title: "文伟平、李燈辉，一种应用于私人空间入口的智能物品交互系统及方法"
+        source: "国家知识产权局发明专利"
+        number: "专利授权号：CN201810574165.9，2018年6月6日，已授权"
+      - title: "文伟平、代革命，一种基于密码算法的隐匿邮件地址方法"
+        source: "国家知识产权局发明专利"
+        number: "专利授权号：CN201810611714.4，2018年6月14日，已授权"
+      - title: "文伟平、邓宇凡，一种基于雾计算的增强通讯安全的认证方法及系统"
+        source: "国家知识产权局发明专利"
+        number: "专利授权号：CN201810588865.2，2018年6月8日，已授权"
+      - title: "文伟平、李经纬，一种基于朴素贝叶斯的安卓恶意应用检测方法及装置"
+        source: "国家知识产权局发明专利"
+        number: "专利授权号：CN201910212100.3，2019年3月20日，已授权"
+      - title: "文伟平、李经纬，基于ELF 文件特征的静态检测规则提取方法及检测方法"
+        source: "国家知识产权局发明专利"
+        number: "专利授权号：CN201910212116.4，2019年3月20日，已授权"
+      - title: "文伟平、吴勃志，基于生物识别技术的硬件钱包防盗刷方法及系统"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：201910382707.6，2019年5月8日"
+      - title: "文伟平、李百川，一种基于IPv6隧道技术的远程设备控制方法及系统"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：201910132902.3，2019年2月22日"
+      - title: "文伟平、胡浩然、汪子龙，一种基于稀疏表示和模型融合的Android Malware分类方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：201811306137.4，2018年11月9日"
+      - title: "文伟平、叶晓亮，一种基于RASP提取webshell软件基因的方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：201811002803.5，2018年8月30日"
+      - title: "文伟平、冯超，一种基于机器学习动态检测垃圾邮件的方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：201810952482.9，2018年8月21日"
+      - title: "文伟平、吴勃志、孙惠平，一种基于角膜反射和光学编码的人脸活体检测方法及系统"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：201810456181.7，2018年8月14日"
+      - title: "文伟平、李孟霖，一种基于模型融合的webshell检测方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：201810734942.0，2018年7月05日"
+      - title: "文伟平、杨芳芳，一种基于软件基因技术的恶意软件检测方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：201810708066.4，2018年7月2日"
+      - title: "文伟平、叶晓亮、张汉，基于RASP区分后台线程权限与UI线程权限的方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：201810649997.1，2018年6月22日"
+      - title: "文伟平、叶晓亮，一种基于RASP提取webshell软件基因的方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：201810649997.1，2018年6月22日"
+      - title: "文伟平、杨晓琪，一种基于权限集差异的应用程序越权检测方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：201810617519.2，2018年6月15日"
+      - title: "文伟平、叶晓亮、张汉、张涛，一种基于RASP的PHP变形webshell的检测方法及系统"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：201810612344.6，2018年6月14日"
+      - title: "文伟平、杨法偿，一种基于人脸识别和视线定位的双重验证的认证方法及系统"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：201810562255.5，2018年6月4日"
+      - title: "文伟平、李经纬，一种基于贝叶斯网的恶意文档检测方法及装置"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：201810546778.0，2018年5月30日"
+      - title: "文伟平、谢锐华，一种基于Android系统的位置隐藏方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：201810455581.6，2018年5月14日"
+      - title: "文伟平，一种针对Android平台SDK包的加固方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：2017103612499，2017年5月19日"
+      - title: "文伟平，基于smali流程混淆技术的Android应用加固方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：CN201611026123.8，2016年11月18日"
+      - title: "文伟平，基于dex与so文件动态执行的Android应用加固方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：CN201610523168.X，2016年8月31日"
+      - title: "文伟平，一种基于C源代码的混淆的Android应用加固方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：CN201610773361.9，2016年8月30日"
+      - title: "文伟平，一种基于IDA通信的Android应用反调试方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：	CN201610603109.3，2016年7月27日"
+      - title: "文伟平，一种Android环境下的密钥保护方法和系统"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：CN201610540076.2，2016年7月11日"
+      - title: "文伟平，一种Android系统的运行环境检测方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：CN201610523168.X，2016年7月5日"
+      - title: "文伟平，一种针对Android操作系统关键驱动程序的加固方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：CN201610308861.5，2016年5月11日"
+      - title: "文伟平，一种针对Android系统App行为的监控方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：CN201610248733.6，2016年4月20日"
+      - title: "文伟平，一种Android应用程序的动态脱壳方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：CN201610248368.9，2016年4月20日"
+      - title: "文伟平，一种基于Android可执行文件重组的加固方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：	CN201610032328.0，2016年1月19日"
+      - title: "文伟平，一种基于Android系统陷阱指令的软件加固方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：	CN201610034623.X，2016年1月19日"
+      - title: "文伟平，一种基于Android系统微指令即时编译的加固方法"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：CN201610032724.3，2016年1月19日"
+      - title: "发现Windows操作系统漏洞5个"
+        source: 
+        number: "Ms11-010 (CVE2011-0030) <br> Ms11-054 (CVE2011-1886) <br> Ms13-053 (CVE2013-3167)"
+      - title: "应用软件安全漏洞24个"
+        source: "金山毒霸、QQ电脑管家、360安全沙箱"
+        number: 
+      
+
+post:
+    title: "通知公告"
+    text: "请及时关注"
+    section: post
+
+seminar:
+    title: "学术报告"
+    text: "每周二组会按时更新"
+    section: article
+
+enroll:
+    title: "招贤纳士"
+    text: "实验室长期欢迎对安全感兴趣的本科生、研究生、及各届有志之士加入"
+    subtitle1: 我们诚挚地欢迎各位对实验室项目感兴趣的伙伴加入，一道守护网络安全。
+    subtitle2: 我们的课题包括但不限于
+    subtitle3: 我们也欢迎广大学子报考我校，期待你们的加入
+    urlname: "Read More"
+    url: "http://www.ss.pku.edu.cn/index.php/teacherteam/teacherlist/1637-%E6%96%87%E4%BC%9F%E5%B9%B3"
+
+    contactto: 课题联系人：
+    contactby: 联系方式：
+    introduction: 研究方向：
+    contact:
+      - program: 基于程序语义的Linux内核静态漏洞检测课题
+        introduction: 研究基于关键约束的安全检查缺失漏洞检测方法。
+        name: 陈夏润
+        email: xiar_c@pku.edu.cn
+
+      - program: 基于动态沙箱的恶意软件检测课题
+        introduction: 研究更高级的基于行为的恶意软件检测与对抗手段，包括动态检测沙箱、指令流模拟检测、基于行为的AI检测等。
+        name: 谢成淋
+        email: cony1996@pku.edu.cn
+
+      - program: 代码混淆防逆向课题
+        introduction: 对自研的主机入侵检测系统的关键检测算法进行混淆加密保护，对抗黑客的逆向分析、调试等破解手段，保护我们的技术竞争力。
+        name: 李成扬
+        email: lcymoon@pku.edu.cn
+
+      - program: 智能合约漏洞检测课题
+        introduction: 挖掘区块链漏洞、智能合约漏洞，设计更高效全面的智能合约漏洞检测工具。
+        name: 胡叶舟
+        email: yzhu_13@stu.pku.edu.cn
+
+      - program: Java程序漏洞挖掘与入侵检测课题
+        introduction: 通过对程序的分析，自动化挖掘可能存在漏洞的点。而在Java程序的入侵检测方面，拟使用RASP的方式进行设计实现，实现Java web框架通用漏洞的检测与定位，以及Java程序的自我防护。
+        name: 刘成杰
+        email: cheng@stu.pku.edu.cn
+
+    othercontact:
+      - name: 文伟平
+        major: 招生专业：计算机科学与技术、软件工程、网络安全
+        field: 主要研究领域：系统与网络安全、大数据与云安全、智能计算安全研究
+        title: 教授，研究生、博士生导师
+        email: weipingwen@pku.edu.cn
+
+      - name: 陈夏润
+        title: 科研助理
+        email: xiar_c@pku.edu.cn
+
+      - name: 杨洲
+        title: 科研助理
+        email: yzss2019@pku.edu.cn
+   
+
+footer:
+    titlecolor: "#20B2AA"
+    textcolor: "#F5F5F5"
+    copyrightcolor: "#808080"
+    address:
+      - title: "联系地址"
+        labname1: "北京大学网络和软件安全保障"
+        labname2: "重点实验室"
+        detail: "北京中关村学院南路62号资本大厦"
+        postcode: "北京市海淀区，100871"
+    relativesitestitle: "友情链接"
+    relativesites:
+      - title: "北京大学"
+        url: "https://www.pku.edu.cn/"
+      - title: "中科院软件研究所"
+        url: "http://www.iscas.ac.cn/"
+      - title: "北京邮电大学"
+        url: "https://www.bupt.edu.cn/"
+      - title: "北京大学软件与微电子学院"
+        url: "http://ss.pku.edu.cn/"
+      - title: "北京大学信息安全实验室"
+        url: "http://infosec.pku.edu.cn/"
+    commonservicestitle: "常用服务"
+    commonservices:
+      - title: "北京大学校内门户"
+        url: "https://portal.pku.edu.cn/portal2017/#/index"
+      - title: "北京大学网络服务"
+        url: "https://its.pku.edu.cn/"
+      - title: "北京大学邮箱"
+        url: "https://mail.pku.edu.cn/"
+      - title: "北京大学教学网"
+        url: "https://course.pku.edu.cn/"
+      - title: "北大网盘"
+        url: "https://disk.pku.edu.cn/"
+
+
+
+# {{ site.data.sitetext.ex.ex | markdownify | default: example }}

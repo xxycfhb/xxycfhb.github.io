@@ -1,0 +1,26 @@
+<!-- Portfolio Grid -->
+<section class="bg-light page-section" id="{{ site.data.sitetext.portfolio.section | default: " portfolio" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.portfolio.title | markdownify | default:
+          "Portfolio" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.portfolio.text | markdownify }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      {% for project in site.portfolio %}
+      <div class="col-md-3 col-sm-6 portfolio-item" style="text-align: center;">
+        <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}" style="text-decoration:none;">
+          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
+          <div class="portfolio-caption">
+            <p style="color:crimson;font-style:normal;">{{ project.caption.subtitle }}</p>
+            <h4 style="color:black;">{{ project.caption.title }}</h4>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% include modals.html %}

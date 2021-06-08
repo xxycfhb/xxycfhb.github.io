@@ -1,0 +1,42 @@
+---
+layout: default
+---
+{% include nav.html %}
+
+{% if page.background == "grey" or page.background == "gray" %}
+<script>
+    document.getElementById("page-top").className = "bg-light";
+</script>
+{% endif %}
+
+<div class="container" id="pagecontainer">
+    <section class="page-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">{{ page.subtitle }}</h2>
+                    <p style="font-size: larger;font-weight: 700;">{{page.date| date: "%Y.%m.%-d "}}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{ content }}
+    <section class="page-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <!--
+                    {% if page.previous_in_category != nil%}
+                    	<a href="{{site.baseurl}}{{page.previous_in_category.url}}" >&larr; 上一篇 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    {% endif %}
+                   
+                    {% if page.next_in_category  != nil %}
+                        <a href="{{site.baseurl}}{{page.next_in_category.url}}">&nbsp;&nbsp;&nbsp;&nbsp;下一篇 &rarr;</a>
+                    {% endif %}
+                     -->
+                     <button class="btn btn-primary" type="button" onClick="javascript:history.back(-1);">返回</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

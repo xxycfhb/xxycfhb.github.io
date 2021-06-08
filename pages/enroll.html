@@ -1,0 +1,40 @@
+---
+layout: page
+title: "招贤纳士"
+background: grey
+---
+
+<section class="page-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.enroll.title | default: "Enroll" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.enroll.text | default: "" }}</h3>
+        <h4 class="service-heading" style="color: rgb(60, 109, 76)">{{ site.data.sitetext.enroll.subtitle1}}</h4>
+        <h4 class="service-heading" style="color: rgb(60, 109, 76)">{{ site.data.sitetext.enroll.subtitle2}} </h4><br>
+        {% for contact in site.data.sitetext.enroll.contact %}
+        <div class="col-lg-10 mx-auto text-left">
+          <h4 class="service-heading">{{ contact.program}} </h4>
+          <div class="large text-muted">{{ contact.introduction}}</div>
+          <div class="large text-muted">{{ site.data.sitetext.enroll.contactto}}{{ contact.name}}</div>
+          <div class="large text-muted">{{ site.data.sitetext.enroll.contactby}}{{ contact.email}}</div>
+        </div>
+        <br>
+        {% endfor %}
+        <br>
+        <h4 class="service-heading" style="color: rgb(60, 109, 76);">{{ site.data.sitetext.enroll.subtitle3}}</h4><br>
+        {% for contact in site.data.sitetext.enroll.othercontact %}
+        <div class="col-lg-10 mx-auto text-left">
+          <h4 class="service-heading">{{ contact.name}} / {{ contact.title}} </h4>
+          <div class="large text-muted">{{ contact.major}}</div>
+          <div class="large text-muted">{{ contact.field}}</div>
+          <div class="large text-muted">{{ site.data.sitetext.enroll.contactby}}{{ contact.email}}</div>
+        </div>
+        <br>
+        {% endfor %}
+        <a class="btn btn-primary btn-lg"
+          href="{{ site.data.sitetext.enroll.url}}">{{site.data.sitetext.enroll.urlname}}</a>
+      </div>
+    </div>
+  </div>
+</section>

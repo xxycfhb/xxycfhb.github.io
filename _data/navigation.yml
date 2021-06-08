@@ -1,0 +1,28 @@
+nav:
+  
+  - title: "在研课题"
+    url: pages/current.html
+
+  - title: "科研项目"
+    url: pages/research.html
+  
+  - title: "发表著作"
+    url: pages/paper.html
+
+  - title: "专利成果"
+    url: pages/patent.html
+
+  - title: "学术报告"
+    url: pages/seminar.html
+
+  - title: "通知公告"
+    url: pages/notice.html
+
+  - title: "历届组长"
+    url: pages/alumni.html
+
+  - title: "往届学生"
+    url: pages/graduates.html
+
+  - title: "招贤纳士"
+    url: pages/enroll.html

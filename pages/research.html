@@ -1,0 +1,55 @@
+---
+layout: page
+title: "科研项目"
+background: grey
+---
+<style type="text/css">
+  .paperinfo {
+    box-sizing: border-box; 
+    padding: 0px; 
+    border: 0px; 
+    font-variant-numeric: inherit; 
+    font-variant-east-asian: inherit; 
+    font-stretch: inherit;
+    line-height: inherit; 
+    font-family: &quot;Open Sans&quot;, sans-serif; 
+    vertical-align: baseline;
+  }
+  .paperinfotitle{
+    font-weight: 800; 
+    font-size: 1.45em;
+    margin: 0px 0px 0.5em; 
+    color: rgb(68, 68, 68);
+  }
+  .paperinfoname{
+    font-size: 1em; 
+    margin: 0px 0px 0.5em; 
+    color: rgb(105, 105, 105);
+  }
+  .paperinfoagency{
+    font-size: 1em; 
+    margin: 0px 0px 2.2em; 
+    color: rgb(105, 105, 105);
+  }
+
+</style>
+
+<section class="page-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.research.title | default: "Research" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.research.text | default: "" }}</h3>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <article>
+      {% for research in site.data.sitetext.research.item %}
+      <h3 class="paperinfo paperinfotitle">{{research.title}}</h3>
+      <p class="paperinfo paperinfoname">{{research.source}}</p>
+      <p class="paperinfo paperinfoagency">{{research.period}}</p>
+      {% endfor %}
+    </article>
+  </div>
+</section>
