@@ -14,7 +14,7 @@
 theme: jekyll-agency
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/new_theme" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : PKU-Exploit
 email      : your-email@example.com #this is also the email contact forms will go to

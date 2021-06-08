@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.authors  = ["Ravi Riley"]
   
   spec.summary  = "Bootstrap Agency ported to Jekyll. Added lots of new features: Markdown support, custom pages, Google Analytics, customizable styling, and more! This is the most up-to-date Jekyll Agency theme."
-  spec.homepage = "https://xxycfhb.github.io/new_theme"
+  spec.homepage = "https://xxycfhb.github.io"
   spec.license  = "MIT"
   spec.files    = `git ls-files -z`.split("\x0").select do |f|
     f.match(%r{^(assets|_(data|includes|layouts|sass)/|(LICENSE|README|index|404|legal)((\.(txt|md|markdown|html)|$)))}i)
