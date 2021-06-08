@@ -451,7 +451,7 @@ textbook:
       - title: "文伟平编著,《网络攻防原理及应用》"
         name: "北京大学软件与微电子学院课程《网络攻击与防范》配套教材"
         source: "清华大学出版社. ISBN：9787302466925. 2017.3"
-        url: "https://github.com/xxycfhb/img_website/blob/main/seminar/%E7%BD%91%E7%BB%9C%E6%94%BB%E9%98%B2%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8-%E7%94%B5%E5%AD%90%E7%89%88%E6%95%99%E6%9D%90.pdf"
+        url: "https://github.com/xxycfhb/pku_exploit_files/blob/main/seminar/%E7%BD%91%E7%BB%9C%E6%94%BB%E9%98%B2%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8-%E7%94%B5%E5%AD%90%E7%89%88%E6%95%99%E6%9D%90.pdf"
 
       - title: "蒋建春，文伟平，焦健等,《信息安全工程师教程（第2版）》"
         name: "全国计算机技术与软件专业技术资格（水平）考试 指定教材"
