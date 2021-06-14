@@ -7,7 +7,7 @@ header:
 
 portfolio:
     title: "指导教师"
-    text: "Click on the picture for more detail"
+    text: "桃李不言 下自成蹊"
     section: portfolio
     closebutton: "Close"
     
@@ -1108,12 +1108,12 @@ patent:
 
 post:
     title: "通知公告"
-    text: "请及时关注"
+    text: 
     section: post
 
 seminar:
     title: "学术报告"
-    text: "每周二组会按时更新"
+    text: 
     section: article
 
 enroll:
