@@ -6,7 +6,10 @@ nav:
   - title: "科研项目"
     url: pages/research.html
   
-  - title: "发表著作"
+  - title: "出版著作"
+    url: pages/publication.html
+
+  - title: "发表论文"
     url: pages/paper.html
 
   - title: "专利成果"
