@@ -474,6 +474,24 @@ paper:
     text: 
     item:
 
+      - title: "Automatically Constructing Peer Slices via Semantic- and Context-Aware Security Checks in the Linux Kernel"
+        name: "Yongzhi Liu, Xiarun Chen, Zhou Yang, Weiping Wen"
+        source: "Application of Intelligent Technology in Security 2021 (CCF B DSN-W)"
+        url: 
+        download: 
+
+      - title: "EnvFaker: A Method to Reinforce Linux Sandbox Based on Tracer, Filter and Emulator against Environmental-Sensitive Malware"
+        name: "Chenglin Xie, Yujie Guo, Shaosen Shi, Yu Sheng, Xiarun Chen, Chengyang Li, Weiping Wen"
+        source: "IEEE International Conference on Trust, Security and Privacy in Computing and Communications. TrustCom 2021 (CCF C)"
+        url: 
+        download: 
+
+      - title: "VulChecker: Achieving More Effective Taint Analysis by Identifying Sanitizers Automatically"
+        name: "Xiarun Chen, Zhou Yang, Yongzhi Liu, Shaosen Shi, Chenglin Xie, Weiping Wen"
+        source: "IEEE International Conference on Trust, Security and Privacy in Computing and Communications. TrustCom 2021 (CCF C)"
+        url: 
+        download: 
+
       - title: "Why an Android app is classified as malware? Towards malware classification interpretation"
         name: "Bozhi Wu, Sen Chen, Cuiyun Gao, Lingling Fan, Yang Liu, Weiping Wen, and Michael R. Lyu"
         source: "ACM Transactions on Software Engineering and Methodology(TOSEM). September 2020. （CCF A）"
