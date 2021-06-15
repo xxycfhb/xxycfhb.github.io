@@ -65,8 +65,8 @@ background: grey
         <h2 class="section-heading text-uppercase">{{ site.data.sitetext.team.title }}</h2>
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text }}</h3>
       </div>
-      {% for person in site.data.sitetext.team.people %}
-      <div class="col-sm-3">
+      {% for person in site.data.sitetext.team.detail %}
+      <div class="col-sm-4 ">
         <div class="team-member">
           <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
           <h4>{{ person.name }}</h4>
@@ -83,6 +83,7 @@ background: grey
         </div>
       </div>
       {% endfor %}
+      
     </div>
   </div>
 </section>
