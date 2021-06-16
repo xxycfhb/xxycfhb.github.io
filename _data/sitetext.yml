@@ -122,6 +122,12 @@ graduate:
         image: ../assets/img/timeline/zyh.jpg
         alt: 
 
+      - title: "郑贵周 - 2010届校友"
+        post: "叮咚买菜 副总裁"
+        desc: 
+        image: ../assets/img/timeline/zhengguizhou.png
+        alt: 
+
       - title: "周虎生 - 2011届校友"
         post: "Vmware软件工程师"
         desc: "于美国德克萨斯大学达拉斯分校并取得博士学位，在实时操作系统，高性能计算，软件工程和软件安全领域顶级会议发表论文十余篇，并获得RTAS 2018最佳论文。曾在IBM Thomas J. Watson研究中心实习, 毕业后在VMware担任软件工程师，现工作方向为GPU虚拟化，分布式异构内存管理。"
