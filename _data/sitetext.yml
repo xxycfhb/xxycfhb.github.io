@@ -307,6 +307,12 @@ graduate:
         image: ../assets/img/timeline/gwj.png
         alt: 
 
+      - title: "杨晓琪 - 2020届校友"
+        post: "中国软件评测中心"
+        desc: 
+        image: ../assets/img/timeline/yangxiaoqi.png
+        alt: 
+        
       - title: "崔辽梅 - 2020届校友"
         post: "青鸟消防股份有限公司"
         desc: 
@@ -319,11 +325,7 @@ graduate:
         image: ../assets/img/timeline/1.png
         alt: 
 
-      - title: "杨晓琪 - 2020届校友"
-        post: "中国软件评测中心"
-        desc: 
-        image: ../assets/img/timeline/yangxiaoqi.png
-        alt: 
+      
       
 
 tutor:
