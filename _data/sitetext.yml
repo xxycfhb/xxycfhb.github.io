@@ -318,6 +318,12 @@ graduate:
         desc: 
         image: ../assets/img/timeline/1.png
         alt: 
+
+      - title: "杨晓琪 - 2020届校友"
+        post: "中国软件评测中心"
+        desc: 
+        image: ../assets/img/timeline/yangxiaoqi.png
+        alt: 
       
 
 tutor:
