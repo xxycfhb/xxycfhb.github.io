@@ -45,13 +45,13 @@ timeline:
         alt: 
 
       - title: "张汉 - 2015级"
-        post: "十月科技"
+        post: "十月科技创始人兼CEO"
         desc: "信息安全和即时通讯领域创业中。"
         image: ../assets/img/timeline/zh.jpg
         alt: 
       
       - title: "张弛 - 2013级"
-        post: "悬镜安全"
+        post: "悬镜安全长沙地区负责人"
         desc: "2016-2020 360核心安全，2020-至今 悬镜安全。"
         image: ../assets/img/timeline/zc.jpg
         alt:
@@ -70,7 +70,7 @@ timeline:
         alt:
 
       - title: "周虎生 - 2008级"
-        post: "Vmware软件工程师"
+        post: "美国德克萨斯大学计算机方向博士，Vmware软件工程师"
         desc: "于美国德克萨斯大学达拉斯分校并取得博士学位，在实时操作系统，高性能计算，软件工程和软件安全领域顶级会议发表论文十余篇，并获得RTAS 2018最佳论文。曾在IBM Thomas J. Watson研究中心实习, 毕业后在VMware担任软件工程师，现工作方向为GPU虚拟化，分布式异构内存管理。"
         image: ../assets/img/timeline/zhs.jpg
         alt:
@@ -129,7 +129,7 @@ graduate:
         alt: 
 
       - title: "周虎生 - 2011届校友"
-        post: "Vmware软件工程师"
+        post: "美国德克萨斯大学计算机方向博士，Vmware软件工程师"
         desc: "于美国德克萨斯大学达拉斯分校并取得博士学位，在实时操作系统，高性能计算，软件工程和软件安全领域顶级会议发表论文十余篇，并获得RTAS 2018最佳论文。曾在IBM Thomas J. Watson研究中心实习, 毕业后在VMware担任软件工程师，现工作方向为GPU虚拟化，分布式异构内存管理。"
         image: ../assets/img/timeline/zhs.jpg
         alt:
@@ -178,7 +178,7 @@ graduate:
         blog: "https://blog.csdn.net/jidawanghao"
 
       - title: "李其恩 - 2013届校友"
-        post: "成都数之星科技"
+        post: "成都数之星科技有限公司创始人、董事长兼CEO"
         desc: 
         image: ../assets/img/timeline/liqien.png
         alt:
@@ -191,7 +191,7 @@ graduate:
         alt:
 
       - title: "宁戈 - 2014届校友"
-        post: "悬镜安全技术负责人"
+        post: "悬镜安全技术总监"
         desc: "目前在长期从事漏洞方面的研究工作，目前悬镜安全负责技术与研发工作。"
         image: ../assets/img/timeline/ng.png
         alt: 
@@ -216,7 +216,7 @@ graduate:
         alt: 
 
       - title: "张弛 - 2016届校友"
-        post: "悬镜安全"
+        post: "悬镜安全长沙地区负责人"
         desc: "2016-2020 360核心安全，2020-至今 悬镜安全。"
         image: ../assets/img/timeline/zc.jpg
         alt:
@@ -241,7 +241,7 @@ graduate:
         alt: 
 
       - title: "张汉 - 2017届校友"
-        post: "十月科技"
+        post: "十月科技创始人兼CEO"
         desc: "信息安全和即时通讯领域创业中。"
         image: ../assets/img/timeline/zh.jpg
         alt: 
