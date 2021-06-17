@@ -301,10 +301,10 @@ graduate:
         image: ../assets/img/timeline/1.png
         alt: 
 
-      - title: "杨芳芳 - 2019届校友"
-        post: "核工业计算机应用研究所"
-        desc: ""
-        image: ../assets/img/timeline/1.png
+      - title: "李攀 - 2019届校友"
+        post: "奇安信"
+        desc: 
+        image: ../assets/img/timeline/lipan.png
         alt:
 
       - title: "叶晓亮 - 2019届校友"
@@ -312,11 +312,11 @@ graduate:
         desc: 
         image: ../assets/img/timeline/yexiaoliang.png
         alt:
-
-      - title: "李攀 - 2019届校友"
-        post: "奇安信"
+    
+      - title: "杨芳芳 - 2019届校友"
+        post: "核工业计算机应用研究所"
         desc: 
-        image: ../assets/img/timeline/lipan.png
+        image: ../assets/img/timeline/1.png
         alt:
 
       - title: "李百川 - 2019届校友"
