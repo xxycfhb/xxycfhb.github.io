@@ -202,6 +202,12 @@ graduate:
         image: ../assets/img/timeline/liangjiaxi.png
         alt: 
 
+      - title: "关通 - 2014届校友"
+        post: "阿里巴巴"
+        desc: 
+        image: ../assets/img/timeline/guantong.png
+        alt: 
+
       - title: "子芽 - 2015届校友"
         post: "悬镜安全创始人兼CEO"
         desc: "DevSecOps安全专家。北京市优秀毕业生，北京大学优秀毕业生，北京大学国奖、优秀科研奖和光华奖学金奖获得者，2017年度北京大学年度人物，2018年中国软件和信息服务业新锐人物，2019年度全国大学生优秀创业代表，DevSecOps自适应威胁管理技术体系开拓者。2014年创立DevSecOps敏捷安全领导者悬镜安全团队。2020年6接收红杉中国PreA轮独家领投，2021年3月，完成A轮近亿元战略融资，腾讯产业生态投资领投，红杉中国继续加持。"
@@ -233,6 +239,12 @@ graduate:
         image: ../assets/img/timeline/1.png
         alt: 
         blog: "http://mohamoha.club/"
+
+      - title: "胡殿坤 - 2016届校友"
+        post: "民生科技"
+        desc: 
+        image: ../assets/img/timeline/hudiankun.png
+        alt: 
 
       - title: "何永强 - 2017届校友兼2020级博士研究生"
         post: "奇安信保密事业部三部总经理"
@@ -271,6 +283,18 @@ graduate:
         image: ../assets/img/timeline/gaofeng.png
         alt: 
 
+      - title: "王可颖 - 2018届校友"
+        post: "北京科东"
+        desc: 
+        image: ../assets/img/timeline/wangkeying.png
+        alt: 
+
+      - title: "汤炀 - 2018届校友"
+        post: "快手"
+        desc: 
+        image: ../assets/img/timeline/1.png
+        alt: 
+
       - title: "谢锐华 - 2019届校友"
         post: "中国信息安全测评中心"
         desc: "现在主要工作为对企业系统做全面纵深式安全测评，同时也负责安全事件的应急响应工作。"
@@ -287,6 +311,18 @@ graduate:
         post: "国家工业信息安全发展研究中心（工信部电子一所）"
         desc: 
         image: ../assets/img/timeline/yexiaoliang.png
+        alt:
+
+      - title: "李攀 - 2019届校友"
+        post: "奇安信"
+        desc: 
+        image: ../assets/img/timeline/lipan.png
+        alt:
+
+      - title: "李百川 - 2019届校友"
+        post: "腾讯（深圳）"
+        desc: 
+        image: ../assets/img/timeline/1.png
         alt:
 
       - title: "李经纬 - 2020届校友"
