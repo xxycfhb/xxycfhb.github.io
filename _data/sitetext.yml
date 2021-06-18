@@ -182,8 +182,13 @@ graduate:
         desc: 
         image: ../assets/img/timeline/liqien.png
         alt:
-        
 
+      - title: "谌力 - 2013届校友"
+        post: "华为"
+        desc: 
+        image: ../assets/img/timeline/shenli.png
+        alt:
+        
       - title: "梅瑞 - 2014届校友"
         post: "现于中国科学院大学网络空间安全专业攻读博士学位"
         desc: "曾工作于政府数据管理部门和互联网上市公司，曾作为主要完成者参与多项国家级信息安全科研课题，成果包括二进制漏洞发现、粒数据安全体系等；作为主要负责人在科大讯飞集团实施企业信息安全管理体系建设和持续优化，特别是对于研发安全体系、数据安全体系有着深入的研究和丰富的实践经验；作为高级安全专家向铁路12306、唐山银行等多个行业客户提供信息科技风险咨询；曾受邀在中国互联网安全大会ISC 2013、中国网络安全大会NSC 2013等分享安全观点，参与编写信息安全专著1部，当前的研究兴趣和项目实践包括定向攻击溯源、恶意代码监测、云应用安全等。"
@@ -369,6 +374,24 @@ graduate:
 
       - title: "鲁白冰 - 2020届校友"
         post: "中国银河证券股份有限公司"
+        desc: 
+        image: ../assets/img/timeline/1.png
+        alt: 
+
+      - title: "张逸然 - 2021届校友"
+        post: "华为"
+        desc: 
+        image: ../assets/img/timeline/zhangyiran.png
+        alt: 
+
+      - title: "赵国梁 - 2021届校友"
+        post: "字节跳动"
+        desc: 
+        image: ../assets/img/timeline/1.png
+        alt: 
+
+      - title: "杜笑宇 - 2021届校友"
+        post: "深信服（北京）"
         desc: 
         image: ../assets/img/timeline/1.png
         alt: 
