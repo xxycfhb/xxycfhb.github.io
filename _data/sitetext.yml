@@ -519,8 +519,18 @@ team:
           - url: https://blog.csdn.net/Cony_14
             icon: fab fa-gratipay
           
-      - name: "黄天波"
+      - name: "李成扬"
         role: "混淆课题负责人"
+        image: ../assets/img/team/lichengyang.png
+        social:
+          - url: https://www.jianshu.com/u/fc734883e0ee
+            icon: fab fa-gratipay
+          - url: https://github.com/lcy19
+            icon: fab fa-github
+        
+
+      - name: "黄天波"
+        role: "十月科技技术负责人"
         image: ../assets/img/team/huang.jpg
         social:
           - url: https://www.cnblogs.com/agenthtb/
