@@ -28,26 +28,31 @@
       <div class="row align-items-center">
     <!-- Address -->
         {% for address in site.data.sitetext.footer.address  %}
-        <div class="col-md-4">
+        <div class="col-md-3">
           <h3 class="footertitle">{{address.title}}</h3>
           <a style="color: {{site.data.sitetext.footer.textcolor}};">{{address.labname1}}<br>{{address.labname2}}</a><br><br>
           <a style="color: {{site.data.sitetext.footer.textcolor}};">{{address.detail}}<br>{{address.postcode}}</a>
         </div>
         {% endfor %}
     <!-- relativesites --> 
-        <div class="col-md-4">
+        <div class="col-md-3">
           <h3 class="footertitle">{{site.data.sitetext.footer.relativesitestitle}}</h3>
           {% for relativesites in site.data.sitetext.footer.relativesites  %}
           <a class="footeritem" href="{{ relativesites.url }}">{{relativesites.title}}</a><br>
           {% endfor %}
         </div>
     <!-- commonservices --> 
-        <div class="col-md-4">
+        <div class="col-md-3">
           <h3 class="footertitle">{{site.data.sitetext.footer.commonservicestitle}}</h3>
           {% for commonservices in site.data.sitetext.footer.commonservices  %}
           <a class="footeritem" href="{{ commonservices.url }}">{{commonservices.title}}</a><br>
           {% endfor %}
         </div>
+    <!-- wechatplatform --> 
+    <div class="col-md-3">
+      <h3 class="footertitle">{{site.data.sitetext.footer.wechatplatformtitle}}</h3>
+      <img src="{{ site.data.sitetext.footer.wechatplatform }}" alt="{{ site.data.sitetext.footer.wechatplatformname }}" width="125em" height="125em">
+    </div>
     <!-- Copyright --> 
         <div class="col-lg-12 text-center">>
           <br>
