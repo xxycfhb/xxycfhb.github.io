@@ -731,11 +731,11 @@ paper:
         url: "/files/paper19.pdf"
         download: "基于Rootkit隐藏行为特征的Linux恶意代码取证方法.pdf"
 
-      - title: "An Android malware detection method based on data flow features"
+      - title: "SUIP: An Android malware detection method based on data flow features"
         name: "X R Chen, W P Wen, et al."
         source: "International Conference on Information System and Network Security. 2020.[EI]"
         url: "/files/paper20.pdf"
-        download: "An Android malware detection method based on data flow features.pdf"
+        download: "SUIP An Android malware detection method based on data flow features.pdf"
     
       - title: "Detecting Vulnerabilities in Smart Contracts Based on Multidimensional Analysis Model"
         name: "Jingwei Li, Zhanghan, Weiping Wen"
