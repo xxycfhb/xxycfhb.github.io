@@ -1366,8 +1366,8 @@ enroll:
         introduction: 研究基于关键约束的安全检查缺失漏洞检测方法。
         name: 陈夏润
 
-      - program: 基于动态沙箱的恶意软件检测课题
-        introduction: 研究更高级的基于行为的恶意软件检测与对抗手段，包括动态检测沙箱、指令流模拟检测、基于行为的AI检测等。
+      - program: ELF软件恶意行为动态分析技术课题
+        introduction: 研究ELF恶意软件攻击模式库、VMI透明监控技术以及恶意软件躲避对抗激活技术。
         name: 谢成淋  
 
       - program: 代码混淆防逆向课题
