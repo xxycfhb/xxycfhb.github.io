@@ -763,12 +763,6 @@ paper:
         url: "/files/paper1.pdf"
         download: "An AOTC-based Bytecode-Hiding Scheme for Packing the Android Applications.pdf"
 
-      - title: "An AOTC-based Bytecode-Hiding Scheme for Packing the Android Applications"
-        name: "Judong Bao, Yongqiang He, Weiping Wen"
-        source: "2018 17th IEEE International Conference On Trust, Security And Privacy In Computing And Communications(TrustCom 2018)/ 12th IEEE International Conference On Big Data Science And Engineering, July 31th - August 3rd, 2018, New York, USA"
-        url: "/files/paper1.pdf"
-        download: "An AOTC-based Bytecode-Hiding Scheme for Packing the Android Applications.pdf"
-
       - title: "基于融合技术的恶意程序检测方法的研究"
         name: "叶何, 赵国梁, 胡浩然, 文伟平等"
         source: "Conference on Vulnerability Analysis and Risk Assessment. 2019."
