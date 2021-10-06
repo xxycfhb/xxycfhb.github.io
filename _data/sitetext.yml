@@ -709,6 +709,18 @@ paper:
         url: "/files/paper23.pdf"
         download: "Why an Android app is classified as malware_Towards malware classification interpretation.pdf"
 
+      - title: "基于流量特征分类的异常IP识别系统的设计与实现"
+        name: "文伟平,胡叶舟，赵国梁，陈夏润"
+        source: "信息网络安全, 2021,21(08)"
+        url: "/files/paper84.pdf"
+        download: "基于流量特征分类的异常IP识别系统的设计与实现.pdf"
+
+      - title: "一种对抗符号执行的代码混淆系统"
+        name: "文伟平,方莹，叶何，陈夏润"
+        source: "信息网络安全, 2021,21(07)"
+        url: "/files/paper85.pdf"
+        download: "一种对抗符号执行的代码混淆系统.pdf"
+        
       - title: "一种语义感知的安全检查检测方法"
         name: "方宇彤,刘洪毅,李经纬,文伟平"
         source: "信息安全学报, 2020,5(05):17-29.[CCF B]"
