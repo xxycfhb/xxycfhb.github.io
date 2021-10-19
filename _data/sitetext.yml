@@ -697,6 +697,12 @@ paper:
         url: 
         download: 
 
+      - title: "基于底层虚拟机的标识符混淆方法"
+        name: "田大江，李成扬，黄天波，文伟平"
+        source: "计算机应用 (2021) (CCF-C)"
+        url: 
+        download: 
+
       - title: "EnvFaker: A Method to Reinforce Linux Sandbox Based on Tracer, Filter and Emulator against Environmental-Sensitive Malware"
         name: "Chenglin Xie, Yujie Guo, Shaosen Shi, Yu Sheng, Xiarun Chen, Chengyang Li, Weiping Wen"
         source: "IEEE International Conference on Trust, Security and Privacy in Computing and Communications. TrustCom 2021 (CCF C)"
