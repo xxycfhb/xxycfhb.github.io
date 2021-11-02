@@ -695,14 +695,14 @@ paper:
       - title: "Automatically Constructing Peer Slices via Semantic- and Context-Aware Security Checks in the Linux Kernel"
         name: "Yongzhi Liu, Xiarun Chen, Zhou Yang, Weiping Wen"
         source: "Application of Intelligent Technology in Security 2021 (CCF B DSN-W)"
-        url: 
-        download: 
+        url: "/files/paper87.pdf"
+        download: "Automatically Constructing Peer Slices via Semantic- and Context-Aware Security Checks in the Linux Kernel.pdf"
 
       - title: "基于底层虚拟机的标识符混淆方法"
         name: "田大江，李成扬，黄天波，文伟平"
         source: "计算机应用 (2021) (CCF-C)"
-        url: 
-        download: 
+        url: "/files/paper86.pdf"
+        download: "基于底层虚拟机的标识符混淆方法.pdf"
 
       - title: "EnvFaker: A Method to Reinforce Linux Sandbox Based on Tracer, Filter and Emulator against Environmental-Sensitive Malware"
         name: "Chenglin Xie, Yujie Guo, Shaosen Shi, Yu Sheng, Xiarun Chen, Chengyang Li, Weiping Wen"
