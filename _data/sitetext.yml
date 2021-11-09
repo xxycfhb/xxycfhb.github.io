@@ -1448,7 +1448,7 @@ footer:
       - title: "北大网盘"
         url: "https://disk.pku.edu.cn/"
     wechatplatformtitle: "微信公众号"
-    wechatplatform: ../assets/img/QRcode.jpg
+    wechatplatform: /assets/img/QRcode.jpg
     wechatplatformname: "软微网络安全"
 
 
