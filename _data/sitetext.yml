@@ -554,8 +554,10 @@ team:
 
       - name: "王晗"
         role: "ELF软件恶意行为动态分析技术负责人"
-        image: ../assets/img/team/1.png
+        image: ../assets/img/team/wanghan.png
         social:
+          - url: https://github.com/hanwang124
+            icon: fab fa-github
 
 currentstudent:
     title: "课题组成员"
