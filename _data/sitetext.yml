@@ -539,12 +539,11 @@ team:
             icon: fab fa-github
         
 
-      - name: "黄天波"
-        role: "十月科技技术负责人"
-        image: ../assets/img/team/huang.jpg
+      - name: "王晗"
+        role: "ELF软件恶意行为动态分析技术负责人"
+        image: ../assets/img/team/1.png
         social:
-          - url: https://www.cnblogs.com/agenthtb/
-            icon: fab fa-gratipay
+          
 
       - name: "胡叶舟"
         role: "智能合约漏洞挖掘课题负责人"
@@ -1387,7 +1386,7 @@ enroll:
 
       - program: ELF软件恶意行为动态分析技术课题
         introduction: 研究ELF恶意软件攻击模式库、VMI透明监控技术以及恶意软件躲避对抗激活技术。
-        name: 谢成淋  
+        name: 王晗  
 
       - program: 代码混淆防逆向课题
         introduction: 对自研的主机入侵检测系统的关键检测算法进行混淆加密保护，对抗黑客的逆向分析、调试等破解手段，保护我们的技术竞争力。
