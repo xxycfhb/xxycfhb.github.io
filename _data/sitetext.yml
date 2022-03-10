@@ -537,13 +537,6 @@ team:
             icon: fab fa-gratipay
           - url: https://github.com/lcy19
             icon: fab fa-github
-        
-
-      - name: "王晗"
-        role: "ELF软件恶意行为动态分析技术负责人"
-        image: ../assets/img/team/1.png
-        social:
-          
 
       - name: "胡叶舟"
         role: "智能合约漏洞挖掘课题负责人"
@@ -559,7 +552,10 @@ team:
           - url: https://github.com/liuchengjie01
             icon: fab fa-github
 
-
+      - name: "王晗"
+        role: "ELF软件恶意行为动态分析技术负责人"
+        image: ../assets/img/team/1.png
+        social:
 
 currentstudent:
     title: "课题组成员"
@@ -1384,10 +1380,6 @@ enroll:
         introduction: 研究基于关键约束的安全检查缺失漏洞检测方法。
         name: 陈夏润
 
-      - program: ELF软件恶意行为动态分析技术课题
-        introduction: 研究ELF恶意软件攻击模式库、VMI透明监控技术以及恶意软件躲避对抗激活技术。
-        name: 王晗  
-
       - program: 代码混淆防逆向课题
         introduction: 对自研的主机入侵检测系统的关键检测算法进行混淆加密保护，对抗黑客的逆向分析、调试等破解手段，保护我们的技术竞争力。
         name: 李成扬 
@@ -1399,6 +1391,10 @@ enroll:
       - program: Java程序漏洞挖掘与入侵检测课题
         introduction: 通过对程序的分析，自动化挖掘可能存在漏洞的点。而在Java程序的入侵检测方面，拟使用RASP的方式进行设计实现，实现Java web框架通用漏洞的检测与定位，以及Java程序的自我防护。
         name: 刘成杰
+
+      - program: ELF软件恶意行为动态分析技术课题
+        introduction: 研究ELF恶意软件攻击模式库、VMI透明监控技术以及恶意软件躲避对抗激活技术。
+        name: 王晗  
 
     othercontact:
       - name: 文伟平
