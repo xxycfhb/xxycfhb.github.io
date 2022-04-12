@@ -31,6 +31,9 @@ background: grey
     margin: 0px 0px 2.2em; 
     color: rgb(105, 105, 105);
   }
+  .authorized{
+    background: #F0E68C;
+  }
 
 </style>
 
@@ -45,10 +48,28 @@ background: grey
 
     <!-- Content -->
     <article>
+      {% assign count = 0 %}
       {% for patent in site.data.sitetext.patent.item %}
-      <h3 class="paperinfo paperinfotitle">{{patent.title}}</h3>
-      <p class="paperinfo paperinfoname">{{patent.source}}</p>
-      <p class="paperinfo paperinfoagency">{{patent.number}}</p>
+      {% assign count = count | plus: 1 %}
+      {% if patent.download %}
+      <h3 class="paperinfo paperinfotitle"><a href="{{ site.baseurl }}{{patent.url}}" download="{{patent.download}}"
+        style="color:rgb(86,174,200);">{{count}}. {{patent.title}}</a></h3>
+        <p class="paperinfo paperinfoname">{{patent.source}}</p>
+        <p class="paperinfo paperinfoagency">{{patent.number}}
+          {% if patent.success %}
+          <strong class="authorized">已授权</strong>
+          {% endif %}
+        </p>
+      {% else %}
+        <h3 class="paperinfo paperinfotitle">{{count}}. {{patent.title}}</h3>
+        <p class="paperinfo paperinfoname">{{patent.source}}</p>
+        <p class="paperinfo paperinfoagency">{{patent.number}}
+          {% if patent.success %}
+          <strong class="authorized">已授权</strong>
+          {% endif %}
+        </p>
+      {% endif %}
+      
       {% endfor %}
     </article>
     <!-- End Content -->

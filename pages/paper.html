@@ -46,14 +46,16 @@ background: grey
     </div>
     <!-- Content -->
     <article>
+      {% assign count = 0 %}
       {% for paper in site.data.sitetext.paper.item %}
+      {% assign count = count | plus: 1 %}
       {% if paper.download %}
       <h3 class="paperinfo paperinfotitle"><a href="{{ site.baseurl }}{{paper.url}}" download="{{paper.download}}"
-          style="color:rgb(86,174,200);">{{paper.title}}</a></h3>
+          style="color:rgb(86,174,200);">{{count}}. {{paper.title}}</a></h3>
       <p class="paperinfo paperinfoname">{{paper.name}}</p>
       <p class="paperinfo paperinfoagency">{{paper.source}}</p>
       {% else %}
-      <h3 class="paperinfo paperinfotitle">{{paper.title}}</h3>
+      <h3 class="paperinfo paperinfotitle">{{count}}. {{paper.title}}</h3>
       <p class="paperinfo paperinfoname">{{paper.name}}</p>
       <p class="paperinfo paperinfoagency">{{paper.source}}</p>
       {% endif %}

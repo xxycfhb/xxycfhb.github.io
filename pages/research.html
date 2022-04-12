@@ -45,8 +45,10 @@ background: grey
 
     <!-- Content -->
     <article>
+      {% assign count = 0 %}
       {% for research in site.data.sitetext.research.item %}
-      <h3 class="paperinfo paperinfotitle">{{research.title}}</h3>
+      {% assign count = count | plus: 1 %}
+      <h3 class="paperinfo paperinfotitle">{{count}}. {{research.title}}</h3>
       <p class="paperinfo paperinfoname">{{research.source}}</p>
       <p class="paperinfo paperinfoagency">{{research.period}}</p>
       {% endfor %}
