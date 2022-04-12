@@ -712,7 +712,7 @@ paper:
         source: "计算机应用 (2021) (CCF-C)"
         url: "/files/paper86.pdf"
         download: "基于底层虚拟机的标识符混淆方法.pdf"
-        
+
       - title: "Why an Android app is classified as malware: Towards malware classification interpretation"
         name: "Bozhi Wu, Sen Chen, Cuiyun Gao, Lingling Fan, Yang Liu, Weiping Wen, and Michael R. Lyu"
         source: "ACM Transactions on Software Engineering and Methodology(TOSEM). September 2020. （CCF A）"
@@ -1392,10 +1392,6 @@ patent:
         source: "国家知识产权局发明专利"
         number: "专利申请号：201810708066.4，2018年7月2日"
 
-      - title: "文伟平、叶晓亮，一种基于RASP提取webshell软件基因的方法"
-        source: "国家知识产权局发明专利"
-        number: "专利申请号：201810649997.1，2018年6月22日"
-
       - title: "文伟平、杨法偿，一种基于人脸识别和视线定位的双重验证的认证方法及系统"
         source: "国家知识产权局发明专利"
         number: "专利申请号：201810562255.5，2018年6月4日"
@@ -1443,10 +1439,6 @@ patent:
       - title: "文伟平，一种Android应用程序的动态脱壳方法"
         source: "国家知识产权局发明专利"
         number: "专利申请号：CN201610248368.9，2016年4月20日"
-
-      - title: "文伟平，一种基于Android可执行文件重组的加固方法"
-        source: "国家知识产权局发明专利"
-        number: "专利申请号：	CN201610032328.0，2016年1月19日"
 
       - title: "文伟平，一种基于Android系统陷阱指令的软件加固方法"
         source: "国家知识产权局发明专利"
