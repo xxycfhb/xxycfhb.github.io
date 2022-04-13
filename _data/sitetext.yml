@@ -329,11 +329,7 @@ graduate:
         image: ../assets/img/timeline/zhaoxuan.png
         alt: 
 
-      - title: "汤炀 - 2018届校友"
-        post: "快手"
-        desc: 
-        image: ../assets/img/timeline/1.png
-        alt: 
+      
 
       - title: "谢锐华 - 2019届校友"
         post: "中国信息安全测评中心"
@@ -482,6 +478,7 @@ currentprogram:
     title: "在研课题"
     text: 
     program:
+
       - time: "2021.10 - 2022.10"
         name: "ELF软件恶意行为动态分析技术"
         client: "华为（横向）"
@@ -492,10 +489,10 @@ currentprogram:
         client: "华为（横向）"
         task: "课题负责人"
 
-      - time: "2020.05 - 2021.05"
-        name: "程序语义漏洞检测"
-        client: "华为（横向）"
-        task: "课题负责人"
+      - time: "2021.11 - 2023.11"
+        name: "APT攻击与防御技术分析"
+        client: "科技部国家重点研发计划"
+        task: "子课题负责人"
       
       - time: "2019.07 - 2022.06"
         name: "云计算和大数据专项 —— 区块链脆弱性分析及利用技术研究"
@@ -584,6 +581,323 @@ currentstudent:
     person: "2019级<br>陈夏润，谢成淋，黄天波，李成扬，杨洲，郭雨洁，时绍森，刘永志，李涛，李德才，王升，杨政，黄泽华 <br><br>
              2020级<br>何永强，胡叶舟，王雅仪，刘琛，刘宇航，刘成杰，刘军杰，肖遥，方莹 <br><br>
              2021级<br>时林，蒋隽，付烨齐，王晗，张芊，朱一帆，彭婷，杨硕，吕子晗 <br><br>"
+
+vulnerability:
+    title: "漏洞成果"
+
+blockchainbug:
+    title: "区块链漏洞"
+    text: 
+    item:
+      - title: "CNVD-2021-65610"
+        chinesename: "EnjinCoin存在其他漏洞"
+        name: "刘宇航"
+        level: "中危"
+        describe: "恩金币（ENJ）是一种基于Ethereum的加密货币，用于直接支持下一代NFT的价值。由于EnjinCoin合约中滥用了assert语句，导致调用者身份如果不符合owner条件，gas会被直接耗尽。该漏洞会过度消耗调用者gas费。"
+      
+      - title: "CNVD-2021-65607"
+        chinesename: "BGovToken存在逻辑缺陷漏洞"
+        name: "胡叶舟"
+        level: "中危"
+        describe: "合约中内部函数_writeCheckpoint函数中未对整数操作进行范围检查，导致其出现了整数溢出漏洞，整数溢出将会修改全局变量numCheckpoints的值。第825 行 _writeCheckpoint函数中，在839行代码numCheckpoints[delegatee] = nCheckpoints + 1;未对nCheckpoints + 1的范围进行检查，导致其会出现整数溢出。整数溢出后将会修改全部变量numCheckpoints[delegatee]的值。"
+
+      - title: "CNVD-2021-65608"
+        chinesename: "cheesemaker.farm存在逻辑缺陷漏洞"
+        name: "胡叶舟"
+        level: "中危"
+        describe: "合约中内部函数_writeCheckpoint函数中未对整数操作进行范围检查，导致其出现了整数溢出漏洞，整数溢出将会修改全局变量numCheckpoints的值。第601 行 _writeCheckpoint函数中，在615行代码numCheckpoints[delegatee] = nCheckpoints + 1;未对nCheckpoints + 1的范围进行检查，导致其会出现整数溢出。整数溢出后将会修改全部变量numCheckpoints[delegatee]的值。"
+
+      - title: "CNVD-2021-65609"
+        chinesename: "NUTS Token存在逻辑缺陷漏洞"
+        name: "胡叶舟"
+        level: "低危"
+        describe: "合约中外部函数multiTransfer，含有多次发送漏洞，第72行multiTransfer函数中在for循环体中调用了transfer多次，而transfer函数的参数是用户定义的，一旦定义的参数出错，可能导致multiTransfer整体执行失败。即在一个函数中执行多个地址的转账操作，会因为一个地址转账的失败，导致全部转账的失败。"
+
+      - title: "CNVD-2021-77817"
+        chinesename: "AdsharesToken存在逻辑缺陷漏洞"
+        name: "胡叶舟"
+        level: "低危"
+        describe: "【漏洞挖掘由国家重点研发计划课题2020YFB1005802支撑】 AdsharesToken项目的智能合约https://cn.etherscan.com/address/0x422866a8f0b032c5cf1dfbdef31a20f4509562b0#code 其合约中外部函数getSellPrice未对tokenPriceMin * _askSizeTokens的范围进行检查，导致出现整数溢出漏洞。"
+
+
+      - title: "CNVD-2021-77818"
+        chinesename: "dapMultisig存在逻辑缺陷漏洞"
+        name: "胡叶舟"
+        level: "低危"
+        describe: "重入漏洞：第191行 executeTxn函数中，如图，在dest.call.value(val)(dat)后面进行了账户余额的更改allowance = allowance - txn.value， 如果攻击者在回调函数中调用executeTxn，则可以重复执行dest.call.value()，最后才会更改账户余额，即能实现重入攻击。整数溢出漏洞：第191行 executeTxn函数中，在211行代码wallet.allowance = wallet.allowance - txn.value;未对wallet.allowance - txn.value的范围进行检查，导致其会出现整数溢出。整数溢出后将会修改全部变量wallet.allowance的值。"
+
+      - title: "CNVD-2021-77819"
+        chinesename: "ibaMultisig存在逻辑缺陷漏洞"
+        name: "胡叶舟"
+        level: "低危"
+        describe: "重入漏洞：第186行 executeTxn函数中，如图，在dest.call.value(val)(dat)后面进行了账户余额的更改allowance = allowance - txn.value， 如果攻击者在回调函数中调用executeTxn，则可以重复执行dest.call.value()，最后才会更改账户余额，即能实现重入攻击。整数溢出漏洞：第186行 executeTxn函数中，在207行代码wallet.allowance = wallet.allowance - txn.value;未对wallet.allowance - txn.value的范围进行检查，导致其会出现整数溢出。整数溢出后将会修改全部变量wallet.allowance的值。"
+
+      - title: "CNVD-2021-77820"
+        chinesename: "SafeMoon存在逻辑缺陷漏洞"
+        name: "胡叶舟"
+        level: "低危"
+        describe: "在项目的合约地址中https://bscscan.com/address/0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3#code，在474行lock函数中，第447行_lockTime = now + time。如果now + time很大，则导致函数返回结果出现整数溢出，实际显示数量较小。当该函数被外部函数geUnlockTime函数调用时，会显示错误。"
+
+      - title: "CNVD-2021-77822"
+        chinesename: "Phoswap Token gas存在逻辑缺陷漏洞"
+        name: "胡叶舟"
+        level: "低危"
+        describe: "【漏洞挖掘由科技部国家重点研发计划课题2020YFB1005802支撑】 代币合约freeze函数在多次调用的情况下，其gas消耗会逐渐增加，当gas消耗极大时，运行成本过高，当gas消耗超过区块gas上限时，该函数无法执行。"
+
+      - title: "CNVD-2021-77823"
+        chinesename: "Free Coin存在逻辑缺陷漏洞"
+        name: "胡叶舟"
+        level: "低危"
+        describe: "【漏洞挖掘由科技部国家重点研发计划课题2020YFB1005802支撑】 代币合约freeze函数在多次调用的情况下，其gas消耗会逐渐增加，当gas消耗极大时，运行成本过高，当gas消耗超过区块gas上限时，该函数无法执行。"
+
+webappbug:
+    title: "web应用漏洞"
+    text: 
+    item:      
+      - title: "CNVD-2021-12762"
+        chinesename: "Pyspider爬虫系统存在命令执行漏洞"
+        name: "陈夏润"
+        level: "高危"
+        describe: "Pyspider是一款网络爬虫系统。 Pyspider爬虫系统存在命令执行漏洞，攻击者可通过往项目管理器中注入恶意代码，利用该漏洞远程执行代码，控制整个服务器，进行内网渗透、DDos等恶意攻击。"
+        url: "/files/CNVD-YCGW-202101027830.pdf"
+        download: "CNVD-YCGW-202101027830.pdf"
+
+      - title: "CNVD-2021-12603"
+        chinesename: 
+        name: "陈夏润"
+        level: "高危"
+        describe:
+
+      - title: "CNVD-2021-13049"
+        chinesename: 
+        name: "陈夏润"
+        level: "高危"
+        describe:
+      
+      - title: "CNVD-2021-05200"
+        chinesename: 
+        name: "陈夏润"
+        level: "中危"
+        describe:
+
+      - title: "CNVD-2021-17450"
+        chinesename: 
+        name: "陈夏润"
+        level: "中危"
+        describe:
+      
+      - title: "CNVD-2021-17449"
+        chinesename: 
+        name: "陈夏润"
+        level: "中危"
+        describe:
+
+      - title: "CNVD-2021-17106"
+        chinesename: 
+        name: "陈夏润"
+        level: "中危"
+        describe:
+      
+      - title: "CNVD-2021-17459"
+        chinesename: 
+        name: "陈夏润"
+        level: "中危"
+        describe:
+
+      - title: "CNVD-2021-17455"
+        chinesename: 
+        name: "陈夏润"
+        level: "中危"
+        describe:
+
+      - title: "CNVD-2021-17454"
+        chinesename: 
+        name: "陈夏润"
+        level: "中危"
+        describe:
+
+      - title: "CNVD-2021-17453"
+        chinesename: 
+        name: "陈夏润"
+        level: "中危"
+        describe:
+      
+      - title: "CNVD-2021-17452"
+        chinesename: 
+        name: "陈夏润"
+        level: "中危"
+        describe:
+
+      - title: "CNVD-2021-17451"
+        chinesename: 
+        name: "陈夏润"
+        level: "中危"
+        describe:
+
+      - title: "CNVD-2021-17922"
+        chinesename: 
+        name: "陈夏润"
+        level: "中危"
+        describe:
+
+      - title: "CNVD-2021-17446"
+        chinesename: 
+        name: "陈夏润"
+        level: "中危"
+        describe:
+      
+      - title: "CNVD-2021-17447"
+        chinesename: 
+        name: "陈夏润"
+        level: "中危"
+        describe:
+
+      - title: "CNVD-2021-13862"
+        chinesename: 
+        name: "陈夏润"
+        level: "中危"
+        describe:
+      
+      - title: "CNVD-2021-17448"
+        chinesename: 
+        name: "陈夏润"
+        level: "中危"
+        describe:
+
+appbug:
+    title: "应用软件漏洞"
+    text: 
+    item:
+      - title: "CNVD-2014-03822"
+        chinesename: 
+        name: "李轶夫等"
+        level: 
+        describe:
+        url: "/files/CNVD-YCGA-201406016872.pdf"
+        download: "CNVD-YCGA-201406016872.pdf"
+        kind : "软件漏洞"
+
+      - title: "CNVD-2016-06775"
+        chinesename: 
+        name: "顾子强等"
+        level: 
+        describe:
+        url: "/files/CNVD-YCGA-201608023522.pdf"
+        download: "CNVD-YCGA-201608023522.pdf"
+        kind : "软件漏洞"
+
+      - title: "CNVD-2016-06774"
+        chinesename: 
+        name: "顾子强等"
+        level: 
+        describe:
+        url: "/files/CNVD-YCGA-201608023623.pdf"
+        download: "CNVD-YCGA-201608023623.pdf"
+        kind : "软件漏洞"
+
+      - title: "CNVD-2018-03860"
+        chinesename: 
+        name: "文伟平等"
+        level: 
+        describe:
+        url: "/files/CNVD-YCGA-201802016041.pdf"
+        download: "CNVD-YCGA-201802016041.pdf"
+        kind : "软件漏洞"
+
+      - title: "CNVD-2018-03861"
+        chinesename: 
+        name: "文伟平等"
+        level: 
+        describe:
+        url: "/files/CNVD-YCGA-201802016939.pdf"
+        download: "CNVD-YCGA-201802016939.pdf"
+        kind : "软件漏洞"
+
+      - title: "CNVD-2018-05746"
+        chinesename: 
+        name: "杨芳芳等"
+        level: 
+        describe:
+        url: "/files/CNVD-YCGA-201803024455.pdf"
+        download: "CNVD-YCGA-201803024455.pdf"
+        kind : "软件漏洞"
+      
+      - title: "CNVD-2018-07370"
+        chinesename: 
+        name: "杨芳芳等"
+        level: 
+        describe:
+        url: "/files/CNVD-YCGA-201803062031.pdf"
+        download: "CNVD-YCGA-201803062031.pdf"
+        kind : "软件漏洞"
+
+      - title: "CNVD-2018-07367"
+        chinesename: 
+        name: "杨芳芳等"
+        level: 
+        describe:
+        url: "/files/CNVD-YCGA-201803062334.pdf"
+        download: "CNVD-YCGA-201803062334.pdf"
+        kind : "软件漏洞"
+      
+webdevbug:
+    title: "网络设备漏洞"
+    text: 
+    item:
+
+      - title: "CNVD-2013-15108"
+        chinesename: 
+        name: "王永刚等"
+        level: 
+        describe:
+        url: "/files/CNVD-YCGN-201312084293.pdf"
+        download: "CNVD-YCGN-201312084293.pdf"
+        kind : "网络设备漏洞"
+
+sysbug:
+    title: "操作系统漏洞"
+    text: 
+    item:
+      
+      - title: "Ms11-010 (CVE2011-0030)"
+        chinesename: 
+        name: 
+        level: 
+        describe:
+        kind : "操作系统漏洞"
+
+      - title: "Ms11-054 (CVE2011-1886)"
+        chinesename: 
+        name: 
+        level: 
+        describe:
+        kind : "操作系统漏洞"
+
+      - title: "Ms13-053 (CVE2013-3167)"
+        chinesename: 
+        name: 
+        level: 
+        describe:
+        kind : "操作系统漏洞"
+      
+      - title: "CNVD-2016-06776"
+        chinesename: 
+        name: "顾子强等"
+        level: 
+        describe:
+        url: "/files/CNVD-YCGO-201608023421.pdf"
+        download: "CNVD-YCGO-201608023421.pdf"
+        kind : "操作系统漏洞"
+
+      - title: "CNVD-2016-06773"
+        chinesename: 
+        name: "顾子强等"
+        level: 
+        describe:
+        url: "/files/CNVD-YCGO-201608023724.pdf"
+        download: "CNVD-YCGO-201608023724.pdf"
+        kind : "操作系统漏洞"
+        
 
 research:
     title: "科研项目"
@@ -1495,13 +1809,6 @@ patent:
         url: "/files/patent20.jpg"
         download: "一种面向Lua语言的加扰混淆方法和解密方法.jpg"
 
-      - title: "发现Windows操作系统漏洞5个"
-        source: 
-        number: "Ms11-010 (CVE2011-0030) <br> Ms11-054 (CVE2011-1886) <br> Ms13-053 (CVE2013-3167)"
-
-      - title: "应用软件安全漏洞24个"
-        source: "金山毒霸、QQ电脑管家、360安全沙箱"
-        number: 
       
 
 post:
