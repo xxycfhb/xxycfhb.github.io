@@ -585,70 +585,6 @@ currentstudent:
 vulnerability:
     title: "漏洞成果"
 
-blockchainbug:
-    title: "区块链漏洞"
-    text: 
-    item:
-      - title: "CNVD-2021-65610"
-        chinesename: "EnjinCoin存在其他漏洞"
-        name: "刘宇航"
-        level: "中危"
-        describe: "恩金币（ENJ）是一种基于Ethereum的加密货币，用于直接支持下一代NFT的价值。由于EnjinCoin合约中滥用了assert语句，导致调用者身份如果不符合owner条件，gas会被直接耗尽。该漏洞会过度消耗调用者gas费。"
-      
-      - title: "CNVD-2021-65607"
-        chinesename: "BGovToken存在逻辑缺陷漏洞"
-        name: "胡叶舟"
-        level: "中危"
-        describe: "合约中内部函数_writeCheckpoint函数中未对整数操作进行范围检查，导致其出现了整数溢出漏洞，整数溢出将会修改全局变量numCheckpoints的值。第825 行 _writeCheckpoint函数中，在839行代码numCheckpoints[delegatee] = nCheckpoints + 1;未对nCheckpoints + 1的范围进行检查，导致其会出现整数溢出。整数溢出后将会修改全部变量numCheckpoints[delegatee]的值。"
-
-      - title: "CNVD-2021-65608"
-        chinesename: "cheesemaker.farm存在逻辑缺陷漏洞"
-        name: "胡叶舟"
-        level: "中危"
-        describe: "合约中内部函数_writeCheckpoint函数中未对整数操作进行范围检查，导致其出现了整数溢出漏洞，整数溢出将会修改全局变量numCheckpoints的值。第601 行 _writeCheckpoint函数中，在615行代码numCheckpoints[delegatee] = nCheckpoints + 1;未对nCheckpoints + 1的范围进行检查，导致其会出现整数溢出。整数溢出后将会修改全部变量numCheckpoints[delegatee]的值。"
-
-      - title: "CNVD-2021-65609"
-        chinesename: "NUTS Token存在逻辑缺陷漏洞"
-        name: "胡叶舟"
-        level: "低危"
-        describe: "合约中外部函数multiTransfer，含有多次发送漏洞，第72行multiTransfer函数中在for循环体中调用了transfer多次，而transfer函数的参数是用户定义的，一旦定义的参数出错，可能导致multiTransfer整体执行失败。即在一个函数中执行多个地址的转账操作，会因为一个地址转账的失败，导致全部转账的失败。"
-
-      - title: "CNVD-2021-77817"
-        chinesename: "AdsharesToken存在逻辑缺陷漏洞"
-        name: "胡叶舟"
-        level: "低危"
-        describe: "【漏洞挖掘由国家重点研发计划课题2020YFB1005802支撑】 AdsharesToken项目的智能合约https://cn.etherscan.com/address/0x422866a8f0b032c5cf1dfbdef31a20f4509562b0#code 其合约中外部函数getSellPrice未对tokenPriceMin * _askSizeTokens的范围进行检查，导致出现整数溢出漏洞。"
-
-
-      - title: "CNVD-2021-77818"
-        chinesename: "dapMultisig存在逻辑缺陷漏洞"
-        name: "胡叶舟"
-        level: "低危"
-        describe: "重入漏洞：第191行 executeTxn函数中，如图，在dest.call.value(val)(dat)后面进行了账户余额的更改allowance = allowance - txn.value， 如果攻击者在回调函数中调用executeTxn，则可以重复执行dest.call.value()，最后才会更改账户余额，即能实现重入攻击。整数溢出漏洞：第191行 executeTxn函数中，在211行代码wallet.allowance = wallet.allowance - txn.value;未对wallet.allowance - txn.value的范围进行检查，导致其会出现整数溢出。整数溢出后将会修改全部变量wallet.allowance的值。"
-
-      - title: "CNVD-2021-77819"
-        chinesename: "ibaMultisig存在逻辑缺陷漏洞"
-        name: "胡叶舟"
-        level: "低危"
-        describe: "重入漏洞：第186行 executeTxn函数中，如图，在dest.call.value(val)(dat)后面进行了账户余额的更改allowance = allowance - txn.value， 如果攻击者在回调函数中调用executeTxn，则可以重复执行dest.call.value()，最后才会更改账户余额，即能实现重入攻击。整数溢出漏洞：第186行 executeTxn函数中，在207行代码wallet.allowance = wallet.allowance - txn.value;未对wallet.allowance - txn.value的范围进行检查，导致其会出现整数溢出。整数溢出后将会修改全部变量wallet.allowance的值。"
-
-      - title: "CNVD-2021-77820"
-        chinesename: "SafeMoon存在逻辑缺陷漏洞"
-        name: "胡叶舟"
-        level: "低危"
-        describe: "在项目的合约地址中https://bscscan.com/address/0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3#code，在474行lock函数中，第447行_lockTime = now + time。如果now + time很大，则导致函数返回结果出现整数溢出，实际显示数量较小。当该函数被外部函数geUnlockTime函数调用时，会显示错误。"
-
-      - title: "CNVD-2021-77822"
-        chinesename: "Phoswap Token gas存在逻辑缺陷漏洞"
-        name: "胡叶舟"
-        level: "低危"
-        describe: "【漏洞挖掘由科技部国家重点研发计划课题2020YFB1005802支撑】 代币合约freeze函数在多次调用的情况下，其gas消耗会逐渐增加，当gas消耗极大时，运行成本过高，当gas消耗超过区块gas上限时，该函数无法执行。"
-
-      - title: "CNVD-2021-77823"
-        chinesename: "Free Coin存在逻辑缺陷漏洞"
-        name: "胡叶舟"
-        level: "低危"
-        describe: "【漏洞挖掘由科技部国家重点研发计划课题2020YFB1005802支撑】 代币合约freeze函数在多次调用的情况下，其gas消耗会逐渐增加，当gas消耗极大时，运行成本过高，当gas消耗超过区块gas上限时，该函数无法执行。"
 
 webappbug:
     title: "web应用漏洞"
@@ -764,6 +700,71 @@ webappbug:
         level: "中危"
         describe:
 
+blockchainbug:
+    title: "区块链漏洞"
+    text: 
+    item:
+      - title: "CNVD-2021-65610"
+        chinesename: "EnjinCoin存在其他漏洞"
+        name: "刘宇航"
+        level: "中危"
+        describe: "恩金币（ENJ）是一种基于Ethereum的加密货币，用于直接支持下一代NFT的价值。由于EnjinCoin合约中滥用了assert语句，导致调用者身份如果不符合owner条件，gas会被直接耗尽。该漏洞会过度消耗调用者gas费。"
+      
+      - title: "CNVD-2021-65607"
+        chinesename: "BGovToken存在逻辑缺陷漏洞"
+        name: "胡叶舟"
+        level: "中危"
+        describe: "合约中内部函数_writeCheckpoint函数中未对整数操作进行范围检查，导致其出现了整数溢出漏洞，整数溢出将会修改全局变量numCheckpoints的值。第825 行 _writeCheckpoint函数中，在839行代码numCheckpoints[delegatee] = nCheckpoints + 1;未对nCheckpoints + 1的范围进行检查，导致其会出现整数溢出。整数溢出后将会修改全部变量numCheckpoints[delegatee]的值。"
+
+      - title: "CNVD-2021-65608"
+        chinesename: "cheesemaker.farm存在逻辑缺陷漏洞"
+        name: "胡叶舟"
+        level: "中危"
+        describe: "合约中内部函数_writeCheckpoint函数中未对整数操作进行范围检查，导致其出现了整数溢出漏洞，整数溢出将会修改全局变量numCheckpoints的值。第601 行 _writeCheckpoint函数中，在615行代码numCheckpoints[delegatee] = nCheckpoints + 1;未对nCheckpoints + 1的范围进行检查，导致其会出现整数溢出。整数溢出后将会修改全部变量numCheckpoints[delegatee]的值。"
+
+      - title: "CNVD-2021-65609"
+        chinesename: "NUTS Token存在逻辑缺陷漏洞"
+        name: "胡叶舟"
+        level: "低危"
+        describe: "合约中外部函数multiTransfer，含有多次发送漏洞，第72行multiTransfer函数中在for循环体中调用了transfer多次，而transfer函数的参数是用户定义的，一旦定义的参数出错，可能导致multiTransfer整体执行失败。即在一个函数中执行多个地址的转账操作，会因为一个地址转账的失败，导致全部转账的失败。"
+
+      - title: "CNVD-2021-77817"
+        chinesename: "AdsharesToken存在逻辑缺陷漏洞"
+        name: "胡叶舟"
+        level: "低危"
+        describe: "【漏洞挖掘由国家重点研发计划课题2020YFB1005802支撑】 AdsharesToken项目的智能合约https://cn.etherscan.com/address/0x422866a8f0b032c5cf1dfbdef31a20f4509562b0#code 其合约中外部函数getSellPrice未对tokenPriceMin * _askSizeTokens的范围进行检查，导致出现整数溢出漏洞。"
+
+
+      - title: "CNVD-2021-77818"
+        chinesename: "dapMultisig存在逻辑缺陷漏洞"
+        name: "胡叶舟"
+        level: "低危"
+        describe: "重入漏洞：第191行 executeTxn函数中，如图，在dest.call.value(val)(dat)后面进行了账户余额的更改allowance = allowance - txn.value， 如果攻击者在回调函数中调用executeTxn，则可以重复执行dest.call.value()，最后才会更改账户余额，即能实现重入攻击。整数溢出漏洞：第191行 executeTxn函数中，在211行代码wallet.allowance = wallet.allowance - txn.value;未对wallet.allowance - txn.value的范围进行检查，导致其会出现整数溢出。整数溢出后将会修改全部变量wallet.allowance的值。"
+
+      - title: "CNVD-2021-77819"
+        chinesename: "ibaMultisig存在逻辑缺陷漏洞"
+        name: "胡叶舟"
+        level: "低危"
+        describe: "重入漏洞：第186行 executeTxn函数中，如图，在dest.call.value(val)(dat)后面进行了账户余额的更改allowance = allowance - txn.value， 如果攻击者在回调函数中调用executeTxn，则可以重复执行dest.call.value()，最后才会更改账户余额，即能实现重入攻击。整数溢出漏洞：第186行 executeTxn函数中，在207行代码wallet.allowance = wallet.allowance - txn.value;未对wallet.allowance - txn.value的范围进行检查，导致其会出现整数溢出。整数溢出后将会修改全部变量wallet.allowance的值。"
+
+      - title: "CNVD-2021-77820"
+        chinesename: "SafeMoon存在逻辑缺陷漏洞"
+        name: "胡叶舟"
+        level: "低危"
+        describe: "在项目的合约地址中https://bscscan.com/address/0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3#code，在474行lock函数中，第447行_lockTime = now + time。如果now + time很大，则导致函数返回结果出现整数溢出，实际显示数量较小。当该函数被外部函数geUnlockTime函数调用时，会显示错误。"
+
+      - title: "CNVD-2021-77822"
+        chinesename: "Phoswap Token gas存在逻辑缺陷漏洞"
+        name: "胡叶舟"
+        level: "低危"
+        describe: "【漏洞挖掘由科技部国家重点研发计划课题2020YFB1005802支撑】 代币合约freeze函数在多次调用的情况下，其gas消耗会逐渐增加，当gas消耗极大时，运行成本过高，当gas消耗超过区块gas上限时，该函数无法执行。"
+
+      - title: "CNVD-2021-77823"
+        chinesename: "Free Coin存在逻辑缺陷漏洞"
+        name: "胡叶舟"
+        level: "低危"
+        describe: "【漏洞挖掘由科技部国家重点研发计划课题2020YFB1005802支撑】 代币合约freeze函数在多次调用的情况下，其gas消耗会逐渐增加，当gas消耗极大时，运行成本过高，当gas消耗超过区块gas上限时，该函数无法执行。"
+
 appbug:
     title: "应用软件漏洞"
     text: 
@@ -840,20 +841,6 @@ appbug:
         download: "CNVD-YCGA-201803062334.pdf"
         kind : "软件漏洞"
       
-webdevbug:
-    title: "网络设备漏洞"
-    text: 
-    item:
-
-      - title: "CNVD-2013-15108"
-        chinesename: 
-        name: "王永刚等"
-        level: 
-        describe:
-        url: "/files/CNVD-YCGN-201312084293.pdf"
-        download: "CNVD-YCGN-201312084293.pdf"
-        kind : "网络设备漏洞"
-
 sysbug:
     title: "操作系统漏洞"
     text: 
@@ -898,6 +885,20 @@ sysbug:
         download: "CNVD-YCGO-201608023724.pdf"
         kind : "操作系统漏洞"
         
+webdevbug:
+    title: "网络设备漏洞"
+    text: 
+    item:
+
+      - title: "CNVD-2013-15108"
+        chinesename: 
+        name: "王永刚等"
+        level: 
+        describe:
+        url: "/files/CNVD-YCGN-201312084293.pdf"
+        download: "CNVD-YCGN-201312084293.pdf"
+        kind : "网络设备漏洞"
+
 
 research:
     title: "科研项目"

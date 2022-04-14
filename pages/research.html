@@ -51,133 +51,109 @@ background: grey
     </div>
 
     <!-- web应用 -->
-    <h3 class="paperinfo paperinfotitle">{{ site.data.sitetext.webappbug.title }}</h3>
-    <table class="col-sm-12">
-      {% assign count = 0 %}
-      {% for bug in site.data.sitetext.webappbug.item %}
-        {% assign rowline = count | modulo:4 %}
-        {% if count == 0 %}
-        <tr>
-        {% elsif rowline == 0 %}
-        </tr>
-        <tr>
-        {% endif %}
+    <h3 class="col-sm-3  paperinfo paperinfotitle">&nbsp;&nbsp;{{ site.data.sitetext.webappbug.title }}</h3>
+    <div class="container">
+      <div class="row">
+        {% assign count = 0 %}
+        {% for bug in site.data.sitetext.webappbug.item %}
 
         <!-- item -->
         {% if bug.download %}
-        <td class="col-sm-3"><a href="{{ site.baseurl }}{{bug.url}}" download="{{bug.download}}"
-          style="color:rgb(86,174,200);font-weight: bold;">{{bug.title}}</a></td>
+        <div class="col-sm-3 "><a href="{{ site.baseurl }}{{bug.url}}" download="{{bug.download}}"
+            style="color:rgb(86,174,200);font-weight: bold;">{{bug.title}}</a></div>
         {% else %}
-        <td class="col-sm-3">{{bug.title}}</td>
+        <div class="col-sm-3 ">{{bug.title}}</div>
         {% endif %}
+
         {% assign count = count | plus: 1 %}
-      {% endfor %}
-      </tr>
-    </table>
+        {% endfor %}
+      </div>
+    </div>
     </br>
 
     <!-- 区块链 -->
-    <h3 class="paperinfo paperinfotitle">{{ site.data.sitetext.blockchainbug.title }}</h3>
-    <table class="col-sm-12">
-      {% assign count = 0 %}
-      {% for bug in site.data.sitetext.blockchainbug.item %}
-        {% assign rowline = count | modulo:4 %}
-        {% if count == 0 %}
-        <tr>
-        {% elsif rowline == 0 %}
-        </tr>
-        <tr>
-        {% endif %}
+    <h3 class="col-sm-3  paperinfo paperinfotitle">&nbsp;&nbsp;{{ site.data.sitetext.blockchainbug.title }}</h3>
+    <div class="container">
+      <div class="row">
+        {% assign count = 0 %}
+        {% for bug in site.data.sitetext.blockchainbug.item %}
 
         <!-- item -->
         {% if bug.download %}
-        <td class="col-sm-3"><a href="{{ site.baseurl }}{{bug.url}}" download="{{bug.download}}"
-          style="color:rgb(86,174,200);font-weight: bold;">{{bug.title}}</a></td>
+        <div class="col-sm-3 "><a href="{{ site.baseurl }}{{bug.url}}" download="{{bug.download}}"
+            style="color:rgb(86,174,200);font-weight: bold;">{{bug.title}}</a></div>
         {% else %}
-        <td class="col-sm-3">{{bug.title}}</td>
+        <div class="col-sm-3 ">{{bug.title}}</div>
         {% endif %}
+
         {% assign count = count | plus: 1 %}
-      {% endfor %}
-      </tr>
-    </table>
+        {% endfor %}
+      </div>
+    </div>
     </br>
 
     <!-- 应用软件 -->
-    <h3 class="paperinfo paperinfotitle">{{ site.data.sitetext.appbug.title }}</h3>
-    <table class="col-sm-12">
-      {% assign count = 0 %}
-      {% for bug in site.data.sitetext.appbug.item %}
-        {% assign rowline = count | modulo:4 %}
-        {% if count == 0 %}
-        <tr>
-        {% elsif rowline == 0 %}
-        </tr>
-        <tr>
-        {% endif %}
+   <h3 class="col-sm-3  paperinfo paperinfotitle">&nbsp;&nbsp;{{ site.data.sitetext.appbug.title }}</h3>
+    <div class="container">
+      <div class="row">
+        {% assign count = 0 %}
+        {% for bug in site.data.sitetext.appbug.item %}
 
         <!-- item -->
         {% if bug.download %}
-        <td class="col-sm-3"><a href="{{ site.baseurl }}{{bug.url}}" download="{{bug.download}}"
-          style="color:rgb(86,174,200);font-weight: bold;">{{bug.title}}</a></td>
+        <div class="col-sm-3 "><a href="{{ site.baseurl }}{{bug.url}}" download="{{bug.download}}"
+            style="color:rgb(86,174,200);font-weight: bold;">{{bug.title}}</a></div>
         {% else %}
-        <td class="col-sm-3">{{bug.title}}</td>
+        <div class="col-sm-3 ">{{bug.title}}</div>
         {% endif %}
+
         {% assign count = count | plus: 1 %}
-      {% endfor %}
-      </tr>
-    </table>
+        {% endfor %}
+      </div>
+    </div>
     </br>
 
     <!-- 系统漏洞 -->
-    <h3 class="paperinfo paperinfotitle">{{ site.data.sitetext.sysbug.title }}</h3>
-    <table class="col-sm-12">
-      {% assign count = 0 %}
-      {% for bug in site.data.sitetext.sysbug.item %}
-        {% assign rowline = count | modulo:4 %}
-        {% if count == 0 %}
-        <tr>
-        {% elsif rowline == 0 %}
-        </tr>
-        <tr>
-        {% endif %}
+    <h3 class="col-sm-3  paperinfo paperinfotitle">&nbsp;&nbsp;{{ site.data.sitetext.sysbug.title }}</h3>
+    <div class="container">
+      <div class="row">
+        {% assign count = 0 %}
+        {% for bug in site.data.sitetext.sysbug.item %}
 
         <!-- item -->
         {% if bug.download %}
-        <td class="col-sm-3"><a href="{{ site.baseurl }}{{bug.url}}" download="{{bug.download}}"
-          style="color:rgb(86,174,200);font-weight: bold;">{{bug.title}}</a></td>
+        <div class="col-sm-3 "><a href="{{ site.baseurl }}{{bug.url}}" download="{{bug.download}}"
+            style="color:rgb(86,174,200);font-weight: bold;">{{bug.title}}</a></div>
         {% else %}
-        <td class="col-sm-3">{{bug.title}}</td>
+        <div class="col-sm-3 ">{{bug.title}}</div>
         {% endif %}
+
         {% assign count = count | plus: 1 %}
-      {% endfor %}
-      </tr>
-    </table>
+        {% endfor %}
+      </div>
+    </div>
     </br>
 
     <!-- 网络设备 -->
-    <h3 class="paperinfo paperinfotitle">{{ site.data.sitetext.webdevbug.title }}</h3>
-    <table class="col-sm-12">
-      {% assign count = 0 %}
-      {% for bug in site.data.sitetext.webdevbug.item %}
-        {% assign rowline = count | modulo:4 %}
-        {% if count == 0 %}
-        <tr>
-        {% elsif rowline == 0 %}
-        </tr>
-        <tr>
-        {% endif %}
+    <h3 class="col-sm-3  paperinfo paperinfotitle">&nbsp;&nbsp;{{ site.data.sitetext.webdevbug.title }}</h3>
+    <div class="container">
+      <div class="row">
+        {% assign count = 0 %}
+        {% for bug in site.data.sitetext.webdevbug.item %}
 
         <!-- item -->
         {% if bug.download %}
-        <td class="col-sm-3"><a href="{{ site.baseurl }}{{bug.url}}" download="{{bug.download}}"
-          style="color:rgb(86,174,200);font-weight: bold;">{{bug.title}}</a></td>
+        <div class="col-sm-3 "><a href="{{ site.baseurl }}{{bug.url}}" download="{{bug.download}}"
+            style="color:rgb(86,174,200);font-weight: bold;">{{bug.title}}</a></div>
         {% else %}
-        <td class="col-sm-3">{{bug.title}}</td>
+        <div class="col-sm-3 ">{{bug.title}}</div>
         {% endif %}
+
         {% assign count = count | plus: 1 %}
-      {% endfor %}
-      </tr>
-    </table>
+        {% endfor %}
+      </div>
+    </div>
+    </br>
 
   </div>
 </section>
@@ -193,30 +169,25 @@ background: grey
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.research.text | default: "" }}</h3>
       </div>
     </div>
-  
+
     <!-- Content -->
-    <table >
+    <div class="container">
+      <div class="row">
       {% assign count = 0 %}
       {% for research in site.data.sitetext.research.item %}
-        {% assign rowline = count | modulo:2 %}
-        {% if count == 0 %}
-        <tr>
-        {% elsif rowline == 0 %}
-        </tr>
-        <tr>
-        {% endif %}
-  
+     
+
         <!-- item -->
         {% assign count = count | plus: 1 %}
-        <td class="col-sm-6">
+        <div class="col-sm-6">
           <h3 class="paperinfo paperinfotitle">{{count}}. {{research.title}}</h3>
           <p class="paperinfo paperinfoname">{{research.source}}</p>
           <p class="paperinfo paperinfoagency">{{research.period}}</p>
-        </td>
-    
-      {% endfor %}
-      </tr>
-    </table>
-    
+        </div>
+
+        {% endfor %}
+      </div>
+    </div>
+
   </div>
 </section>
