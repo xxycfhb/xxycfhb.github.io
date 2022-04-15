@@ -1652,8 +1652,7 @@ patent:
         source: "国家知识产权局发明专利"
         number: "专利授权号：CN201810649997.1，2021年9月24日"
         success: true
-        url: "/files/patent7.pdf"
-        download: "基于RASP区分后台线程权限与UI线程权限的方法.pdf"
+   
 
       - title: "文伟平、杨晓琪，一种基于权限集差异的应用程序越权检测方法"
         source: "国家知识产权局发明专利"
@@ -1666,8 +1665,7 @@ patent:
         source: "国家知识产权局发明专利"
         number: "专利授权号：CN201810612344.6，2021年9月24日"
         success: true
-        url: "/files/patent9.pdf"
-        download: "一种基于RASP的PHP变形webshell的检测方法及系统.pdf"
+ 
 
       - title: "文伟平、李经纬，一种基于贝叶斯网的恶意文档检测方法及装置"
         source: "国家知识产权局发明专利"
@@ -1698,8 +1696,7 @@ patent:
         source: "国家知识产权局发明专利"
         number: "专利授权号：CN201810527915.6，2018年5月29日"
         success: true
-        url: "/files/patent13.pdf"
-        download: "基于图相似度分析的webshell检测方法及系统.pdf"
+
 
       - title: "文伟平、李燈辉，一种应用于私人空间入口的智能物品交互系统及方法"
         source: "国家知识产权局发明专利"
@@ -1786,29 +1783,25 @@ patent:
         source: "国家知识产权局发明专利"
         number: "专利授权号：CN201610034627.8，2016年1月19日"
         success: true
-        url: "/files/patent17.jpg"
-        download: "一种Android系统的应用程序的加固方法.jpg"
+  
 
       - title: "文伟平，一种基于Android可执行文件重组的加固方法"
         source: "国家知识产权局发明专利"
         number: "专利授权号：CN201610032328.0 ，2016年1月19日"
         success: true
-        url: "/files/patent18.jpg"
-        download: "一种基于Android可执行文件重组的加固方法.jpg"
+ 
 
       - title: "文伟平，一种基于APK加壳软件动态行为的查壳方法"
         source: "国家知识产权局发明专利"
         number: "专利授权号：CN201510740551.6，2015年11月4日"
         success: true
-        url: "/files/patent19.jpg"
-        download: "一种基于APK加壳软件动态行为的查壳方法.jpg"
+
 
       - title: "文伟平，一种面向Lua语言的加扰混淆方法和解密方法"
         source: "国家知识产权局发明专利"
         number: "专利授权号：CN201510740424.6，2015年11月4日"
         success: true
-        url: "/files/patent20.jpg"
-        download: "一种面向Lua语言的加扰混淆方法和解密方法.jpg"
+  
 
       
 
