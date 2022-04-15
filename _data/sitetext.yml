@@ -236,7 +236,7 @@ graduate:
         alt: 
 
       - title: "孟辉 - 2015届校友"
-        post: "中国刑事警察学院讲师"
+        post: "中国刑事警察学院 副教授"
         desc: 
         image: ../assets/img/timeline/menghui.png
         alt: 
@@ -426,7 +426,7 @@ graduate:
         alt: 
 
       - title: "刘洪毅 - 2021届校友"
-        post: "于北京大学攻读博士学位"
+        post: "现于北京大学攻读博士学位"
         desc: 
         image: ../assets/img/timeline/liuhongyi.png
         alt: 
@@ -597,7 +597,7 @@ vulnerability:
 
 
 webappbug:
-    title: "web应用漏洞"
+    title: "Web漏洞"
     text: 
     item:      
       - title: "CNVD-2021-12762"
@@ -1020,7 +1020,7 @@ textbook:
       - title: "蒋建春，文伟平，杨凡，郑生琳编著,《计算机网络信息安全理论与实践教程》"
         name: "该书获2009年中国电子教育学会优秀教材二等奖，工信部教育与考试中心 “网络信息安全工程师高级职业教育”专用教材，被引用58次"
         source: "北京邮电大学出版社. ISBN：9787563515899. 2008.5."
-        url: "https://item.jd.com/10030218565004.html"
+        url: "https://item.jd.com/10044649452013.html"
       
       - title: "王昭，文伟平，王永刚等译,《计算机安全——原理与实践》"
         name: "全书共24章，约99万1千字，文伟平教授译其中6-16章的内容，并负责全书的初审和统稿"
