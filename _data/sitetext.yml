@@ -156,6 +156,11 @@ graduate:
         desc:
         image: ../assets/img/timeline/lulilei.png
 
+      - title: "陈瑾 - 2011届校友"
+        post: "Cornerstone OnDemand 高级软件工程师"
+        desc:
+        image: ../assets/img/timeline/cj.png
+
       - title: "卢康杰 - 2012届校友"
         post: "明尼苏达大学教授"
         desc: "研究兴趣包括安全性和隐私，程序分析和操作系统。硕士期间曾赴新加坡管理大学任研究助理，于美国佐治亚理工学院攻读计算机科学博士，曾作为访问学者前往德国马克斯普朗克研究所。"
