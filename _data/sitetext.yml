@@ -182,12 +182,6 @@ graduate:
         image: ../assets/img/timeline/liqien.png
         alt:
 
-      - title: "谌力 - 2013届校友"
-        post: "华为"
-        desc: 
-        image: ../assets/img/timeline/shenli.png
-        alt:
-
       - title: "吴钦 - 2013届校友"
         post: "南通市公安局科技信息化处"
         desc: 
@@ -255,6 +249,12 @@ graduate:
         image: ../assets/img/timeline/qc.png
         alt: 
         blog: "http://mohamoha.club/"
+
+      - title: "谌力 - 2016届校友"
+        post: "华为"
+        desc: 
+        image: ../assets/img/timeline/shenli.png
+        alt:
 
       - title: "胡殿坤 - 2016届校友"
         post: "民生科技"
