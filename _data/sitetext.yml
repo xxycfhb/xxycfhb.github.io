@@ -581,6 +581,9 @@ team:
         role: "链上交易溯源技术研究负责人"
         image: ../assets/img/team/lyh.png
         social:
+          - url: https://mirror.xyz/0x7902f45e8DA67B106f3DA2e3231987b846bf13b7
+            icon: fab fa-gratipay
+
           
 
       - name: "王晗"
