@@ -1,1 +1,54 @@
+---
+layout: post
+title: "学术报告"
+subtitle: '公链速度之王-Solana'
+date: 2022.8.19
+host: "杨硕"
+digest: "本次组会介绍了区块链结构及其设计原理、分析了Solana的扩容机制、总结了Solana的的优缺点和前景。"
+permalink: /:categories/:year/:month/:day/:title
+categories:
+  - seminar
+---
+## 公链速度之王-Solana
 
+## 1. 区块链结构及其设计原理
+银行总账和区快链总账
+
+在设计的过程中遇到的问题
+
+哈希函数和公开总账本的安全性
+
+推理区块链结构
+
+## 2. Solana的扩容机制
+比特币、以太坊等区块链的弊端
+
+以太坊和Solana最本质的区别
+
+Solana系统架构、共识机制、区块链传输流程
+
+设计选择总结
+
+Solana出块流程简述
+
+Solana扩容机制细解
+
+通过确定的领导节点轮换减少冗余度
+
+Gulf Stream与网络宕机
+
+类似BT种子的Turbine传输协议
+
+PoH（历史证明）
+
+全网一致的时间推进
+
+针对节点本身的纵向扩容
+
+Solana的弊端
+
+## 3. 总结
+
+
+
+[本次组会内容下载链接](https://github.com/desperate08/DevPos/blob/master/DevOps-main/seminar/%E5%85%AC%E9%93%BESolana.pdf)
