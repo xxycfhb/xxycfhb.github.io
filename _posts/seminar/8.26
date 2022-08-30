@@ -1,54 +1,42 @@
 ---
 layout: post
 title: "学术报告"
-subtitle: '公链速度之王-Solana'
-date: 2022.8.19
-host: "杨硕"
-digest: "本次组会介绍了区块链结构及其设计原理、分析了Solana的扩容机制、总结了Solana的的优缺点和前景。"
+subtitle: 'Wireless Charging Power Side-Channel Attacks'
+date: 2022.8.26
+host: "吕子晗"
+digest: "本次组会介绍了侧信道攻击、无线充电的知识，例举了其他攻击的例子，以及对本篇论文的内容进行了解析。"
 permalink: /:categories/:year/:month/:day/:title
 categories:
   - seminar
 ---
-## 公链速度之王-Solana
+## Wireless Charging Power Side-Channel Attacks
 
-## 1. 区块链结构及其设计原理
-银行总账和区快链总账
+## 1. 侧信道攻击
 
-在设计的过程中遇到的问题
+侧信道攻击(SCA)
 
-哈希函数和公开总账本的安全性
+Timing Attack
 
-推理区块链结构
+Power Attack 
 
-## 2. Solana的扩容机制
-比特币、以太坊等区块链的弊端
+## 2. 无线充电
 
-以太坊和Solana最本质的区别
+Qi Standard
 
-Solana系统架构、共识机制、区块链传输流程
+电池充电周期
 
-设计选择总结
+SoC(State of Charge)
 
-Solana出块流程简述
+## 3. 利用无线充电侧信道的其他攻击手段
 
-Solana扩容机制细解
+估算密码长度
 
-通过确定的领导节点轮换减少冗余度
+OLED屏幕功耗
 
-Gulf Stream与网络宕机
+音频指纹
 
-类似BT种子的Turbine传输协议
-
-PoH（历史证明）
-
-全网一致的时间推进
-
-针对节点本身的纵向扩容
-
-Solana的弊端
-
-## 3. 总结
+加密算法攻击
 
 
 
-[本次组会内容下载链接](https://github.com/desperate08/DevPos/blob/master/DevOps-main/seminar/%E5%85%AC%E9%93%BESolana.pdf)
+[本次组会内容下载链接](https://github.com/desperate08/DevPos/blob/master/DevOps-main/seminar/%E6%97%A0%E7%BA%BF%E5%85%85%E7%94%B5%E5%99%A8%E4%BE%A7%E4%BF%A1%E9%81%93%E6%94%BB%E5%87%BB_Ryo.pdf)
