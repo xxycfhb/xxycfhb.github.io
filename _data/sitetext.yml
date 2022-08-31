@@ -26,7 +26,8 @@ timeline:
     section: timeline
     events:
       - title: "陈夏润 - 2019级"
-        post: "雁翎网卫创始人兼北京大学2022级博士生"
+        post: "雁翎网卫创始人，董事长兼CEO"
+        post: "北京大学2022级博士研究生"
         desc: "研究方向为静态漏洞挖掘、浏览器安全与Web渗透测试。发表多篇学术论文，并获得CCF B类会议DSN 2020 Best Paper Award。多次参加Geekpwn等国际知名极客赛事，并取得优异成绩。Web渗透与漏洞挖掘经验丰富，先后挖掘Baidu、Lark、Cloudflare等知名互联网厂商漏洞，拥有十余个漏洞编号。"
         image: ../assets/img/timeline/chen.png
         alt:
