@@ -417,7 +417,14 @@ graduate:
         desc: 
         image: ../assets/img/timeline/lbb.png
         alt: 
-
+        
+      - title: "杨晓琪 - 2020届校友"
+        post: "赛迪研究院 副总经理"
+        desc: 
+        image: ../assets/img/timeline/yangxiaoqi.png
+        alt: 
+        
+        
       - title: "张逸然 - 2021届校友"
         post: "华为"
         desc: 
