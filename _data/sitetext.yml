@@ -1047,11 +1047,47 @@ paper:
     text: 
     item:
 
+      - title: "基于ＬＳＴＭ 的Ｌｉｎｕｘ系统下 ＡＰＴ攻击检测研究"
+        name: "时 林,时绍森,文伟平"
+        source: "信息安全研究，(2022)"
+        url: "/files/paper96.pdf"
+        download: "基于ＬＳＴＭ 的Ｌｉｎｕｘ系统下 ＡＰＴ攻击检测研究.pdf"
+
+      - title: "基于符号执行的代币买卖漏洞和权限转移漏洞的检测验证方法"
+        name: "刘宇航,刘军杰,文伟平"
+        source: "信息安全研究，(2022)"
+        url: "/files/paper95.pdf"
+        download: "基于符号执行的代币买卖漏洞和权限转移漏洞的检测验证方法.pdf"
+
+      - title: "高安全等级系统抗攻击能力测评研究"
+        name: "蒋建春，文伟平，胡陈勇"
+        source: "信息安全研究，(2022)"
+        url: "/files/paper94.pdf"
+        download: "高安全等级系统抗攻击能力测评研究.pdf"
+
+      - title: "虚拟机软件保护技术综述"
+        name: "李成扬，陈夏润，张汉，文伟平"
+        source: "信息安全研究，(2022)"
+        url: "/files/paper93.pdf"
+        download: "虚拟机软件保护技术综述.pdf"
+
+      - title: "改进的基于底层虚拟机混淆器的指令混淆框架"
+        name: "王雅仪，刘琛，黄天波，文伟平"
+        source: "计算机应用(CCF C)，ISSN 1001-9081,CN 51-1307/TP"
+        url: "/files/paper92.pdf"
+        download: "改进的基于底层虚拟机混淆器的指令混淆框架.pdf"
+
+      - title: "LLVM 中间语言的控制流混淆方案"
+        name: "李成扬，黄天波，陈夏润，文伟平"
+        source: "计算机工程与应用(CCF C)，ISSN 1002-8331,CN 11-2127/TP"
+        url: "/files/paper91.pdf"
+        download: "LLVM 中间语言的控制流混淆方案.pdf"
+
       - title: "基于底层虚拟机的标识符混淆方法"
-          name: "田大江，李成扬，黄天波，文伟平"
-          source: "计算机应用，2022，42(8)"
-          url: "/files/paper90.pdf"
-          download: "基于底层虚拟机的标识符混淆方法.pdf"
+        name: "田大江，李成扬，黄天波，文伟平"
+        source: "计算机应用(CCF C)，2022，42(8)"
+        url: "/files/paper90.pdf"
+        download: "基于底层虚拟机的标识符混淆方法.pdf"
 
       - title: "Automatically Constructing Peer Slices via Semantic- and Context-Aware Security Checks in the Linux Kernel"
         name: "Yongzhi Liu, Xiarun Chen, Zhou Yang, Weiping Wen"
