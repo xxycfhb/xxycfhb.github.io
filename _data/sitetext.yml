@@ -1047,6 +1047,12 @@ paper:
     text: 
     item:
 
+      - title: "基于底层虚拟机的标识符混淆方法"
+          name: "田大江，李成扬，黄天波，文伟平"
+          source: "计算机应用，2022，42(8)"
+          url: "/files/paper90.pdf"
+          download: "基于底层虚拟机的标识符混淆方法.pdf"
+
       - title: "Automatically Constructing Peer Slices via Semantic- and Context-Aware Security Checks in the Linux Kernel"
         name: "Yongzhi Liu, Xiarun Chen, Zhou Yang, Weiping Wen"
         source: "Application of Intelligent Technology in Security 2021 (CCF B DSN-W)"
