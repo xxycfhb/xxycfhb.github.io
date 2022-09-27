@@ -1047,7 +1047,7 @@ paper:
     text: 
     item:
 
-      - title: "基于LSTM 的Linux系统下 ＡＰＴ攻击检测研究"
+      - title: "基于LSTM 的Linux系统下APT攻击检测研究"
         name: "时 林,时绍森,文伟平"
         source: "信息安全研究，(2022)"
         url: "/files/paper96.pdf"
