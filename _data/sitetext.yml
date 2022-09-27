@@ -1048,26 +1048,26 @@ paper:
     item:
 
       - title: "基于LSTM 的Linux系统下APT攻击检测研究"
-        name: "时 林,时绍森,文伟平"
-        source: "信息安全研究，(2022)"
+        name: "时 林，时绍森，文伟平"
+        source: "信息安全研究，(2022),DOI:10.12379/j.issn.2096-1057.2022.08.01"
         url: "/files/paper96.pdf"
         download: "基于LSTM的Linux系统下APT攻击检测研究.pdf"
 
       - title: "基于符号执行的代币买卖漏洞和权限转移漏洞的检测验证方法"
-        name: "刘宇航,刘军杰,文伟平"
-        source: "信息安全研究，(2022)"
+        name: "刘宇航，刘军杰，文伟平"
+        source: "信息安全研究，(2022),DOI:10.12379/j.issn.2096-1057.2022.07.01"
         url: "/files/paper95.pdf"
         download: "基于符号执行的代币买卖漏洞和权限转移漏洞的检测验证方法.pdf"
 
       - title: "高安全等级系统抗攻击能力测评研究"
         name: "蒋建春，文伟平，胡陈勇"
-        source: "信息安全研究，(2022)"
+        source: "信息安全研究，(2022),DOI:10.12379/j.issn.2096-1057.2022.07.04"
         url: "/files/paper94.pdf"
         download: "高安全等级系统抗攻击能力测评研究.pdf"
 
       - title: "虚拟机软件保护技术综述"
         name: "李成扬，陈夏润，张汉，文伟平"
-        source: "信息安全研究，(2022)"
+        source: "信息安全研究，(2022),DOI:10.12379/j.issn.2096-1057.2022.07.05"
         url: "/files/paper93.pdf"
         download: "虚拟机软件保护技术综述.pdf"
 
