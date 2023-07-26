@@ -785,6 +785,24 @@ blockchainbug:
         level: "低危"
         describe: "【漏洞挖掘由科技部国家重点研发计划课题2020YFB1005802支撑】 代币合约freeze函数在多次调用的情况下，其gas消耗会逐渐增加，当gas消耗极大时，运行成本过高，当gas消耗超过区块gas上限时，该函数无法执行。"
 
+      - title: "CNVD-2023-25937"
+        chinesename: "Pharma Network合约链码存在逻辑缺陷漏洞"
+        name: "方莹"
+        level: "中危"
+        describe: "【漏洞挖掘由科技部国家重点研发计划课题2020YFB1005802支撑】 Pharma Network存在逻辑缺陷漏洞，攻击者可利用该漏洞导致其调用结果出现数据不一致，最终导致链码调用失败。"
+
+      - title: "CNVD-2023-25938"
+        chinesename: "Evote-Fabric合约链码存在逻辑缺陷漏洞"
+        name: "方莹"
+        level: "中危"
+        describe: "【漏洞挖掘由科技部国家重点研发计划课题2020YFB1005802支撑】 Evote-Fabric存在逻辑缺陷漏洞，攻击者可利用该漏洞导致其调用结果出现数据不一致，最终导致链码调用失败。"
+
+      - title: "CNVD-2023-25939"
+        chinesename: "BlockTrack合约链码存在逻辑缺陷漏洞"
+        name: "方莹"
+        level: "中危"
+        describe: "【漏洞挖掘由科技部国家重点研发计划课题2020YFB1005802支撑】 BlockTrack存在逻辑缺陷漏洞，攻击者可利用该漏洞导致其调用结果出现数据不一致，最终导致链码调用失败。"
+
 appbug:
     title: "应用软件漏洞"
     text: 
