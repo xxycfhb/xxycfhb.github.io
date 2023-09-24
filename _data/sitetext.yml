@@ -1041,6 +1041,18 @@ textbook:
     title: "出版著作"
     text: 
     item:
+      - title: "Considerations on Evaluation of Practical Cloud Data Protection"
+        name: "Rui Mei，Han-Bing Yan，Yongqiang He，Qinqin Wang，Shengqiang Zhu，Weiping Wen"
+        source: "Cyber Security: 19th China Annual Conference. 2020.[EI]"
+        url: "/files/paper98.pdf"
+        download: "Considerations on Evaluation of Practical Cloud Data Protection.pdf"
+
+      - title: "基于数据流追溯的空指针引用挖掘系统"
+        name: "文伟平，刘成杰，时林"
+        source: "信息网络安全  2022,22(9):40-45. DOI: 10.3969/j.issn.1671-1122.2022.09.005"
+        url: "/files/paper97.pdf"
+        download: "基于数据流追溯的空指针引用挖掘系统.pdf"
+        
       - title: "文伟平编著,《网络攻防原理及应用》"
         name: "北京大学软件与微电子学院课程《网络攻击与防范》配套教材"
         source: "清华大学出版社. ISBN：9787302466925. 2017.3"
@@ -1643,7 +1655,11 @@ patent:
     title: "专利成果"
     text: 
     item:
-      
+
+      - title: "文伟平 彭婷 陈夏润，一种基于区块链和数字人民币的医疗数据共享体系架构"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：202211713901.6，2022年12月29日"
+        
       - title: "文伟平、刘成杰，一种基于数据流传播分析的Java空指针引用检测方法及系统"
         source: "国家知识产权局发明专利"
         number: "专利申请号：202210202341.1，2022年3月3日"
