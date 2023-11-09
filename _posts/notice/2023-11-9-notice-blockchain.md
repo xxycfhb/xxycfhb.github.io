@@ -2,7 +2,7 @@
 layout: post
 title: 通知公告
 subtitle: '【学子风采】祝贺李锦凯同学在ETHhangzhou区块链黑客松中，荣获零知识证明赛道二等奖！'
-date: 2023.10.15
+date: 2023.10.18
 permalink: /:categories/:year/:month/:day/:title
 categories:
   - notice
