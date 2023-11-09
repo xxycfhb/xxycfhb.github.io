@@ -9,7 +9,10 @@ categories:
 ---
 
 在由北京大学区块链协会和浙江大学区块链协会主办的ETHhangzhou区块链黑客松中，北京大学软件安全研究小组的李锦凯参加了此次比赛，获得零知识证明赛道的二等奖奖荣誉。
-
-![image-20231109160419788](C:\Users\10986\AppData\Roaming\Typora\typora-user-images\image-20231109160419788.png)
+参赛作品为ZK-dice，利用零知识证明解决方案解决传统骰子博弈中的信任问题
+<div align=center>
+<img src="" width="600px" height="400px"/>
+</div>
+<br/>
 
 期待更多对安全研究小组有兴趣的小伙伴们加入我们实验室~
