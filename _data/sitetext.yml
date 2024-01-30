@@ -530,8 +530,8 @@ team:
         role: "静态分析课题负责人"
         image: ../assets/img/team/chen.png
         social:
-          - url: https://www.xiaozzz.xyz/
-            icon: fab fa-gratipay
+          # - url: https://www.xiaozzz.xyz/
+          #   icon: fab fa-gratipay
           - url: https://github.com/xiaoZ-hc
             icon: fab fa-github
 
