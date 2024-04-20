@@ -1071,6 +1071,12 @@ paper:
         url: "/files/paper98.pdf"
         download: "Considerations on Evaluation of Practical Cloud Data Protection.pdf"
 
+      - title: "针对品牌的网络钓鱼扩线与检测方案"
+        name: "文伟平, 朱一帆, 吕子晗, 刘成杰"
+        source: "信息网络安全  2023,23(12):1-9. DOI: 10.3969/j.issn.1671-1122.2023.12.001"
+        url: "/files/paper98.pdf"
+        download: "针对品牌的网络钓鱼扩线与检测方案.pdf"
+
       - title: "基于数据流追溯的空指针引用挖掘系统"
         name: "文伟平，刘成杰，时林"
         source: "信息网络安全  2022,22(9):40-45. DOI: 10.3969/j.issn.1671-1122.2022.09.005"
@@ -1653,6 +1659,10 @@ patent:
     title: "专利成果"
     text: 
     item:
+
+      - title: "文伟平 王雅仪 刘琛 李成扬 方莹，一种基于LLVM的指令加花混淆方法及装置"
+        source: "国家知识产权局发明专利"
+        number: "专利申请号：202211713901.6，2022年12月29日"
 
       - title: "文伟平 彭婷 陈夏润，一种基于区块链和数字人民币的医疗数据共享体系架构"
         source: "国家知识产权局发明专利"
