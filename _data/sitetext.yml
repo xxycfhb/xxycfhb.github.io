@@ -14,11 +14,11 @@ portfolio:
 middlecolumn:
     titleleft: 学术报告
     urlleft: pages/seminar.html
-    titlemiddle: 通知公告
-    urlmiddle: pages/notice.html
+    titlemiddle: 发表论文
+    urlmiddle: pages/paper.html
+    titleright: 专利成果
+    urlright: pages/patent.html
     titlereadmore: 更多…
-    titleright: 站点访问统计
-    
 
 timeline:
     title: "历届组长" 
