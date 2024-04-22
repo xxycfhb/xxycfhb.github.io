@@ -1065,11 +1065,17 @@ paper:
     title: "发表论文"
     text: 
     item:
-      - title: "Considerations on Evaluation of Practical Cloud Data Protection"
-        name: "Rui Mei，Han-Bing Yan，Yongqiang He，Qinqin Wang，Shengqiang Zhu，Weiping Wen"
-        source: "Cyber Security: 19th China Annual Conference. 2020.[EI]"
-        url: "/files/paper98.pdf"
-        download: "Considerations on Evaluation of Practical Cloud Data Protection.pdf"
+      
+      - title: "Improved capsule networks based on Nash equilibrium for malicious code classification"
+        name: "Meng Wang, Yahao Zhang, WeiPing Wen"
+        source: "Computers & Security  Jan. 2024, 103503. DOI:10.1016/j.cose.2023.103503"
+        url: "https://doi.org/10.1016/j.cose.2023.103503"
+
+      - title: "Finding Missing Security Operation Bugs via Program Slicing and Differential Check"
+        name: "Yeqi Fu, Yongzhi Liu, Qian Zhang, Zhou Yang, Xiarun Chen, Chenglin Xie, Weiping Wen"
+        source: "Information and Communications Security  2023:702–718. DOI:10.1007/978-981-99-7356-9_41"
+        url: "https://doi.org/10.1007/978-981-99-7356-9_41"
+      
 
       - title: "针对品牌的网络钓鱼扩线与检测方案"
         name: "文伟平, 朱一帆, 吕子晗, 刘成杰"
@@ -1160,6 +1166,13 @@ paper:
         source: "信息网络安全, 2021,21(07)"
         url: "/files/paper85.pdf"
         download: "一种对抗符号执行的代码混淆系统.pdf"
+
+      - title: "Considerations on Evaluation of Practical Cloud Data Protection"
+        name: "Rui Mei，Han-Bing Yan，Yongqiang He，Qinqin Wang，Shengqiang Zhu，Weiping Wen"
+        source: "Cyber Security: 19th China Annual Conference. 2020.[EI]"
+        url: "/files/paper98.pdf"
+        download: "Considerations on Evaluation of Practical Cloud Data Protection.pdf"
+
         
       - title: "一种语义感知的安全检查检测方法"
         name: "方宇彤,刘洪毅,李经纬,文伟平"
