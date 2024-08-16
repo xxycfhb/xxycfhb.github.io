@@ -26,13 +26,13 @@
 <section class="bg-light page-section" style="padding-top: 0rem;">
 	<div class="container">
 		<div class="row">
-			<!--seminar-->
+			<!--Paper-->
 			<div class="col-md-4 col-sm-6 " style="text-align: center;">
 				<br>
 				<br>
 				<h2 class="section-heading text-uppercase">{{ site.data.sitetext.middlecolumn.titleleft}}</h2>
 				<br>
-				{% for post in site.categories.seminar limit:3 %}
+				{% for post in site.categories.paper limit:3 %}
 				<a class="itemname" href="{{site.baseurl}}{{post.url}}">{{post.subtitle}}</a>
 				<p class="itemdate">——{{post.date| date: "%Y.%m.%-d  "}}</p>
 				{% endfor%}
@@ -40,13 +40,13 @@
 				<a href="{{ site.data.sitetext.middlecolumn.urlmiddle}}" class="morelist" >{{ site.data.sitetext.middlecolumn.titlereadmore}}</a>
 			</div>
 			
-			<!--notice-->
+			<!--Patent-->
 			<div class="col-md-4 col-sm-6 " style="text-align: center;">
 				<br>
 				<br>
 				<h2 class="section-heading text-uppercase">{{ site.data.sitetext.middlecolumn.titlemiddle}}</h2>
 				<br>
-				{% for post in site.categories.notice limit:3 %}
+				{% for post in site.categories.patent limit:3 %}
 				<a class="itemname" href="{{site.baseurl}}{{post.url}}">{{post.subtitle}}</a>
 				<p class="itemdate">——{{post.date| date: "%Y.%m.%-d  "}}</p>
 				{% endfor%}
@@ -54,7 +54,7 @@
 				<!-- <a href="{{ site.data.sitetext.middlecolumn.urlmiddle}}" class="morelist" >{{ site.data.sitetext.middlecolumn.titlereadmore}}</a> -->
 			</div>			
 			
-			<!--map-->
+			<!--Notice-->
 			<div class="col-md-4 col-sm-6 " style="text-align: center;">
 				<br>
 				<br>
