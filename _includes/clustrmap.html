@@ -47,7 +47,7 @@
 				<h2 class="section-heading text-uppercase">{{ site.data.sitetext.middlecolumn.titlemiddle}}</h2>
 				<br>
 				{% for post in site.data.sitetext.patent.item limit:3 %}
-				<p class="itemname" href="{{site.baseurl}}{{post.url}}">{{post.title}}</p>
+				<a class="itemname" href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
 				<p class="itemdate">——{{post.number}}</p>
 				{% endfor%}
 				<br>
