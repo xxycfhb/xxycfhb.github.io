@@ -34,8 +34,7 @@
 				<br>
 				{% for paper in site.data.sitetext.paper.item limit:3 %}
 				<a class="itemname" href="{{site.baseurl}}{{paper.url}}">{{paper.title}}</a>
-				<p> </p>
-				<!-- <p class="itemdate">——{{post.date| date: "%Y.%m.%-d  "}}</p> -->
+				<p class="itemdate">——{{paper.name}}</p> 
 				{% endfor%}
 				<br>
 				<a href="{{ site.data.sitetext.middlecolumn.urlleft}}" class="morelist" >{{ site.data.sitetext.middlecolumn.titlereadmore}}</a>
@@ -49,7 +48,7 @@
 				<br>
 				{% for post in site.data.sitetext.patent.item limit:3 %}
 				<p class="itemname" href="{{site.baseurl}}{{post.url}}">{{post.title}}</p>
-				<!-- <p class="itemdate">——{{post.date| date: "%Y.%m.%-d  "}}</p> -->
+				<p class="itemdate">——{{post.number}}</p>
 				{% endfor%}
 				<br>
 				<a href="{{ site.data.sitetext.middlecolumn.urlmiddle}}" class="morelist" >{{ site.data.sitetext.middlecolumn.titlereadmore}}</a>
