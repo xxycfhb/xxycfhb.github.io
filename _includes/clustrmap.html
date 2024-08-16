@@ -32,7 +32,7 @@
 				<br>
 				<h2 class="section-heading text-uppercase">{{ site.data.sitetext.middlecolumn.titleleft}}</h2>
 				<br>
-				{% for paper in site.data.sitetext.paper.item %}
+				{% for paper in site.data.sitetext.paper.item limit:3 %}
 				<a class="itemname" href="{{site.baseurl}}{{paper.url}}">{{paper.title}}</a>
 				<!-- <p class="itemdate">——{{post.date| date: "%Y.%m.%-d  "}}</p> -->
 				{% endfor%}
