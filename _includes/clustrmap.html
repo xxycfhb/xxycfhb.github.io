@@ -48,7 +48,7 @@
 				<br>
 				{% for post in site.data.sitetext.patent.item limit:3 %}
 				<a class="itemname" href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-				<p class="itemdate">——{{post.number}}</p>
+				<p class="itemdate">——{{ post.number | split: '，' | first }}</p>
 				{% endfor%}
 				<br>
 				<a href="{{ site.data.sitetext.middlecolumn.urlmiddle}}" class="morelist" >{{ site.data.sitetext.middlecolumn.titlereadmore}}</a>
