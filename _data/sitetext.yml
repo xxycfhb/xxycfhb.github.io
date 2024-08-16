@@ -1074,7 +1074,7 @@ paper:
 
       - title: "Finding Missing Security Operation Bugs via Program Slicing and Differential Check"
         name: "Yeqi Fu, Yongzhi Liu, Qian Zhang, Zhou Yang, Xiarun Chen, Chenglin Xie, Weiping Wen"
-        source: "Information and Communications Security  2023:702–718. DOI:10.1007/978-981-99-7356-9_41"
+        source: "International Conference on Information and Communications Security. ICICS 2023. (CCF C) 2023:702–718. DOI:10.1007/978-981-99-7356-9_41"
         url: "https://doi.org/10.1007/978-981-99-7356-9_41"
         download: "https://doi.org/10.1007/978-981-99-7356-9_41"
 
