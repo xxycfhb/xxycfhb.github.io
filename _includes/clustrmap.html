@@ -37,7 +37,7 @@
 				<p class="itemdate">——{{post.date| date: "%Y.%m.%-d  "}}</p>
 				{% endfor%}
 				<br>
-				<a href="{{ site.data.sitetext.middlecolumn.urlleft}}" class="morelist" >{{ site.data.sitetext.middlecolumn.titlereadmore}}</a>
+				<a href="{{ site.data.sitetext.middlecolumn.urlmiddle}}" class="morelist" >{{ site.data.sitetext.middlecolumn.titlereadmore}}</a>
 			</div>
 			
 			<!--notice-->
@@ -51,11 +51,23 @@
 				<p class="itemdate">——{{post.date| date: "%Y.%m.%-d  "}}</p>
 				{% endfor%}
 				<br>
-				<a href="{{ site.data.sitetext.middlecolumn.urlmiddle}}" class="morelist" >{{ site.data.sitetext.middlecolumn.titlereadmore}}</a>
-			</div>
+				<!-- <a href="{{ site.data.sitetext.middlecolumn.urlmiddle}}" class="morelist" >{{ site.data.sitetext.middlecolumn.titlereadmore}}</a> -->
+			</div>			
 			
 			<!--map-->
 			<div class="col-md-4 col-sm-6 " style="text-align: center;">
+				<br>
+				<br>
+				<h2 class="section-heading text-uppercase">{{ site.data.sitetext.middlecolumn.titlemiddle}}</h2>
+				<br>
+				{% for post in site.categories.notice limit:3 %}
+				<a class="itemname" href="{{site.baseurl}}{{post.url}}">{{post.subtitle}}</a>
+				<p class="itemdate">——{{post.date| date: "%Y.%m.%-d  "}}</p>
+				{% endfor%}
+				<br>
+				<a href="{{ site.data.sitetext.middlecolumn.urlmiddle}}" class="morelist" >{{ site.data.sitetext.middlecolumn.titlereadmore}}</a>
+			</div>
+			<!-- <div class="col-md-4 col-sm-6 " style="text-align: center;">
 				<br>
 				<br>
 				<h2 class="section-heading text-uppercase">{{ site.data.sitetext.middlecolumn.titleright}}</h2>
@@ -64,7 +76,7 @@
 				<a href='https://clustrmaps.com/site/1bgso'  title='Visit tracker'>
 					<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=gs02BO9F9BTtZJXuqZSiiZISqb4uK3UQb5VkBBDq23s'></script>
 				</a>
-			</div>
+			</div> -->
 		</div>
 	</div>
   </section>
