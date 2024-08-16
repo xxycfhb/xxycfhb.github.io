@@ -12,12 +12,12 @@ portfolio:
     closebutton: "Close"
     
 middlecolumn:
-    titleleft: 学术报告
-    urlleft: pages/seminar.html
-    titlemiddle: 发表论文
-    urlmiddle: pages/paper.html
-    titleright: 专利成果
-    urlright: pages/patent.html
+    titleleft: 发表论文
+    urlleft: pages/paper.html
+    titlemiddle: 专利成果
+    urlmiddle: pages/patent.html
+    titleright: 通知公告
+    urlright: pages/notice.html
     titlereadmore: 更多…
 
 timeline:
