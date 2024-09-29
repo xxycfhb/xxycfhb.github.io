@@ -1066,6 +1066,12 @@ paper:
     text: 
     item:
       
+      - title: "基于虚拟机自省的Linux恶意软件检测方案"
+        name: "文伟平，张世琛，王晗，时林"
+        source: "信息网络安全  2024,24(5):657-666. DOI: 10.3969/j.issn.1671-1122.2024.05.001"
+        url: "/files/paper99.pdf"
+        download: "基于虚拟机自省的Linux恶意软件检测方案.pdf"
+
       - title: "Improved capsule networks based on Nash equilibrium for malicious code classification"
         name: "Meng Wang, Yahao Zhang, WeiPing Wen"
         source: "Computers & Security  Jan. 2024, 103503. DOI:10.1016/j.cose.2023.103503"
@@ -1079,7 +1085,7 @@ paper:
         download: "https://doi.org/10.1007/978-981-99-7356-9_41"
 
       - title: "针对品牌的网络钓鱼扩线与检测方案"
-        name: "文伟平, 朱一帆, 吕子晗, 刘成杰"
+        name: "文伟平，朱一帆，吕子晗，刘成杰"
         source: "信息网络安全  2023,23(12):1-9. DOI: 10.3969/j.issn.1671-1122.2023.12.001"
         url: "/files/paper98.pdf"
         download: "针对品牌的网络钓鱼扩线与检测方案.pdf"
@@ -1693,7 +1699,10 @@ patent:
       - title: "文伟平 王雅仪 刘琛 李成扬 方莹，一种基于LLVM的指令加花混淆方法及装置"
         source: "国家知识产权局发明专利"
         number: "专利申请号：202211713901.6，2022年12月29日"
-
+        success: true
+        url: "/files/WX2021-03-280-发明专利证书.pdf"
+        download: "一种基于LLVM的指令加花混淆方法及装置.pdf"
+        
       - title: "文伟平 彭婷 陈夏润，一种基于区块链和数字人民币的医疗数据共享体系架构"
         source: "国家知识产权局发明专利"
         number: "专利申请号：202211713901.6，2022年12月29日"
@@ -1723,6 +1732,9 @@ patent:
       - title: "文伟平、肖遥，一种基于符号执行对智能合约功能属性进行形式化验证的方法及系统"
         source: "国家知识产权局发明专利"
         number: "专利申请号：202210047615.4，2022年1月17日"
+        success: true
+        url: "/files/WX2022-03-016-发明专利证书.pdf"
+        download: "一种基于符号执行对智能合约功能属性进行形式化验证的方法及系统.pdf"
 
       - title: "文伟平、时绍森，一种增强的污点分析安卓恶意代码检测方法及装置"
         source: "国家知识产权局发明专利"
@@ -1731,6 +1743,9 @@ patent:
       - title: "文伟平、刘琛，一种基于LLVM的虚拟机保护方法及系统"
         source: "国家知识产权局发明专利"
         number: "专利申请号：202210017306.2，2022年1月8日"
+        success: true
+        url: "/files/WX2022-03-006-发明专利证书.pdf"
+        download: "一种基于LLVM的虚拟机保护方法及系统.pdf"
 
       - title: "文伟平、王雅仪，一种基于LLVM的指令加花混淆方法及装置"
         source: "国家知识产权局发明专利"
