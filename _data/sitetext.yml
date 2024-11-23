@@ -619,9 +619,9 @@ team:
 currentstudent:
     title: "课题组成员"
     text: 
-    person: "2022级<br>陈夏润(博士)，张世琛，王康，江昊，钟山，张艺琼，张帅，宋少波，陈文，孔德广，燕昕仪，邢泽栋，熊必成 <br><br>
-             2023级<br>刘成杰(博士)，谢沅甫(博士)，李锦凯，李鸿宇，田浩然，马亨来，栗飞龙，董雨昕，吴洋洋，李青蓝，王选军，徐梦婷，张技轩  <br><br>
-             2024级<br>韩伯轩，顾哲远，方艺智，李心祺，郑伊健，王靖雯，谢品良，周杨恺，兰佳晨，张仕杰<br><br>"
+    person: "2022级<br>陈夏润(博士)，张世琛，王康，江昊，钟山，张艺琼，张帅，宋少波，陈文，孔德广，燕昕仪，邢泽栋，熊必成，杨谨溯<br><br>
+             2023级<br>刘成杰(博士)，谢沅甫(博士)，姚文翰(博士)，李锦凯，李鸿宇，田浩然，马亨来，栗飞龙，董雨昕，吴洋洋，李青蓝，王选军，徐梦婷，张技轩，肖叶，李泽信<br><br>
+             2024级<br>邢泽栋(博士)，韩伯轩，顾哲远，方艺智，李心祺，郑伊健，王靖雯，谢品良，周杨恺，兰佳晨，张仕杰，陈宇豪，罗献党<br><br>"
 
 vulnerability:
     title: "漏洞成果"
@@ -1087,7 +1087,13 @@ paper:
     title: "发表论文"
     text: 
     item:
-      
+
+      - title: "Imperceptible rhythm backdoor attacks: Exploring rhythm transformation for embedding undetectable vulnerabilities on speech recognition"
+        name: "Wenhan Yao, Jiangkun Yang, Yongqiang He, Jia Liu, Weiping Wen"
+        source: "Neurocomputing,Volume 614,2025,128779. DOI:10.1016/j.neucom.2024.128779"
+        url: "/files/paper100.pdf"
+        download: "Imperceptible rhythm backdoor attacks: Exploring rhythm transformation for embedding undetectable vulnerabilities on speech recognition.pdf"
+
       - title: "基于虚拟机自省的Linux恶意软件检测方案"
         name: "文伟平，张世琛，王晗，时林"
         source: "信息网络安全  2024,24(5):657-666. DOI: 10.3969/j.issn.1671-1122.2024.05.001"
