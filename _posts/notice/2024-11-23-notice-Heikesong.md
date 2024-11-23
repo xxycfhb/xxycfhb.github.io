@@ -8,7 +8,7 @@ categories:
   - notice
 ---
 
-文案大概是：在本次ETHGlobal Bangkok全球黑客松大赛中，北京大学软件安全研究小组李锦凯同学的BlockRate作品，荣获Sign Protocol的Best Consumer Application赛道第二名。
+在本次ETHGlobal Bangkok全球黑客松大赛中，北京大学软件安全研究小组李锦凯同学的BlockRate作品，荣获Sign Protocol的Best Consumer Application赛道第二名。
 <div align=center>
 <img src="https://i.postimg.cc/fyRD0pdm/20241123110840.jpg" width="800px" height="500px"/>
 </div>
