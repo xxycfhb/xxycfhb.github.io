@@ -503,6 +503,12 @@ graduate:
         image: ../assets/img/timeline/1.png
         alt:
 
+      - title: "方莹 - 2023届校友"
+        post: "上海电网"
+        desc:
+        image: ../assets/img/timeline/1.png
+        alt:
+
 
 tutor:
     title: "课题导师"
