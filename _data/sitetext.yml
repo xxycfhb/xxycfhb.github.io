@@ -1097,8 +1097,14 @@ paper:
       - title: "Imperceptible rhythm backdoor attacks: Exploring rhythm transformation for embedding undetectable vulnerabilities on speech recognition"
         name: "Wenhan Yao, Jiangkun Yang, Yongqiang He, Jia Liu, Weiping Wen"
         source: "Neurocomputing,Volume 614,2025,128779. DOI:10.1016/j.neucom.2024.128779"
-        url: "/files/paper100.pdf"
+        url: "/files/paper101.pdf"
         download: "Imperceptible rhythm backdoor attacks: Exploring rhythm transformation for embedding undetectable vulnerabilities on speech recognition.pdf"
+
+      - title: "Low-Resource VITS-Based Emotion Speech Synthesis Using KNN Algorithm"
+        name: "Zedong Xing, Bicheng Xiong, Weiping Wen"
+        source: "Pacific Rim International Conference on Artificial Intelligence. PRICAI 2024. 2024:333–345. DOI:10.1007/978-981-96-0125-7_28"
+        url: "/files/paper100.pdf"
+        download: "Low-Resource VITS-Based Emotion Speech Synthesis Using KNN Algorithm"
 
       - title: "基于虚拟机自省的Linux恶意软件检测方案"
         name: "文伟平，张世琛，王晗，时林"
