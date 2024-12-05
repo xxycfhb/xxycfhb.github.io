@@ -1094,6 +1094,20 @@ paper:
     text: 
     item:
 
+      - title: "Phoneme Substitution: A Novel Approach for Backdoor Attacks on Speech Recognition Systems"
+        name: "Bicheng Xiong, Zedong Xing, Zexin Li, Weiping Wen"
+        source: "2024 IEEE 36th International Conference on Tools with Artificial Intelligence(ICTAI). DOI:10.1109/ICTAI62512.2024.00082"
+        url: "/files/paper103.pdf"
+        download: "Phoneme Substitution: A Novel Approach for Backdoor Attacks on Speech Recognition Systems.pdf"
+
+
+      - title: "Phoneme Semantic Backdoor Attacks with Multiple Task Learning for Speech Classification Task"
+        name: "Ye Xiao, Wenhan Yao, Zexin Li, Jiangkun Yang, Weiping Wen"
+        source: ""
+        url: "/files/paper102.pdf"
+        download: "Phoneme Semantic Backdoor Attacks with Multiple Task Learning for Speech Classification Task.pdf"
+
+
       - title: "Imperceptible rhythm backdoor attacks: Exploring rhythm transformation for embedding undetectable vulnerabilities on speech recognition"
         name: "Wenhan Yao, Jiangkun Yang, Yongqiang He, Jia Liu, Weiping Wen"
         source: "Neurocomputing,Volume 614,2025,128779. DOI:10.1016/j.neucom.2024.128779"
