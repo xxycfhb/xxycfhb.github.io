@@ -482,13 +482,13 @@ graduate:
       - title: "陈夏润 - 2022届校友"
         post: "现于北京大学攻读博士学位"
         desc:
-        image: ../assets/img/timeline/1.png
+        image: ../assets/img/timeline/chen.png
         alt:
 
       - title: "谢成淋 - 2022届校友"
         post: "现于北京大学攻读博士学位"
         desc:
-        image: ../assets/img/timeline/1.png
+        image: ../assets/img/team/xiechenglin.png
         alt:
 
       - title: "时绍森 - 2022届校友"
@@ -500,13 +500,13 @@ graduate:
       - title: "黄天波 - 2022届校友"
         post: "创业"
         desc:
-        image: ../assets/img/timeline/1.png
+        image: ../assets/img/team/huang.png
         alt:
 
       - title: "李成杨 - 2022届校友"
         post: "创业"
         desc:
-        image: ../assets/img/timeline/1.png
+        image: ../assets/img/team/lichengyang.png
         alt:
 
       - title: "刘永志 - 2022届校友"
@@ -530,7 +530,7 @@ graduate:
       - title: "胡叶舟 - 2023届校友"
         post: "美团"
         desc:
-        image: ../assets/img/timeline/1.png
+        image: ../assets/img/team/huyezhou.png
         alt:
 
       - title: "刘军杰 - 2023届校友"
