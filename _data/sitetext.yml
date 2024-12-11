@@ -500,7 +500,7 @@ graduate:
       - title: "黄天波 - 2022届校友"
         post: "创业"
         desc:
-        image: ../assets/img/team/huang.png
+        image: ../assets/img/team/huang.jpg
         alt:
 
       - title: "李成杨 - 2022届校友"
@@ -513,6 +513,12 @@ graduate:
         post: "腾讯云鼎实验室"
         desc:
         image: ../assets/img/timeline/1.png
+        alt:
+
+      - title: "刘成杰 - 2023届校友"
+        post: "现于北京大学攻读博士学位"
+        desc:
+        image: ../assets/img/team/liuchengjie.png
         alt:
 
       - title: "肖遥 - 2023届校友"
@@ -530,7 +536,7 @@ graduate:
       - title: "胡叶舟 - 2023届校友"
         post: "美团"
         desc:
-        image: ../assets/img/team/huyezhou.png
+        image: ../assets/img/team/huyezhou.jpg
         alt:
 
       - title: "刘军杰 - 2023届校友"
@@ -542,7 +548,7 @@ graduate:
       - title: "方莹 - 2023届校友"
         post: "上海电网"
         desc:
-        image: ../assets/img/timeline/1.png
+        image: ../assets/img/timeline/fangying.jpg
         alt:
 
 
