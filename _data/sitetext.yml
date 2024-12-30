@@ -1146,7 +1146,7 @@ paper:
 
       - title: "Phoneme Semantic Backdoor Attacks with Multiple Task Learning for Speech Classification Task"
         name: "Ye Xiao, Wenhan Yao, Zexin Li, Jiangkun Yang, Weiping Wen"
-        source: "National Conference on Man-Machine Speech Communication. NCMMSC 2024. "
+        source: "National Conference on Man-Machine Speech Communication. NCMMSC 2024. DOI:10.1007/978-981-96-1045-7_7"
         url: "/files/paper102.pdf"
         download: "Phoneme Semantic Backdoor Attacks with Multiple Task Learning for Speech Classification Task.pdf"
 
