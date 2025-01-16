@@ -1138,7 +1138,7 @@ paper:
 
 
       - title: "Phoneme Substitution: A Novel Approach for Backdoor Attacks on Speech Recognition Systems"
-        name: "Bicheng Xiong, Zedong Xing, Zexin Li, Weiping Wen"
+        name: "Bicheng Xiong, Zedong Xing, Weiping Wen"
         source: "2024 IEEE 36th International Conference on Tools with Artificial Intelligence(ICTAI). DOI:10.1109/ICTAI62512.2024.00082"
         url: "/files/paper103.pdf"
         download: "Phoneme Substitution: A Novel Approach for Backdoor Attacks on Speech Recognition Systems.pdf"
