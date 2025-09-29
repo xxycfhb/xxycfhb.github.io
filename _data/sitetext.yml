@@ -28,7 +28,7 @@ timeline:
       - title: "方艺智 - 2024级"
         post: "北京大学2024级硕士研究生"
         desc: "研究方向为网络安全、人工智能安全。"
-        image: ../assets/img/timeline/fz.jpg
+        image: ../assets/img/timeline/fyz.jpg
         alt:
 
       - title: "陈夏润 - 2019级"
@@ -609,7 +609,7 @@ team:
     detail:
       - name: "方艺智"
         role: "AI鉴伪课题负责人"
-        image: ../assets/img/team/fz.jpg
+        image: ../assets/img/team/fyz.jpg
         social:
 
       - name: "陈夏润"
