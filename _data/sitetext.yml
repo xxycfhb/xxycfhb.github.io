@@ -25,6 +25,12 @@ timeline:
     text: "十年树木，百年树人"
     section: timeline
     events:
+      - title: "方艺智 - 2024级"
+        post: "北京大学2024级硕士研究生"
+        desc: "研究方向为网络安全、人工智能安全。"
+        image: ../assets/img/timeline/fyz.png
+        alt:
+
       - title: "陈夏润 - 2019级"
         post: "雁翎网卫创始人、董事长兼CEO          北京大学2022级博士研究生"
         desc: "研究方向为静态漏洞挖掘、浏览器安全与Web渗透测试。发表多篇学术论文，并获得CCF B类会议DSN 2020 Best Paper Award。多次参加Geekpwn等国际知名极客赛事，并取得优异成绩。Web渗透与漏洞挖掘经验丰富，先后挖掘Baidu、Lark、Cloudflare等知名互联网厂商漏洞，拥有十余个漏洞编号。"
@@ -565,6 +571,21 @@ currentprogram:
     text: 
     program:
 
+      - time: "2024.12 - 2027.12"
+        name: "面向公共云网资源的多模态网络环境演进式构造技术"
+        client: "科技部国家重点研发计划"
+        task: "课题负责人"
+
+      - time: "2025.08 - 2026.08"
+        name: "HyperOS AI换脸/AI拟声检测项目"
+        client: "小米（横向）"
+        task: "项目负责人"
+
+      - time: "2024.04 - 2025.04"
+        name: "Restful接口自动化漏洞挖掘技术研究"
+        client: "华为（横向）"
+        task: "项目负责人"
+
       - time: "2021.10 - 2022.10"
         name: "ELF软件恶意行为动态分析技术"
         client: "华为（横向）"
@@ -596,6 +617,11 @@ team:
     text: 
     section: team
     detail:
+      - name: "方艺智"
+        role: "AI鉴伪课题负责人"
+        image: ../assets/img/team/fyz.png
+        social:
+
       - name: "陈夏润"
         role: "静态分析课题负责人"
         image: ../assets/img/team/chen.png
