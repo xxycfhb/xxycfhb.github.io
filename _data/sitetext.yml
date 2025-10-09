@@ -25,11 +25,6 @@ timeline:
     text: "十年树木，百年树人"
     section: timeline
     events:
-      - title: "方艺智 - 2024级"
-        post: "北京大学2024级硕士研究生"
-        desc: "研究方向为网络安全、人工智能安全。"
-        image: ../assets/img/timeline/fyz.jpg
-        alt:
 
       - title: "陈夏润 - 2019级"
         post: "雁翎网卫创始人、董事长兼CEO          北京大学2022级博士研究生"
@@ -586,11 +581,6 @@ currentprogram:
         client: "华为（横向）"
         task: "项目负责人"
 
-      - time: "2021.10 - 2022.10"
-        name: "ELF软件恶意行为动态分析技术"
-        client: "华为（横向）"
-        task: "项目负责人"
-
       - time: "2021.06 - 2022.06"
         name: "Java程序漏洞挖掘与入侵检测课题"
         client: "华为（横向）"
@@ -607,13 +597,9 @@ team:
     text: 
     section: team
     detail:
-      - name: "方艺智"
-        role: "AI鉴伪课题负责人"
-        image: ../assets/img/team/fyz.jpg
-        social:
 
       - name: "陈夏润"
-        role: "静态分析课题负责人"
+        role: "面向公共云网资源的多模态网络环境演进式构造技术"
         image: ../assets/img/team/chen.png
         social:
           # - url: https://www.xiaozzz.xyz/
@@ -621,41 +607,20 @@ team:
           - url: https://github.com/xiaoZ-hc
             icon: fab fa-github
 
-      - name: "谢成淋"
-        role: "沙箱课题负责人"
-        image: ../assets/img/team/xiechenglin.png
+      - name: "方艺智"
+        role: "多模态鉴伪课题负责人"
+        image: ../assets/img/team/fyz.jpg
         social:
-          - url: https://blog.csdn.net/Cony_14
-            icon: fab fa-gratipay
-          
-      - name: "李成扬"
-        role: "混淆课题负责人"
-        image: ../assets/img/team/lichengyang.png
-        social:
-          - url: https://www.jianshu.com/u/fc734883e0ee
-            icon: fab fa-gratipay
-          - url: https://github.com/lcy19
-            icon: fab fa-github
 
-      - name: "黄天波"
-        role: "实时通讯安全技术研究负责人"
-        image: ../assets/img/team/huang.jpg
+      - name: "韩博轩"
+        role: "语音鉴伪课题负责人"
+        image: ../assets/img/team/hbx.jpg
         social:
-          - url: https://www.cnblogs.com/agenthtb/
-            icon: fab fa-gratipay
 
-      - name: "李涛"
-        role: "跨链协议安全技术负责人"
-        image: ../assets/img/team/lt.png
+      - name: "董雨昕"
+        role: "Restful接口自动化漏洞挖掘课题负责人"
+        image: ../assets/img/team/fyz.jpg
         social:
-          
-
-      - name: "胡叶舟"
-        role: "智能合约漏洞挖掘课题负责人"
-        image: ../assets/img/team/huyezhou.jpg
-        social:
-          - url: https://blog.csdn.net/weixin_44437496
-            icon: fab fa-gratipay
 
       - name: "刘成杰"
         role: "Java程序漏洞挖掘与入侵检测课题负责人"
@@ -664,7 +629,7 @@ team:
           - url: https://github.com/liuchengjie01
             icon: fab fa-github
 
-      - name: "刘宇航"
+      - name: "李锦凯"
         role: "链上交易溯源技术研究负责人"
         image: ../assets/img/team/lyh.png
         social:
@@ -673,12 +638,6 @@ team:
 
           
 
-      - name: "王晗"
-        role: "ELF软件恶意行为动态分析技术负责人"
-        image: ../assets/img/team/wanghan.png
-        social:
-          - url: https://github.com/hanwang124
-            icon: fab fa-github
 
 currentstudent:
     title: "课题组成员"
