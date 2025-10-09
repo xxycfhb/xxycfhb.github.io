@@ -567,7 +567,12 @@ currentprogram:
     program:
 
       - time: "2024.12 - 2027.12"
-        name: "面向公共云网资源的多模态网络环境演进式构造技术"
+        name: "基于公共云网资源的多模态网络环境构造技术"
+        client: "科技部国家重点研发计划"
+        task: "项目负责人"
+
+      - time: "2024.12 - 2027.12"
+        name: "面向多模态网络的多维协议承载与内生安全接入技术（子课题）"
         client: "科技部国家重点研发计划"
         task: "课题负责人"
 
@@ -628,7 +633,7 @@ team:
         social:
 
       - name: "刘成杰"
-        role: "Java程序漏洞挖掘与入侵检测课题负责人"
+        role: "多模态网络课题四负责人"
         image: ../assets/img/team/liuchengjie.png
         social:
           - url: https://github.com/liuchengjie01
