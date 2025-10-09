@@ -1120,6 +1120,18 @@ paper:
     text: 
     item:
 
+      - title: "DynamicFuzz: Confidence-based directed greybox fuzzing for programs with unreliable call graphs"
+        name: "Hao Jiang , Kang Wang , Yujie Yang, Shan Zhong , Shuai Zhang, Chengjie Liu , Xiarun Chen, Weiping Wen"
+        source: "Computers & Security 159 (2025) 104691 （CCF B）"
+        url: "/files/paper107.pdf"
+        download: "DynamicFuzz: Confidence-based directed greybox fuzzing for programs with unreliable call graphs.pdf"
+
+      - title: "Fountain: DAG-Based Separate BFT Consensus Made Hashgraph Practical"
+        name: "Hao Yin , Changling Zhou , Weiping Wen, and Yiwei Liu"
+        source: "IEEE TRANSACTIONS ON NETWORK AND SERVICE MANAGEMENT, VOL. 22, NO. 5, OCTOBER 2025 （CCF C）"
+        url: "/files/paper106.pdf"
+        download: "Fountain: DAG-Based Separate BFT Consensus Made Hashgraph Practical.pdf"
+
       - title: "Why an Android app is classified as malware: Towards malware classification interpretation"
         name: "Bozhi Wu, Sen Chen, Cuiyun Gao, Lingling Fan, Yang Liu, Weiping Wen, and Michael R. Lyu"
         source: "ACM Transactions on Software Engineering and Methodology(TOSEM). September 2020. （CCF A）"
