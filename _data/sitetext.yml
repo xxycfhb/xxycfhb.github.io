@@ -599,7 +599,7 @@ team:
     detail:
 
       - name: "陈夏润"
-        role: "面向公共云网资源的多模态网络环境演进式构造技术"
+        role: "多模态网络课题负责人"
         image: ../assets/img/team/chen.png
         social:
           # - url: https://www.xiaozzz.xyz/
@@ -611,15 +611,20 @@ team:
         role: "多模态鉴伪课题负责人"
         image: ../assets/img/team/fyz.jpg
         social:
+          - url: https://github.com/Lizhizhiyi
+            icon: fab fa-github
 
       - name: "韩博轩"
         role: "语音鉴伪课题负责人"
         image: ../assets/img/team/hbx.jpg
         social:
+          - url: https://github.com/Dengdeng857
+            icon: fab fa-github
+
 
       - name: "董雨昕"
         role: "Restful接口自动化漏洞挖掘课题负责人"
-        image: ../assets/img/team/fyz.jpg
+        image: ../assets/img/team/dyx.jpg
         social:
 
       - name: "刘成杰"
@@ -631,10 +636,8 @@ team:
 
       - name: "李锦凯"
         role: "链上交易溯源技术研究负责人"
-        image: ../assets/img/team/lyh.png
+        image: ../assets/img/team/ljk.jpg
         social:
-          - url: https://mirror.xyz/0x7902f45e8DA67B106f3DA2e3231987b846bf13b7
-            icon: fab fa-gratipay
 
           
 
@@ -642,9 +645,10 @@ team:
 currentstudent:
     title: "课题组成员"
     text: 
-    person: "2022级<br>陈夏润(博士)，何永强(博士)，刘佳(博士)，张世琛，王康，江昊，钟山，张艺琼，张帅，宋少波，陈文，孔德广，燕昕仪，邢泽栋，熊必成，杨谨溯<br><br>
+    person: "高年级级<br>陈夏润(博士)，何永强(博士)，刘佳(博士)<br><br>
              2023级<br>刘成杰(博士)，谢沅甫(博士)，姚文翰(博士)，李锦凯，李鸿宇，田浩然，马亨来，栗飞龙，董雨昕，吴洋洋，李青蓝，王选军，徐梦婷，张技轩，肖叶，李泽信<br><br>
-             2024级<br>邢泽栋(博士)，韩博轩，顾哲远，方艺智，李心祺，郑伊健，王靖雯，谢品良，周杨凯，兰佳晨，张仕捷，陈宇豪，罗献党<br><br>"
+             2024级<br>邢泽栋(博士)，韩博轩，顾哲远，李心祺，郑伊健，王靖雯，谢品良，周杨凯，兰佳晨，张仕捷，方艺智，陈宇豪，罗献党<br><br>
+             2025级<br>江昊(博士)，许嘉星，姜欣悦，杨钰洁，郭湘琦，戴静桐，彭思宇，瞿佳艺，罗笛晓，王众伯，黄月明<br><br>"
 
 vulnerability:
     title: "漏洞成果"
