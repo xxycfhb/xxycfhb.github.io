@@ -1128,7 +1128,7 @@ paper:
 
       - title: "Fountain: DAG-Based Separate BFT Consensus Made Hashgraph Practical"
         name: "Hao Yin , Changling Zhou , Weiping Wen, and Yiwei Liu"
-        source: "IEEE TRANSACTIONS ON NETWORK AND SERVICE MANAGEMENT, VOL. 22, NO. 5, OCTOBER 2025 （CCF C）"
+        source: "IEEE Transactions on Network and Service Management, vol. 22, no. 5, October 2025 （CCF C）"
         url: "/files/paper106.pdf"
         download: "Fountain: DAG-Based Separate BFT Consensus Made Hashgraph Practical.pdf"
 
