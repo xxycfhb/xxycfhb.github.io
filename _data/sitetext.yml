@@ -1132,6 +1132,12 @@ paper:
         url: "/files/paper106.pdf"
         download: "Fountain: DAG-Based Separate BFT Consensus Made Hashgraph Practical.pdf"
 
+      - title: "FORGEDAN: An Evolutionary Framework for Jailbreaking Aligned Large Language Models"
+        name: "Siyang Cheng, Gaotian Liu, Rui Mei, Yilin Wang, Kejia Zhang, Kaishuo Wei, Yuqi Yu, Weiping Wen, Xiaojie Wu, Junhua Liu"
+        source: "IEEE International Conference on Trust, Security and Privacy in Computing and Communications 2025 （CCF C）"
+        url: "/files/paper108.pdf"
+        download: "FORGEDAN: An Evolutionary Framework for Jailbreaking Aligned Large Language Models.pdf"
+
       - title: "Why an Android app is classified as malware: Towards malware classification interpretation"
         name: "Bozhi Wu, Sen Chen, Cuiyun Gao, Lingling Fan, Yang Liu, Weiping Wen, and Michael R. Lyu"
         source: "ACM Transactions on Software Engineering and Methodology(TOSEM). September 2020. （CCF A）"
