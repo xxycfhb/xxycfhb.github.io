@@ -1119,6 +1119,11 @@ paper:
     title: "发表论文"
     text: 
     item:
+      - title: "FORGEDAN: An Evolutionary Framework for Jailbreaking Aligned Large Language Models"
+        name: "Siyang Cheng, Gaotian Liu, Rui Mei, Yilin Wang, Kejia Zhang, Kaishuo Wei, Yuqi Yu, Weiping Wen, Xiaojie Wu, Junhua Liu"
+        source: "2025 IEEE Trustcom （CCF C）"
+        url: "/files/paper109.pdf"
+        download: "FORGEDAN: An Evolutionary Framework for Jailbreaking Aligned Large Language Models.pdf"
 
       - title: "DynamicFuzz: Confidence-based directed greybox fuzzing for programs with unreliable call graphs"
         name: "Hao Jiang , Kang Wang , Yujie Yang, Shan Zhong , Shuai Zhang, Chengjie Liu , Xiarun Chen, Weiping Wen"
