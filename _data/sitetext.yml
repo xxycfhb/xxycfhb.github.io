@@ -1163,7 +1163,7 @@ paper:
 
       - title: "Phoneme Substitution: A Novel Approach for Backdoor Attacks on Speech Recognition Systems"
         name: "Bicheng Xiong, Zedong Xing, Weiping Wen"
-        source: "2024 IEEE 36th International Conference on Tools with Artificial Intelligence(ICTAI). DOI:10.1109/ICTAI62512.2024.00082"
+        source: "2024 IEEE 36th International Conference on Tools with Artificial Intelligence(ICTAI). DOI:10.1109/ICTAI62512.2024.00082 (CCF C)"
         url: "/files/paper103.pdf"
         download: "Phoneme Substitution: A Novel Approach for Backdoor Attacks on Speech Recognition Systems.pdf"
 
@@ -1187,7 +1187,7 @@ paper:
 
       - title: "Low-Resource VITS-Based Emotion Speech Synthesis Using KNN Algorithm"
         name: "Zedong Xing, Bicheng Xiong, Weiping Wen"
-        source: "Pacific Rim International Conference on Artificial Intelligence. PRICAI 2024. 2024:333–345. DOI:10.1007/978-981-96-0125-7_28"
+        source: "Pacific Rim International Conference on Artificial Intelligence. PRICAI 2024. (CCF C) 2024:333–345. DOI:10.1007/978-981-96-0125-7_28 "
         url: "/files/paper100.pdf"
         download: "Low-Resource VITS-Based Emotion Speech Synthesis Using KNN Algorithm"
 
