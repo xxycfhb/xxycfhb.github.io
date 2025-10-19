@@ -552,7 +552,35 @@ graduate:
         image: ../assets/img/timeline/fangying.jpg
         alt:
 
+      - title: "杨硕 - 2025届校友"
+        post: "北京寰炬科技创始人"
+        desc:
+        image: ../assets/img/timeline/ys_21.jpg
+        alt:
 
+      - title: "张艺琼 - 2025届校友"
+        post: "百度算法工程师"
+        desc:
+        image: ../assets/img/timeline/zyq_22.jpg
+        alt:
+
+      - title: "钟山 - 2025届校友"
+        post: "深圳市科技创新局"
+        desc:
+        image: ../assets/img/timeline/zs_22.jpg
+        alt:
+
+      - title: "王康 - 2025届校友"
+        post: "河南选调生"
+        desc:
+        image: ../assets/img/timeline/wk_22.jpg
+        alt:
+
+      - title: "陈文 - 2025届校友"
+        post: "河南选调生"
+        desc:
+        image: ../assets/img/timeline/1.jpg
+        alt:
 tutor:
     title: "课题导师"
     text: "侠之小者，除暴安良；侠之大者，为国为民"
