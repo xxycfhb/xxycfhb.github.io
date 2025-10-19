@@ -581,6 +581,11 @@ graduate:
         desc:
         image: ../assets/img/timeline/1.png
         alt:
+
+      - title: "张世琛 - 2025届校友"
+        post: "比亚迪"
+        desc:
+        image: ../assets/img/timeline/zsc_22.png
 tutor:
     title: "课题导师"
     text: "侠之小者，除暴安良；侠之大者，为国为民"
