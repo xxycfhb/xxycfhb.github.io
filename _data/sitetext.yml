@@ -1172,9 +1172,9 @@ paper:
 
       - title: "TimbreAdv: Timbre Adversarial Attacks on Speaker Verification Systems"
         name: "Ye Xiao, Wenhan Yao, Zexin Li, Jinsu Yang, Yuhao Chen, Xiandang Luo, Fen Xiao & Weiping Wen"
-        source: "ICANN 2025 (CCF C)"
+        source: "/files/paper116.pdf"
         url: "https://link.springer.com/chapter/10.1007/978-3-032-04549-2_26"
-        download: "TimbreAdv: Timbre Adversarial Attacks on Speaker Verification Systems"
+        download: "TimbreAdv: Timbre Adversarial Attacks on Speaker Verification Systems.pdf"
 
       - title: "Art Style Backdoor Attacks on Semantic Segmentation Models"
         name: "Jinsu Yang, Fen Xiao, Zexin Li, Ye Xiao, Wenhan Yao & Weiping Wen"
