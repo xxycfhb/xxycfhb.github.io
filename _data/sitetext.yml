@@ -1152,6 +1152,60 @@ paper:
     title: "发表论文"
     text: 
     item:
+      - title: "一个用于Java应用程序运行时保护的混合系统"
+        name: "江昊, 刘成杰, 文伟平"
+        source: "信息网络安全"
+        url: "/files/paper115.pdf"
+        download: "一个用于Java应用程序运行时保护的混合系统.pdf"
+
+      - title: "多模态网络中的路由技术与协议研究综述"
+        name: "兰佳晨, 陈夏润, 周杨凯, 文伟平"
+        source: "信息网络安全"
+        url: "/files/paper114.pdf"
+        download: "多模态网络中的路由技术与协议研究综述.pdf"
+
+      - title: "LRBA: Stealthy Backdoor Attacks on Speech Classification via Latent Rearrangement in VITS"
+        name: "Zexin Li, Wenhan Yao, Ye Xiao, Jinsu Yang, Fen Xiao, Weiping Wen"
+        source: "Proc. Interspeech 2025. 2025: 5653-5657. (CCF C)"
+        url: "/files/paper113.pdf"
+        download: "LRBA: Stealthy Backdoor Attacks on Speech Classification via Latent Rearrangement in VITS.pdf"
+
+      - title: "TimbreAdv: Timbre Adversarial Attacks on Speaker Verification Systems"
+        name: "Ye Xiao, Wenhan Yao, Zexin Li, Jinsu Yang, Yuhao Chen, Xiandang Luo, Fen Xiao & Weiping Wen"
+        source: "ICANN 2025 (CCF C)"
+        url: "https://link.springer.com/chapter/10.1007/978-3-032-04549-2_26"
+        download: "TimbreAdv: Timbre Adversarial Attacks on Speaker Verification Systems"
+
+      - title: "Art Style Backdoor Attacks on Semantic Segmentation Models"
+        name: "Jinsu Yang, Fen Xiao, Zexin Li, Ye Xiao, Wenhan Yao & Weiping Wen"
+        source: "ICANN 2025 (CCF C)"
+        url: "https://link.springer.com/chapter/10.1007/978-3-032-04546-1_15"
+        download: "Art Style Backdoor Attacks on Semantic Segmentation Models"
+
+      - title: "Imperceptible rhythm backdoor attacks: Exploring rhythm transformation for embedding undetectable vulnerabilities on speech recognition"
+        name: "Wenhan Yao, Jiangkun Yang, Yongqiang He, Jia Liu, Weiping Wen"
+        source: "Neurocomputing, 2025, 614: 128779."
+        url: "/files/paper112.pdf"
+        download: "Imperceptible rhythm backdoor attacks: Exploring rhythm transformation for embedding undetectable vulnerabilities on speech recognition.pdf"
+
+      - title: "Emotional Text-to-Speech via Style Decoder with Emotion Shared Styleformer Block and RoPE Prior Encoder"
+        name: "Wenhan Yao, Fen Xiao, Ye Xiao, Zexin Li, Xiarun Chen, Weiping Wen"
+        source: "IJCNN 2025 (CCF C)"
+        url: "https://link.springer.com/chapter/10.1007/978-3-032-04549-2_15"
+        download: "Emotional Text-to-Speech via Style Decoder with Emotion Shared Styleformer Block and RoPE Prior Encoder"
+
+      - title: "SPBA: Utilizing Speech Large Language Model for Backdoor Attacks on Speech Classification Models"
+        name: "Wenhan Yao, Fen Xiao, Xiarun Chen, Jia Liu, YongQiang He, Weiping Wen"
+        source: " IJCNN 2025 (CCF C)"
+        url: "/files/paper111.pdf"
+        download: "SPBA: Utilizing Speech Large Language Model for Backdoor Attacks on Speech Classification Models.pdf"
+
+      - title: "Pureformer-VC: Non-parallel Voice Conversion with Pure Stylized Transformer Blocks and Triplet Discriminative Training"
+        name: "Wenhan Yao, Fen Xiao, Xiarun Chen, Jia Liu, Yongqiang He, Weiping Wen"
+        source: "IJCNN 2025 (CCF C)"
+        url: "/files/paper110.pdf"
+        download: "Pureformer-VC: Non-parallel Voice Conversion with Pure Stylized Transformer Blocks and Triplet Discriminative Training.pdf"
+
       - title: "DynamicFuzz: Confidence-based directed greybox fuzzing for programs with unreliable call graphs"
         name: "Hao Jiang , Kang Wang , Yujie Yang, Shan Zhong , Shuai Zhang, Chengjie Liu , Xiarun Chen, Weiping Wen"
         source: "Computers & Security 159 (2025) 104691 （CCF B）"
