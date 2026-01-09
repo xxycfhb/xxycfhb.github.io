@@ -1154,7 +1154,7 @@ paper:
     item:
       - title: "LFBA: Latent-Space Frame-Level Backdoor Attacks on Keyword Spotting Systems"
         name: "Zexin Li, Wenhan Yao, Ye Xiao, Jinsu Yang, Zedong Xing, Xiarun Chen, Fen Xiao, Weiping Wen"
-        source: "信息网络安全"
+        source: "IEEE International Conference on Systems, Man, and Cybernetics"
         url: "/files/paper118.pdf"
         download: "LFBA: Latent-Space Frame-Level Backdoor Attacks on Keyword Spotting Systems.pdf"
 
