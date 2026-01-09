@@ -1196,19 +1196,19 @@ paper:
 
       - title: "Emotional Text-to-Speech via Style Decoder with Emotion Shared Styleformer Block and RoPE Prior Encoder"
         name: "Wenhan Yao, Fen Xiao, Ye Xiao, Zexin Li, Xiarun Chen, Weiping Wen"
-        source: "IJCNN 2025 (CCF C)"
+        source: "International Joint Conference on Neural Networks 2025 (CCF C)"
         url: "https://link.springer.com/chapter/10.1007/978-3-032-04549-2_15"
         download: "Emotional Text-to-Speech via Style Decoder with Emotion Shared Styleformer Block and RoPE Prior Encoder"
 
       - title: "SPBA: Utilizing Speech Large Language Model for Backdoor Attacks on Speech Classification Models"
         name: "Wenhan Yao, Fen Xiao, Xiarun Chen, Jia Liu, YongQiang He, Weiping Wen"
-        source: " IJCNN 2025 (CCF C)"
+        source: "International Joint Conference on Neural Networks 2025 (CCF C)"
         url: "/files/paper111.pdf"
         download: "SPBA: Utilizing Speech Large Language Model for Backdoor Attacks on Speech Classification Models.pdf"
 
       - title: "Pureformer-VC: Non-parallel Voice Conversion with Pure Stylized Transformer Blocks and Triplet Discriminative Training"
         name: "Wenhan Yao, Fen Xiao, Xiarun Chen, Jia Liu, Yongqiang He, Weiping Wen"
-        source: "IJCNN 2025 (CCF C)"
+        source: "International Joint Conference on Neural Networks 2025 (CCF C)"
         url: "/files/paper110.pdf"
         download: "Pureformer-VC: Non-parallel Voice Conversion with Pure Stylized Transformer Blocks and Triplet Discriminative Training.pdf"
 
