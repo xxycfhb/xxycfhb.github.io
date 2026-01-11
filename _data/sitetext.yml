@@ -1197,7 +1197,7 @@ paper:
       - title: "Emotional Text-to-Speech via Style Decoder with Emotion Shared Styleformer Block and RoPE Prior Encoder"
         name: "Wenhan Yao, Fen Xiao, Ye Xiao, Zexin Li, Xiarun Chen, Weiping Wen"
         source: "International Joint Conference on Neural Networks 2025 (CCF C)"
-        url: "https://link.springer.com/chapter/10.1007/978-3-032-04549-2_15"
+        url: "/files/paper119.pdf"
         download: "Emotional Text-to-Speech via Style Decoder with Emotion Shared Styleformer Block and RoPE Prior Encoder"
 
       - title: "SPBA: Utilizing Speech Large Language Model for Backdoor Attacks on Speech Classification Models"
