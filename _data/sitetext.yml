@@ -1,6 +1,6 @@
 header:
     title: "北京大学软件安全研究小组"
-    text: "PKU-Exploit隶属于软微网络软件与系统安全系。成员来自北京大学软件与微电子学院、北京大学网络与软件安全保障重点实验室和北京大学信科学院软件所信息安全实验室，小组指导老师由北京大学软件与微电子学院、中国科学院软件研究所及北京邮电大学的专家和老师组成。主要研究方向包括逆向工程、软件安全漏洞挖掘、软件安全漏洞分析、恶意代码及软件安全评估。"
+    text: "PKU-Exploit隶属于软微网络软件与系统安全系。成员来自北京大学软件与微电子学院、北京大学网络与软件安全保障重点实验室和北京大学信科学院软件所信息安全实验室，小组指导老师由北京大学软件与微电子学院、中国科学院软件研究所及北京邮电大学的专家和老师组成。主要研究方向包括逆向工程、软件安全漏洞挖掘、大模型安全及Agent安全。"
     button: About Us
     buttonlink: "#portfolio"
 
@@ -1152,6 +1152,30 @@ paper:
     title: "发表论文"
     text: 
     item:
+      - title: "Breaking the Trade-off: Orthogonal Semantic Decoupling for Generalizable and Fair Deepfake Detection"
+        name: "Zhongyu Shi, Siyu Peng, Yimin Kang, Ruiyang Xia, Yizhi Fang, Weiping Wen, Zeyu Gu and Sai Cheng"
+        source: "the 35th International Joint Conference on Artificial Intelligence, IJCAI 2026"
+        url: "/files/paper121.pdf"
+        download: "Breaking the Trade-off: Orthogonal Semantic Decoupling for Generalizable and Fair Deepfake Detection.pdf"
+
+      - title: "Breaking the Trade-off: Orthogonal Semantic Decoupling for Generalizable and Fair Deepfake Detection"
+        name: "Zhongyu Shi, Siyu Peng, Yimin Kang, Ruiyang Xia, Yizhi Fang, Weiping Wen, Zeyu Gu and Sai Cheng"
+        source: "the 35th International Joint Conference on Artificial Intelligence, IJCAI 2026"
+        url: "/files/paper121.pdf"
+        download: "Breaking the Trade-off: Orthogonal Semantic Decoupling for Generalizable and Fair Deepfake Detection.pdf"
+
+      - title: "Breaking the Trade-off: Orthogonal Semantic Decoupling for Generalizable and Fair Deepfake Detection"
+        name: "Zhongyu Shi, Siyu Peng, Yimin Kang, Ruiyang Xia, Yizhi Fang, Weiping Wen, Zeyu Gu and Sai Cheng"
+        source: "the 35th International Joint Conference on Artificial Intelligence, IJCAI 2026"
+        url: "/files/paper121.pdf"
+        download: "Breaking the Trade-off: Orthogonal Semantic Decoupling for Generalizable and Fair Deepfake Detection.pdf"
+
+      - title: "Forging the Unknown: Open-Set Deepfake Attribution via Adaptive Fingerprint Learning"
+        name: "Yizhi Fang, Boxuan Han, Jingwen Wang, Xiandang Luo, Siyu Peng, Xiarun Chen, Weiping Wen, Sai Cheng"
+        source: "Pattern Recognition: 28th International Conference, ICPR 2026"
+        url: "/files/paper120.pdf"
+        download: "Forging the Unknown: Open-Set Deepfake Attribution via Adaptive Fingerprint Learning.pdf"
+
       - title: "LFBA: Latent-Space Frame-Level Backdoor Attacks on Keyword Spotting Systems"
         name: "Zexin Li, Wenhan Yao, Ye Xiao, Jinsu Yang, Zedong Xing, Xiarun Chen, Fen Xiao, Weiping Wen"
         source: "IEEE International Conference on Systems, Man, and Cybernetics"
@@ -2250,6 +2274,14 @@ enroll:
     contactby: 联系方式：
     introduction: 研究方向：
     contact:
+      - program: AI换脸与拟声检测课题
+        introduction: 研究基于机器学习的深度伪造检测方法。
+        name: 方艺智
+
+      - program: 面向公共云网资源的多模态网络环境演进式构造技术
+        introduction: 研究多模态网络的标识管理与资源调度管控方法。
+        name: 颜瑞彬
+
       - program: 基于程序语义的Linux内核静态漏洞检测课题
         introduction: 研究基于关键约束的安全检查缺失漏洞检测方法。
         name: 陈夏润
@@ -2266,20 +2298,17 @@ enroll:
         introduction: 通过对程序的分析，自动化挖掘可能存在漏洞的点。而在Java程序的入侵检测方面，拟使用RASP的方式进行设计实现，实现Java web框架通用漏洞的检测与定位，以及Java程序的自我防护。
         name: 刘成杰
 
-      - program: ELF软件恶意行为动态分析技术课题
-        introduction: 研究ELF恶意软件攻击模式库、VMI透明监控技术以及恶意软件躲避对抗激活技术。
-        name: 王晗  
 
     othercontact:
       - name: 文伟平
         major: 招生专业：计算机科学与技术、软件工程、网络安全
-        field: 主要研究领域：系统与网络安全、大数据与云安全、智能计算安全研究
+        field: 主要研究领域：系统与网络安全、大数据与云安全、大模型安全、智能计算安全研究
         title: 教授，研究生、博士生导师
         email: weipingwen@pku.edu.cn
 
-      - name: 陈夏润
+      - name: 颜瑞彬
         title: 学生助理，博士研究生
-        email: 1445289161@qq.com
+        email: rblaughol@gmail.com
    
 
 footer:
