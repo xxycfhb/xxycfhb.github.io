@@ -1152,17 +1152,6 @@ paper:
     title: "发表论文"
     text: 
     item:
-      - title: "Breaking the Trade-off: Orthogonal Semantic Decoupling for Generalizable and Fair Deepfake Detection"
-        name: "Zhongyu Shi, Siyu Peng, Yimin Kang, Ruiyang Xia, Yizhi Fang, Weiping Wen, Zeyu Gu and Sai Cheng"
-        source: "the 35th International Joint Conference on Artificial Intelligence, IJCAI 2026"
-        url: "/files/paper121.pdf"
-        download: "Breaking the Trade-off: Orthogonal Semantic Decoupling for Generalizable and Fair Deepfake Detection.pdf"
-
-      - title: "Breaking the Trade-off: Orthogonal Semantic Decoupling for Generalizable and Fair Deepfake Detection"
-        name: "Zhongyu Shi, Siyu Peng, Yimin Kang, Ruiyang Xia, Yizhi Fang, Weiping Wen, Zeyu Gu and Sai Cheng"
-        source: "the 35th International Joint Conference on Artificial Intelligence, IJCAI 2026"
-        url: "/files/paper121.pdf"
-        download: "Breaking the Trade-off: Orthogonal Semantic Decoupling for Generalizable and Fair Deepfake Detection.pdf"
 
       - title: "Breaking the Trade-off: Orthogonal Semantic Decoupling for Generalizable and Fair Deepfake Detection"
         name: "Zhongyu Shi, Siyu Peng, Yimin Kang, Ruiyang Xia, Yizhi Fang, Weiping Wen, Zeyu Gu and Sai Cheng"
