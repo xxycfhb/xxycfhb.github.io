@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 通知公告
-subtitle: '【导师风采】文伟平教授受邀参加了 “天天麓演杯”高校创新创业大赛优质项目
+subtitle: '【导师风采】文伟平教授受邀参加了 “天天麓演杯”高校创新创业大赛优质项目[2025-11-27-notice-Luyanbei.md](2025-11-27-notice-Luyanbei.md)
 date: 2025.11.27
 permalink: /:categories/:year/:month/:day/:title
 categories:
